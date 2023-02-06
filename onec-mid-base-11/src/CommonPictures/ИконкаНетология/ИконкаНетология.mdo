@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfe3b248-982d-43c8-818e-786c2c5276d2">
+  <name>ИконкаНетология</name>
+  <synonym>
+    <key>ru</key>
+    <value>Иконка нетология</value>
+  </synonym>
+</mdclass:CommonPicture>

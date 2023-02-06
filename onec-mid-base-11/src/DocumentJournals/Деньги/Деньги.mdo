@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ae0a1b7-5998-44fc-a91b-ece9ee4f7902">
+  <producedTypes>
+    <selectionType typeId="b00ce7f1-1810-4c79-832e-10e2d220b076" valueTypeId="246c7d13-3c55-48dd-bb39-beba27126539"/>
+    <listType typeId="9e08bc1a-d807-4c1f-bb34-45cd6bb459ee" valueTypeId="623a6f0c-0a74-4584-9053-abc0fc3f1d75"/>
+    <managerType typeId="8b8e06f2-93a1-4fec-acab-f071380e6923" valueTypeId="e08e58f9-de9e-4f5d-b4c4-6955d727581a"/>
+  </producedTypes>
+  <name>Деньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деньги</value>
+  </synonym>
+  <defaultForm>DocumentJournal.Деньги.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ОплатаПоставщику</registeredDocuments>
+  <registeredDocuments>Document.ОплатаОтПокупателя</registeredDocuments>
+  <columns uuid="1cd31fa7-d4e3-4ab7-897f-7a60c57b4eb9">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.ОплатаПоставщику.Attribute.Организация</references>
+    <references>Document.ОплатаОтПокупателя.Attribute.Организация</references>
+  </columns>
+  <columns uuid="bfda629d-77e3-4870-8b59-133993876867">
+    <name>Контгагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контгагент</value>
+    </synonym>
+    <references>Document.ОплатаПоставщику.Attribute.Контрагент</references>
+    <references>Document.ОплатаОтПокупателя.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="b64f8ce6-80cb-4398-9358-06edd5db3788">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <references>Document.ОплатаПоставщику.Attribute.Договор</references>
+    <references>Document.ОплатаОтПокупателя.Attribute.Договор</references>
+  </columns>
+  <columns uuid="b183a086-5d83-4a53-9b99-d3397321186b">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <references>Document.ОплатаПоставщику.Attribute.СуммаДокумента</references>
+    <references>Document.ОплатаОтПокупателя.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="95fc1ed3-2a1d-435b-ab6c-5af551c5198b">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.ОплатаПоставщику.Attribute.Ответственный</references>
+    <references>Document.ОплатаОтПокупателя.Attribute.Ответственный</references>
+  </columns>
+  <forms uuid="57d1d07e-9863-49cf-a2eb-f8c96c3a2ae7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

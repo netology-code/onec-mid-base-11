@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e3db466-4237-4f0c-833e-b4513159d6e2">
+  <name>ОпределитьФормуПрисоединенногоФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определить форму присоединенного файла</value>
+  </synonym>
+  <comment>АПК:256 - обработчик в серверном модуле</comment>
+  <source>
+    <types>CatalogManager.ПоступлениеТоваровУслугПрисоединенныеФайлы</types>
+    <types>CatalogManager.КонтрагентыПрисоединенныеФайлы</types>
+    <types>CatalogManager.РеализацияТоваровУслугПрисоединенныеФайлы</types>
+    <types>CatalogManager.ДоговорыКонтрагентовПрисоединенныеФайлы</types>
+    <types>CatalogManager.ОрганизацииПрисоединенныеФайлы</types>
+    <types>CatalogManager.ЗаказПокупателяПрисоединенныеФайлы</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.РаботаСФайламиКлиентСервер.ОпределитьФормуПрисоединенногоФайла</handler>
+</mdclass:EventSubscription>

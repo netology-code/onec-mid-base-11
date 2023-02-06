@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d284b10-7d91-4d1f-9cbe-1647c2f090f8">
+  <producedTypes>
+    <selectionType typeId="d60343cf-b90a-4376-8046-58f7286303ec" valueTypeId="cec67ecb-921b-453b-a007-67989499c700"/>
+    <listType typeId="55326cef-dea6-4f98-a6be-8b02d4efee0a" valueTypeId="6f0a8287-6242-4c66-a790-9a9b68db25c6"/>
+    <managerType typeId="f877d061-340a-4c4e-b753-3cfcac2b22bd" valueTypeId="8baa8a25-7e2f-439e-b481-8bb7bda178af"/>
+    <recordSetType typeId="88e3142c-742a-48fe-980f-ebad7819b7a3" valueTypeId="4e1118f4-bb78-4200-b07a-d8b44fe49766"/>
+    <recordKeyType typeId="c45976cd-6987-46d3-845e-a698487fe603" valueTypeId="7786d62b-5c88-47ad-9beb-314d58c955c0"/>
+    <recordType typeId="8a121b87-2797-42ca-b979-846c4005a54c" valueTypeId="a4aac22e-c407-4132-ae46-68eef0d6f7e2"/>
+  </producedTypes>
+  <name>ОбработкаЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка заказов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="efa34062-e7f1-4500-8db9-e319a98412b0">
+    <name>СуммаЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма заказа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="ee76c798-37b7-4e78-a0cd-348f71dfd935">
+    <name>СуммаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма оплаты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="e57535ee-ec6f-4f4c-9cb0-bfcc4ec39919">
+    <name>СуммаОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма отгрузки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b6a5bbfc-8d36-4406-9b12-1f435bc8f97f">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="047ca12f-6cd3-4b6b-89b5-b7affd6c78f1">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="00839a50-318f-4ecd-8244-be0d2615c55f">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

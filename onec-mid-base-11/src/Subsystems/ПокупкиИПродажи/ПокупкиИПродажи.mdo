@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc168d83-f8cb-4c4d-b138-46f2bd1514ef">
+  <name>ПокупкиИПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Покупки и продажи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ИконкаНетология</picture>
+  </picture>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Операции</subsystems>
+</mdclass:Subsystem>
