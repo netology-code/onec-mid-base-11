@@ -484,7 +484,7 @@
 	Справочник.Организации КАК СправочникОрганизации
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеФайлов КАК НаличиеФайлов
 		ПО СправочникОрганизации.Ссылка = НаличиеФайлов.ОбъектСФайлами</queryText>
-      <mainTable>InformationRegister.НаличиеФайлов</mainTable>
+      <mainTable>Catalog.Организации</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
@@ -515,16 +515,24 @@
         <field>ИмяПредопределенныхДанных</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ИдентификаторОбъекта</dataPath>
-        <field>ИдентификаторОбъекта</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ЕстьФайлы</dataPath>
         <field>ЕстьФайлы</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ОбъектСФайлами</dataPath>
-        <field>ОбъектСФайлами</field>
+        <dataPath>ИНН</dataPath>
+        <field>ИНН</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КПП</dataPath>
+        <field>КПП</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КонтактнаяИнформация</dataPath>
+        <field>КонтактнаяИнформация</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДополнительныеРеквизиты</dataPath>
+        <field>ДополнительныеРеквизиты</field>
       </fields>
     </extInfo>
   </attributes>
