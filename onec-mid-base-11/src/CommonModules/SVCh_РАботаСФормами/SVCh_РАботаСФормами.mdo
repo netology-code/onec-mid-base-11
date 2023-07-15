@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97d78454-91e5-4653-856d-d9bc40d0469a">
+  <name>SVCh_РАботаСФормами</name>
+  <synonym>
+    <key>ru</key>
+    <value>SVCh р абота с формами</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
