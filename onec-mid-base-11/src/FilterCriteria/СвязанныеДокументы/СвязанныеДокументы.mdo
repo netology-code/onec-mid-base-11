@@ -13,6 +13,7 @@
     <types>DocumentRef.ЗаказПокупателя</types>
     <types>DocumentRef.РеализацияТоваровУслуг</types>
     <types>DocumentRef.ОплатаОтПокупателя</types>
+    <types>DocumentRef.Доставка</types>
   </type>
   <content>Document.РеализацияТоваровУслуг.Attribute.Основание</content>
   <content>Document.ОплатаОтПокупателя.Attribute.Основание</content>

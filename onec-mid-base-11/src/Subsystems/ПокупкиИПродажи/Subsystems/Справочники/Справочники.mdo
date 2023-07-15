@@ -12,5 +12,7 @@
   <content>Catalog.НоменклатурныеГруппы</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>Catalog.Организации</content>
+  <content>Catalog.СВЧ_Должность</content>
+  <content>Catalog.СВЧ_КонтактныеЛица</content>
   <parentSubsystem>Subsystem.ПокупкиИПродажи</parentSubsystem>
 </mdclass:Subsystem>
