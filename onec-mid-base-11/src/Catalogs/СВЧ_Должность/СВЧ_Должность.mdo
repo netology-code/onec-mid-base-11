@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a92a25e-887e-4024-aa55-81729aef0a8d">
+  <producedTypes>
+    <objectType typeId="580952d7-4090-4c7f-afa0-1d210ba89710" valueTypeId="d5bf0aad-5452-4b5a-9dc3-7b56a6423272"/>
+    <refType typeId="c3c80290-e260-4949-9802-38dd72c8501e" valueTypeId="34eae418-af74-47db-be8b-63b1fbb047b6"/>
+    <selectionType typeId="746e0d35-0f6a-466c-8cba-ff9db87f8f8c" valueTypeId="a229e024-f887-43ea-b350-042ee97a4146"/>
+    <listType typeId="634a6acb-f408-4341-a456-b0e149970280" valueTypeId="857acec9-9f68-48cb-a8d8-16493248f0fb"/>
+    <managerType typeId="6d004d88-e88d-42c3-bcbe-e4b65e96048c" valueTypeId="ee1483a1-6688-4621-8cf9-0815fb9af136"/>
+  </producedTypes>
+  <name>СВЧ_Должность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СВЧ_Должность.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СВЧ_Должность.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
