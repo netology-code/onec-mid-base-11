@@ -1139,6 +1139,7 @@
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.СВЧ_Должность</catalogs>
   <catalogs>Catalog.СВЧ_КонтактныеЛица</catalogs>
+  <catalogs>Catalog.ДоставкаПрисоединенныеФайлы</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>

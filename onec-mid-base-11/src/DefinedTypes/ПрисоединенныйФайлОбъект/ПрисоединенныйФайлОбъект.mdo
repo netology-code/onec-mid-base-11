@@ -17,5 +17,6 @@
     <types>CatalogObject.КонтрагентыПрисоединенныеФайлы</types>
     <types>CatalogObject.Файлы</types>
     <types>CatalogObject.РеализацияТоваровУслугПрисоединенныеФайлы</types>
+    <types>CatalogObject.ДоставкаПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>
