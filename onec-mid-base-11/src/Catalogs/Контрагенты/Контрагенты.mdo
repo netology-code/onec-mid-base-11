@@ -201,6 +201,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="70bbe647-a99a-4825-aca7-3917bf40a15d">
+    <name>Тум_КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тум_КонтактныеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="2f50c989-e0e2-41fb-9ee8-a11ead0bd9d7">
     <producedTypes>
       <objectType typeId="9ab091d4-4f96-4bbf-87cd-481c8a3a0943" valueTypeId="f578e272-000f-44a8-8034-e98113bcba4c"/>
