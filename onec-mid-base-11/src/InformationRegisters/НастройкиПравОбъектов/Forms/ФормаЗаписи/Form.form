@@ -382,7 +382,7 @@
       <name>ГоризонтальнаяГруппа</name>
       <id>34</id>
       <items xsi:type="form:FormGroup">
-        <name>ВертикальнаяГруппа3</name>
+        <name>ПерваяКолонка</name>
         <id>54</id>
         <items xsi:type="form:FormField">
           <name>УровеньРазрешенияПрава</name>
@@ -491,10 +491,10 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Вертикальная группа 3</value>
+          <value>Первая колонка</value>
         </title>
         <extendedTooltip>
-          <name>ВертикальнаяГруппа3РасширеннаяПодсказка</name>
+          <name>ПерваяКолонкаРасширеннаяПодсказка</name>
           <id>55</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -518,7 +518,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>ВертикальнаяГруппа1</name>
+        <name>ВтораяКолонка</name>
         <id>32</id>
         <items xsi:type="form:FormField">
           <name>УровеньРазрешенияЧтения</name>
@@ -627,10 +627,10 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Вертикальная группа 1</value>
+          <value>Вторая колонка</value>
         </title>
         <extendedTooltip>
-          <name>ВертикальнаяГруппа1ExtendedTooltip</name>
+          <name>ВтораяКолонкаРасширеннаяПодсказка</name>
           <id>45</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -654,7 +654,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>ВертикальнаяГруппа2</name>
+        <name>ТретьяКолонка</name>
         <id>33</id>
         <items xsi:type="form:FormField">
           <name>УровеньРазрешенияИзменения</name>
@@ -763,10 +763,10 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Вертикальная группа 2</value>
+          <value>Третья колонка</value>
         </title>
         <extendedTooltip>
-          <name>ВертикальнаяГруппа2ExtendedTooltip</name>
+          <name>ТретьяКолонкаРасширеннаяПодсказка</name>
           <id>50</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -905,6 +905,7 @@
   </handlers>
   <excludedCommands>Copy</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -122,6 +122,10 @@
         <length>200</length>
       </stringQualifiers>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя домена-владельца данных. По этому имени определяется возможность использования аутентификации по протоколу OAuth. Например, mycompany.zzz.</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -140,7 +144,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Адрес для получения кода авторизации</value>
+      <value>Адрес для интерактивной авторизации пользователя</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -160,7 +164,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Адрес для получения и обновления ключей доступа</value>
+      <value>Адрес для получения и обновления токенов</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -180,6 +184,10 @@
         <length>200</length>
       </stringQualifiers>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Доменное имя сервера, на котором хранятся данные. Например, outlook.com.</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -196,6 +204,10 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор этого приложения на сервере с данными</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -212,6 +224,10 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адрес перенаправления пользователя после авторизации</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -227,6 +243,10 @@
     <type>
       <types>Boolean</types>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установите этот флажок, если в запросах авторизации и обмена кода авторизации на токен доступа на сервере авторизации поддерживается защита с помощью ключа проверки подлинности &quot;Proof Key for Code Exchange (PKCE)&quot;</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -243,6 +263,10 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификаторы разрешений, разделенные пробелом.</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -258,6 +282,10 @@
     <type>
       <types>Boolean</types>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установите этот флажок, если для получения токенов требуется передавать в запросах пароль приложения (client_secret)</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -274,6 +302,10 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дополнительные параметры, которые необходимо передать в запросе авторизации. Указываются в формате Параметр=Значение, разделитель - пробел.</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -290,6 +322,10 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дополнительные параметры, которые необходимо передать в запросе обмена кода авторизации на токен доступа. Указываются в формате Параметр=Значение, разделитель - пробел.</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -306,6 +342,10 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адрес перенаправления пользователя после авторизации (при работе в веб-клиенте)</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>

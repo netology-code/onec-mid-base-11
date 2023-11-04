@@ -319,6 +319,7 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <group>HorizontalIfPossible</group>
   <enabled>true</enabled>
   <showTitle>true</showTitle>

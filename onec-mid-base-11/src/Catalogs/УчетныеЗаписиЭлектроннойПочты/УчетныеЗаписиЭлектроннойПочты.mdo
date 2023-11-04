@@ -80,7 +80,7 @@
     <name>Description</name>
     <toolTip>
       <key>ru</key>
-      <value>Наименование учетной записи</value>
+      <value>Наименование почты</value>
     </toolTip>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -549,7 +549,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Владелец персональной учетной записи электронной почты</value>
+      <value>Владелец персональной электронной почты</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -641,7 +641,7 @@
     <name>ПомощникНастройкиУчетнойЗаписи</name>
     <synonym>
       <key>ru</key>
-      <value>Помощник настройки учетной записи</value>
+      <value>Помощник настройки почты</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -650,7 +650,7 @@
     <name>ПроверкаДоступаКУчетнойЗаписи</name>
     <synonym>
       <key>ru</key>
-      <value>Проверка доступа к учетной записи</value>
+      <value>Проверка доступа к почте</value>
     </synonym>
     <help>
       <pages>

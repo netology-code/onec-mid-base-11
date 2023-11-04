@@ -9,6 +9,9 @@
     <value>Владелец с ограничением по наборам значений доступа документ</value>
   </synonym>
   <type>
-    <types>DocumentObject.ПоступлениеТоваровУслуг</types>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
   </type>
 </mdclass:DefinedType>

@@ -106,7 +106,7 @@
     <name>ГруппаПрава</name>
     <id>48</id>
     <items xsi:type="form:FormGroup">
-      <name>ВертикальнаяГруппа1</name>
+      <name>ПерваяКолонка</name>
       <id>50</id>
       <items xsi:type="form:FormField">
         <name>ПравоЧтение</name>
@@ -252,10 +252,10 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Вертикальная группа 1</value>
+        <value>Первая колонка</value>
       </title>
       <extendedTooltip>
-        <name>ВертикальнаяГруппа1РасширеннаяПодсказка</name>
+        <name>ПерваяКолонкаРасширеннаяПодсказка</name>
         <id>51</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -279,7 +279,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>ВертикальнаяГруппа2</name>
+      <name>ВтораяКолонка</name>
       <id>52</id>
       <items xsi:type="form:FormField">
         <name>ПравоЧтениеБезОграничения</name>
@@ -420,10 +420,10 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Вертикальная группа 2</value>
+        <value>Вторая колонка</value>
       </title>
       <extendedTooltip>
-        <name>ВертикальнаяГруппа2РасширеннаяПодсказка</name>
+        <name>ВтораяКолонкаРасширеннаяПодсказка</name>
         <id>53</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -577,6 +577,7 @@
   </handlers>
   <excludedCommands>Copy</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

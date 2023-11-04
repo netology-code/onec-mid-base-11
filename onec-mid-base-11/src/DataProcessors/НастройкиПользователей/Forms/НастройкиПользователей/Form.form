@@ -82,71 +82,6 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
-        <items xsi:type="form:FormField">
-          <name>Поиск</name>
-          <id>48</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Поиск</segments>
-          </dataPath>
-          <titleLocation>Left</titleLocation>
-          <toolTip>
-            <key>ru</key>
-            <value>Введите слово или часть фразы для поиска настроек. Например: отчет</value>
-          </toolTip>
-          <handlers>
-            <event>OnChange</event>
-            <name>ПоискПриИзменении</name>
-          </handlers>
-          <extendedTooltip>
-            <name>ПоискExtendedTooltip</name>
-            <id>122</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ПоискКонтекстноеМеню</name>
-            <id>49</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <horizontalStretch>false</horizontalStretch>
-            <wrap>true</wrap>
-            <clearButton>true</clearButton>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <inputHint>
-              <key>ru</key>
-              <value>слово или часть фразы</value>
-            </inputHint>
-          </extInfo>
-        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1474,9 +1409,8 @@
                 <verticalStretch>true</verticalStretch>
                 <enableStartDrag>true</enableStartDrag>
                 <enableDrag>true</enableDrag>
-                <searchStringLocation>None</searchStringLocation>
+                <searchStringLocation>Top</searchStringLocation>
                 <viewStatusLocation>None</viewStatusLocation>
-                <searchControlLocation>None</searchControlLocation>
                 <currentRowUse>SelectionPresentation</currentRowUse>
               </items>
               <visible>true</visible>
@@ -2062,9 +1996,8 @@
                 <verticalStretch>true</verticalStretch>
                 <enableStartDrag>true</enableStartDrag>
                 <enableDrag>true</enableDrag>
-                <searchStringLocation>None</searchStringLocation>
+                <searchStringLocation>Top</searchStringLocation>
                 <viewStatusLocation>None</viewStatusLocation>
-                <searchControlLocation>None</searchControlLocation>
                 <currentRowUse>SelectionPresentation</currentRowUse>
               </items>
               <visible>true</visible>
@@ -2644,9 +2577,8 @@
                 <verticalStretch>true</verticalStretch>
                 <enableStartDrag>true</enableStartDrag>
                 <enableDrag>true</enableDrag>
-                <searchStringLocation>None</searchStringLocation>
+                <searchStringLocation>Top</searchStringLocation>
                 <viewStatusLocation>None</viewStatusLocation>
-                <searchControlLocation>None</searchControlLocation>
                 <currentRowUse>SelectionPresentation</currentRowUse>
               </items>
               <visible>true</visible>
@@ -3160,10 +3092,6 @@
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <handlers>
-    <event>OnSaveDataInSettingsAtServer</event>
-    <name>ПриСохраненииДанныхВНастройкахНаСервере</name>
-  </handlers>
-  <handlers>
     <event>NotificationProcessing</event>
     <name>ОбработкаОповещения</name>
   </handlers>
@@ -3172,15 +3100,12 @@
     <name>ПриОткрытии</name>
   </handlers>
   <handlers>
-    <event>OnLoadDataFromSettingsAtServer</event>
-    <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <excludedCommands>CustomizeForm</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -3424,27 +3349,6 @@
     <edit>
       <common>true</common>
     </edit>
-  </attributes>
-  <attributes>
-    <name>Поиск</name>
-    <title>
-      <key>ru</key>
-      <value>Найти</value>
-    </title>
-    <id>10</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>Поиск</segments>
-    </settingsSavedData>
   </attributes>
   <attributes>
     <name>ПользовательИнформационнойБазы</name>

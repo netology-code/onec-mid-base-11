@@ -134,6 +134,28 @@
   <codeType>String</codeType>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
+    <items id="8cbaa30d-faab-45ad-880e-84f8b421f448">
+      <name>СправочникПользователи</name>
+      <description>Контактная информация справочника &quot;Пользователи&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="35dccbf2-dcce-4160-91a0-9697dd21aa79">
+        <name>ТелефонПользователя</name>
+        <description>Телефон</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="b930f2d1-4c2b-4f78-a697-4b87e83c8dd0">
+        <name>EmailПользователя</name>
+        <description>Электронная почта</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
     <items id="5624db87-0557-4ac9-b9b2-7ce671fae1fb">
       <name>СправочникКонтрагенты</name>
       <description>Контактная информация справочника &quot;Контрагенты&quot;</description>
@@ -186,28 +208,6 @@
       </content>
       <content id="72236a0c-3828-44f7-8030-c4d36ce3f6b6">
         <name>EMailОрганизации</name>
-        <description>Электронная почта</description>
-        <code xsi:type="core:StringValue">
-          <value></value>
-        </code>
-      </content>
-    </items>
-    <items id="8cbaa30d-faab-45ad-880e-84f8b421f448">
-      <name>СправочникПользователи</name>
-      <description>Контактная информация справочника &quot;Пользователи&quot;</description>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-      <isFolder>true</isFolder>
-      <content id="35dccbf2-dcce-4160-91a0-9697dd21aa79">
-        <name>ТелефонПользователя</name>
-        <description>Телефон</description>
-        <code xsi:type="core:StringValue">
-          <value></value>
-        </code>
-      </content>
-      <content id="b930f2d1-4c2b-4f78-a697-4b87e83c8dd0">
-        <name>EmailПользователя</name>
         <description>Электронная почта</description>
         <code xsi:type="core:StringValue">
           <value></value>
@@ -532,10 +532,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="7fe61c5d-30bc-440d-9e40-12ff3b296616">
-    <name>ПроверятьПоФИАС</name>
+    <name>УдалитьПроверятьПоФИАС</name>
     <synonym>
       <key>ru</key>
-      <value>Проверять по адресному классификатору</value>
+      <value>(не используется) Проверять по ФИАС</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -612,10 +612,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="13dee5d8-f165-48de-9ccb-3ef0239f4b27">
-    <name>ТелефонCДобавочнымНомером</name>
+    <name>ТелефонСДобавочнымНомером</name>
     <synonym>
       <key>ru</key>
-      <value>Телефон c добавочным номером</value>
+      <value>Телефон с добавочным номером</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -726,6 +726,27 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="91a0ceed-03ce-4914-9cd1-dec49bba336f">
+    <name>ОтображатьВсегда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать всегда</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид контактной информации всегда отображается и предлагается к заполнению в карточке владельца</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

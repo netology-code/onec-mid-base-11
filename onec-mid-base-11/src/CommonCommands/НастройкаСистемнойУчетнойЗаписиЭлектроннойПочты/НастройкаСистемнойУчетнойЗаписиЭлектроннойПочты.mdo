@@ -3,13 +3,13 @@
   <name>НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</name>
   <synonym>
     <key>ru</key>
-    <value>Настройка системной учетной записи</value>
+    <value>Настройка почты для рассылок уведомлений</value>
   </synonym>
   <group>ActionsPanelTools</group>
   <commandParameterType/>
   <representation>Auto</representation>
   <toolTip>
     <key>ru</key>
-    <value>Открыть форму настройки системной учетной записи электронной почты</value>
+    <value>Открыть настройку электронной почты для рассылок уведомлений из программы</value>
   </toolTip>
 </mdclass:CommonCommand>

@@ -289,6 +289,40 @@
     </attributes>
     <use>ForFolderAndItem</use>
   </tabularSections>
+  <tabularSections uuid="c67cddce-64d0-45eb-8abb-5c76bbe27f93">
+    <producedTypes>
+      <objectType typeId="ec9f0e2b-8f18-4faa-9988-e5c0beeb0f5e" valueTypeId="72d9a259-ec72-434c-b4a9-d9c064f85ac6"/>
+      <rowType typeId="7dfb93d3-fdcc-4f3d-b9fc-e5165b61335e" valueTypeId="d8fb5f86-8334-48b1-b776-4118eea507e4"/>
+    </producedTypes>
+    <name>ИсточникиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источники данных</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4f1aa113-6d77-46c8-ac21-9e5545553499">
+      <name>ИсточникДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Источник данных</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+        <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="6ccec21e-f26f-482c-9ce2-1f058fc492c1">
     <name>УсловияВидимостиВПодменюПечать</name>
     <synonym>

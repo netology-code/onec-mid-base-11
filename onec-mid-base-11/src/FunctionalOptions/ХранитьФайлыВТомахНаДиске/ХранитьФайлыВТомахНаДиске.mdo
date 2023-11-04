@@ -3,9 +3,10 @@
   <name>ХранитьФайлыВТомахНаДиске</name>
   <synonym>
     <key>ru</key>
-    <value>Хранить файлы в томах на диске</value>
+    <value>Хранить файлы в томах</value>
   </synonym>
   <location>Constant.ХранитьФайлыВТомахНаДиске</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.ТомаХраненияФайлов</content>
+  <content>Report.ПроверкаЦелостностиТома</content>
 </mdclass:FunctionalOption>

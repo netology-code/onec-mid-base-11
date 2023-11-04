@@ -8,7 +8,7 @@
   <name>УчетнаяЗаписьДляВосстановленияПароля</name>
   <synonym>
     <key>ru</key>
-    <value>Учетная запись для восстановления пароля</value>
+    <value>Почта для восстановления пароля</value>
   </synonym>
   <type>
     <types>ValueStorage</types>

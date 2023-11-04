@@ -544,6 +544,36 @@
     </fillValue>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e0e12708-da10-4f81-9e56-5876ddc77084">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НазначенияВариантовОтчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="63ad43fe-a050-47f7-af4f-099aa10255af">
+    <name>ПоказыватьВПодменюВариантов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать в подменю вариантов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="4033eb31-8281-402a-afff-431fa36e589e">
     <producedTypes>
       <objectType typeId="c02a6112-96e1-46f3-a7c0-d088161064ec" valueTypeId="ec191a41-a5aa-474b-b4dc-092ec6b87a55"/>

@@ -561,6 +561,25 @@
     </fillValue>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="7b074b91-3c8e-48b3-8858-b6ea1c531f66">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НазначенияВариантовОтчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.НазначенияВариантовОтчетов.EnumValue.ДляКомпьютеровИПланшетов</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="3df19dbf-efe7-4e31-99ad-fafb59ec1329">
     <producedTypes>
       <objectType typeId="abf3e560-3e61-416a-8893-8b9da792c5a0" valueTypeId="07793fd1-5e8e-435e-98ed-fa2646c0239b"/>

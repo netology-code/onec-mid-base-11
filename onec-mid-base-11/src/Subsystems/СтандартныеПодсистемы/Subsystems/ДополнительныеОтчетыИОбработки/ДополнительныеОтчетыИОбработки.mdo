@@ -42,5 +42,6 @@
   <content>CommonCommand.ДополнительныеОбработкиАдминистрирование</content>
   <content>EventSubscription.ДополнительныеОтчетыИОбработкиПередУдалениемИдентификатораОбъектаМетаданных</content>
   <content>DefinedType.ОбъектСДополнительнымиКомандами</content>
+  <content>CommonModule.ДополнительныеОтчетыИОбработкиГлобальный</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

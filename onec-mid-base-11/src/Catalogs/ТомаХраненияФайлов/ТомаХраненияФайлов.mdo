@@ -12,7 +12,7 @@
     <key>ru</key>
     <value>Тома хранения файлов</value>
   </synonym>
-  <comment>Каталоги на диске для хранения файлов</comment>
+  <comment>Сетевые каталоги для хранения файлов</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ТомаХраненияФайлов.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.ТомаХраненияФайлов.StandardAttribute.Code</inputByString>

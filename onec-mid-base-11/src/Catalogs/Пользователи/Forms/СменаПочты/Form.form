@@ -98,6 +98,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -123,33 +124,6 @@
       <common>true</common>
     </edit>
     <fillChecking>ShowError</fillChecking>
-  </attributes>
-  <attributes>
-    <name>ПарольПользователяСервиса</name>
-    <id>2</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>Пользователь</name>
-    <id>3</id>
-    <valueType>
-      <types>CatalogRef.Пользователи</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
   </attributes>
   <attributes>
     <name>СтараяПочта</name>
@@ -191,19 +165,6 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
-    </valueType>
-  </parameters>
-  <parameters>
-    <name>ПарольПользователяСервиса</name>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-  </parameters>
-  <parameters>
-    <name>Пользователь</name>
-    <valueType>
-      <types>CatalogRef.Пользователи</types>
     </valueType>
   </parameters>
   <commandInterface>

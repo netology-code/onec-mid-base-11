@@ -10,9 +10,11 @@
     <value>Права ролей</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ПраваРолей.Template.Макет</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
   <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
-  <settingsStorage>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorage>
   <help>
     <pages>
       <lang>ru</lang>

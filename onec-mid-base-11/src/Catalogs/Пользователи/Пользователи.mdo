@@ -358,10 +358,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="d854b528-8456-4453-9c2d-4f96caf10481">
-    <name>СвойстваПользователяИБ</name>
+    <name>УдалитьСвойстваПользователяИБ</name>
     <synonym>
       <key>ru</key>
-      <value>Свойства пользователя ИБ</value>
+      <value>(не используется) Свойства пользователя ИБ</value>
     </synonym>
     <type>
       <types>ValueStorage</types>

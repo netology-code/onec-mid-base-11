@@ -35,5 +35,35 @@
   <content>CommonModule.УправлениеСвойствамиПовтИсп</content>
   <content>SessionParameter.ИнтерактивнаяПроверкаЗаполненияСвойств</content>
   <content>EventSubscription.ДополнительныеРеквизитыОбработкаПроверкиЗаполнения</content>
+  <content>Enum.ЦветаСвойств</content>
+  <content>Enum.ВидыСвойств</content>
+  <content>StyleItem.ЦветМеткиГолубой</content>
+  <content>StyleItem.ЦветМеткиЖелтый</content>
+  <content>StyleItem.ЦветМеткиЗеленый</content>
+  <content>StyleItem.ЦветМеткиЛаймовый</content>
+  <content>StyleItem.ЦветМеткиКрасный</content>
+  <content>StyleItem.ЦветМеткиОранжевый</content>
+  <content>StyleItem.ЦветМеткиРозовый</content>
+  <content>StyleItem.ЦветМеткиСерый</content>
+  <content>StyleItem.ЦветМеткиСиний</content>
+  <content>StyleItem.ЦветМеткиФиолетовый</content>
+  <content>CommonPicture.МеткаФиолетовая</content>
+  <content>CommonPicture.МеткаСиняя</content>
+  <content>CommonPicture.МеткаСерая</content>
+  <content>CommonPicture.МеткаРозовая</content>
+  <content>CommonPicture.МеткаОранжевая</content>
+  <content>CommonPicture.МеткаКрасная</content>
+  <content>CommonPicture.МеткаЛаймовая</content>
+  <content>CommonPicture.МеткаЗеленая</content>
+  <content>CommonPicture.МеткаЖелтая</content>
+  <content>CommonPicture.МеткаГолубая</content>
+  <content>CommonPicture.Метка</content>
+  <content>CommonPicture.ПиктограммыСвойств</content>
+  <content>CommonForm.РедактированиеМеток</content>
+  <content>Enum.ВариантыОтображенияМеток</content>
+  <content>DefinedType.ВладелецМеток</content>
+  <content>CommonPicture.РедактироватьМетки</content>
+  <content>StyleItem.ЦветТекстаМетки</content>
+  <content>StyleItem.ШрифтМеток</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

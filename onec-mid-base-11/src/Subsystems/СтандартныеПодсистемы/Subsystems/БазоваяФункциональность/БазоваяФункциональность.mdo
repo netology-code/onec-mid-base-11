@@ -362,5 +362,21 @@
   <content>InformationRegister.ОтправленныеСерверныеОповещения</content>
   <content>InformationRegister.ПериодическиеСерверныеОповещения</content>
   <content>Constant.СостояниеОтправкиСерверныхОповещений</content>
+  <content>CommonPicture.ВыпадающийСписок</content>
+  <content>SessionParameter.ОбновлениеСправочниковИдентификаторов</content>
+  <content>CommonPicture.ТелефонныйЗвонок</content>
+  <content>CommonPicture.ПредварительныйПросмотрКартинка</content>
+  <content>Constant.ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия</content>
+  <content>Constant.РегистрироватьПоказателиСерверныхОповещений</content>
+  <content>CommonForm.ФормаВыбораШрифта</content>
+  <content>CommonForm.ФормаВыбораЦвета</content>
+  <content>CommonPicture.МестоДляQRКода</content>
+  <content>CommonPicture.МестоДляШтрихкода</content>
+  <content>CommonPicture.ЦветГраницы</content>
+  <content>CommonPicture.АнализДанных48</content>
+  <content>CommonPicture.ВажностьВысокая</content>
+  <content>CommonPicture.ВажностьНеЗадана</content>
+  <content>CommonPicture.ВажностьНизкая</content>
+  <content>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

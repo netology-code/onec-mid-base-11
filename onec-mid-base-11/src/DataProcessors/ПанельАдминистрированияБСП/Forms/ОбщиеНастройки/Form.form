@@ -946,17 +946,17 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>ГруппаДополнительныеРеквизитыИСведения</name>
+    <name>ГруппаСвойства</name>
     <id>1801</id>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаИспользоватьДополнительныеРеквизитыИСведения</name>
+      <name>ГруппаСвойстваЛевая</name>
       <id>1802</id>
       <items xsi:type="form:FormField">
-        <name>ИспользоватьДополнительныеРеквизитыИСведения</name>
+        <name>ИспользоватьСвойства</name>
         <id>1803</id>
         <title>
           <key>ru</key>
-          <value>Дополнительные реквизиты и сведения</value>
+          <value>Свойства</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -969,15 +969,15 @@
         <titleLocation>Right</titleLocation>
         <toolTip>
           <key>ru</key>
-          <value>Добавление реквизитов и сведений к объектам программы.</value>
+          <value>Создание и настройка дополнительных текстовых, числовых и прочих свойств у справочников, документов и других объектов программы.</value>
         </toolTip>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <handlers>
           <event>OnChange</event>
-          <name>ИспользоватьДополнительныеРеквизитыИСведенияПриИзменении</name>
+          <name>ИспользоватьСвойстваПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ИспользоватьДополнительныеРеквизитыИСведенияExtendedTooltip</name>
+          <name>ИспользоватьСвойстваРасширеннаяПодсказка</name>
           <id>1848</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -992,7 +992,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ИспользоватьДополнительныеРеквизитыИСведенияКонтекстноеМеню</name>
+          <name>ИспользоватьСвойстваКонтекстноеМеню</name>
           <id>1804</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1007,116 +1007,6 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-      </items>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Использовать дополнительные реквизиты и сведения</value>
-      </title>
-      <width>43</width>
-      <horizontalStretch>false</horizontalStretch>
-      <extendedTooltip>
-        <name>ГруппаИспользоватьДополнительныеРеквизитыИСведенияExtendedTooltip</name>
-        <id>1847</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualGroup</type>
-      <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
-        <showLeftMargin>true</showLeftMargin>
-        <united>true</united>
-        <throughAlign>Auto</throughAlign>
-        <currentRowUse>Auto</currentRowUse>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormGroup">
-      <name>ГруппаДополнительныеРеквизитыИлиСведения</name>
-      <id>1820</id>
-      <items xsi:type="form:FormGroup">
-        <name>ГруппаДополнительныеРеквизиты</name>
-        <id>1821</id>
-        <items xsi:type="form:Button">
-          <name>ДополнительныеРеквизиты</name>
-          <id>2051</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>ДополнительныеРеквизитыРасширеннаяПодсказка</name>
-            <id>2052</id>
-            <title>
-              <key>ru</key>
-              <value>Создание реквизитов, их изменение, описание свойств.
-Эти реквизиты отображаются в формах.</value>
-            </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>Hyperlink</type>
-          <commandName>Form.Command.ДополнительныеРеквизиты</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Дополнительные реквизиты</value>
-        </title>
-        <extendedTooltip>
-          <name>ГруппаДополнительныеРеквизитыExtendedTooltip</name>
-          <id>1859</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualGroup</type>
-        <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>Vertical</group>
-          <showLeftMargin>true</showLeftMargin>
-          <united>true</united>
-          <throughAlign>Auto</throughAlign>
-          <currentRowUse>Auto</currentRowUse>
-        </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаДополнительныеСведения</name>
@@ -1134,8 +1024,7 @@
             <id>2054</id>
             <title>
               <key>ru</key>
-              <value>Создание сведений, их изменение, описание свойств.
-Эти сведения отображаются в отдельной форме, которая открывается специальной командой.</value>
+              <value>Редактируются в отдельной форме, открываемой из справочника или документа. Права на их редактирование и просмотр настраиваются независимо от прав на объект-владелец.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1197,12 +1086,192 @@
       </userVisible>
       <title>
         <key>ru</key>
+        <value>Свойства левая</value>
+      </title>
+      <width>43</width>
+      <horizontalStretch>false</horizontalStretch>
+      <extendedTooltip>
+        <name>ГруппаСвойстваЛеваяРасширеннаяПодсказка</name>
+        <id>1847</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>Vertical</group>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаСвойстваПравая</name>
+      <id>1820</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаДополнительныеРеквизиты</name>
+        <id>1821</id>
+        <items xsi:type="form:Button">
+          <name>ДополнительныеРеквизиты</name>
+          <id>2051</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ДополнительныеРеквизитыРасширеннаяПодсказка</name>
+            <id>2052</id>
+            <title>
+              <key>ru</key>
+              <value>Размещаются в виде полей в формах справочников и документов. Их редактирование и просмотр определены правами на объект-владелец.</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ДополнительныеРеквизиты</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Дополнительные реквизиты</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаДополнительныеРеквизитыExtendedTooltip</name>
+          <id>1859</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаМетки</name>
+        <id>2258</id>
+        <items xsi:type="form:Button">
+          <name>Метки</name>
+          <id>2260</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>МеткиРасширеннаяПодсказка</name>
+            <id>2261</id>
+            <title>
+              <key>ru</key>
+              <value>Позволяют помечать справочники и документы разноцветными значками-метками. Их редактирование и просмотр определены правами на объект-владелец.</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.Метки</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Метки</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаМеткиРасширеннаяПодсказка</name>
+          <id>2259</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
         <value>Дополнительные реквизиты или сведения</value>
       </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаДополнительныеРеквизитыИлиСведенияExtendedTooltip</name>
+        <name>ГруппаСвойстваПраваяРасширеннаяПодсказка</name>
         <id>1858</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1233,10 +1302,10 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Дополнительные реквизиты и сведения</value>
+      <value>Свойства</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаДополнительныеРеквизитыИСведенияExtendedTooltip</name>
+      <name>ГруппаСвойстваРасширеннаяПодсказка</name>
       <id>1846</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1765,6 +1834,7 @@
             <common>true</common>
           </userVisible>
           <type>Label</type>
+          <width>43</width>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -1773,7 +1843,7 @@
         <type>Hyperlink</type>
         <commandName>0</commandName>
         <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
+        <width>43</width>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
@@ -1813,6 +1883,37 @@
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
+    <items xsi:type="form:Button">
+      <name>ОбщаяФормаРазрешенныеНеаккредитованныеУЦОткрыть</name>
+      <id>2256</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОбщаяФормаРазрешенныеНеаккредитованныеУЦОткрытьРасширеннаяПодсказка</name>
+        <id>2257</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Hyperlink</type>
+      <commandName>0</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаУсовершенствованнаяПодпись</name>
       <id>2158</id>
@@ -1834,12 +1935,16 @@
             </dataPath>
             <titleLocation>Top</titleLocation>
             <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ТипПодписиПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ТипПодписиКриптографииПоУмолчанию1РасширеннаяПодсказка</name>
               <id>2247</id>
               <title>
                 <key>ru</key>
-                <value>В приложении в Интернете типы подписи с метками времени можно выбрать при подписании сертификатом, установленным на компьютер при установленой программе электронной подписи.</value>
+                <value>В приложении в Интернете типы подписи с метками времени можно выбрать при подписании сертификатом, установленным на компьютер при установленной программе электронной подписи.</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1850,6 +1955,10 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <handlers>
+                  <event>URLProcessing</event>
+                  <name>ТипПодписиКриптографииПоУмолчанию1РасширеннаяПодсказкаОбработкаНавигационнойСсылки</name>
+                </handlers>
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
@@ -1895,7 +2004,7 @@
               <id>2177</id>
               <title>
                 <key>ru</key>
-                <value>В модели сервиса архивная подпись по умолчанию недоступна, этот тип подписи можно выбрать при подписании сертификатом, установленным на компьютер при установленой программе электронной подписи.</value>
+                <value>В модели сервиса архивная подпись по умолчанию недоступна, этот тип подписи можно выбрать при подписании сертификатом, установленным на компьютер при установленной программе электронной подписи.</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1937,21 +2046,21 @@
                   <key>ru</key>
                   <value>Базовая подпись (CAdES-BES)</value>
                 </presentation>
-                <value xsi:type="core:UndefinedValue"/>
+                <value xsi:type="core:ReferenceValue"/>
               </choiceList>
               <choiceList>
                 <presentation>
                   <key>ru</key>
                   <value>Подпись с меткой доверенного времени (CAdES-T)</value>
                 </presentation>
-                <value xsi:type="core:UndefinedValue"/>
+                <value xsi:type="core:ReferenceValue"/>
               </choiceList>
               <choiceList>
                 <presentation>
                   <key>ru</key>
                   <value>Архивная подпись (CAdES-A)</value>
                 </presentation>
-                <value xsi:type="core:UndefinedValue"/>
+                <value xsi:type="core:ReferenceValue"/>
               </choiceList>
             </extInfo>
           </items>
@@ -2883,6 +2992,143 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
+      <name>ГруппаПодсказкаКриптопровайдеры</name>
+      <id>2248</id>
+      <items xsi:type="form:Decoration">
+        <name>ДекорацияИнформацияКриптопровайдеры</name>
+        <id>2253</id>
+        <title>
+          <key>ru</key>
+          <value>Декорация информация</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДекорацияИнформацияКриптопровайдерыРасширеннаяПодсказка</name>
+          <id>2255</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДекорацияИнформацияКриптопровайдерыКонтекстноеМеню</name>
+          <id>2254</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="core:PictureRef">
+            <picture>StdPicture.Information</picture>
+          </picture>
+          <fileDragMode>AsFileRef</fileDragMode>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Decoration">
+        <name>ДекорацияПроверкаУстановкиКриптопровайдера</name>
+        <id>2250</id>
+        <title>
+          <key>ru</key>
+          <value>Если планируется работа с усиленной квалифицированной электронной подписью, то на компьютере должна быть установлена сертифицированная программа (средство криптографической защиты информации). 
+&lt;link ПроверитьУстановкуПрограммКриптографии>Проверить и установить&lt;/></value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДекорацияПроверкаУстановкиКриптопровайдераРасширеннаяПодсказка</name>
+          <id>2252</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДекорацияПроверкаУстановкиКриптопровайдераКонтекстноеМеню</name>
+          <id>2251</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <formatted>true</formatted>
+        <type>Label</type>
+        <autoMaxHeight>true</autoMaxHeight>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.ПоясняющийТекст</color>
+        </textColor>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <handlers>
+            <event>URLProcessing</event>
+            <name>ДекорацияПроверкаУстановкиКриптопровайдераОбработкаНавигационнойСсылки</name>
+          </handlers>
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Подсказка о криптопровайдерах</value>
+      </title>
+      <width>86</width>
+      <horizontalStretch>false</horizontalStretch>
+      <extendedTooltip>
+        <name>ГруппаПодсказкаКриптопровайдерыРасширеннаяПодсказка</name>
+        <id>2249</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>HorizontalIfPossible</group>
+        <representation>NormalSeparation</representation>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
       <name>ГруппаОблачнаяПодпись</name>
       <id>2113</id>
       <items xsi:type="form:FormField">
@@ -2901,14 +3147,14 @@
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <handlers>
           <event>OnChange</event>
-          <name>Подключаемый_ПриИзмененииРеквизита</name>
+          <name>ИспользоватьСервисОблачнойПодписиПриИзменении</name>
         </handlers>
         <extendedTooltip>
           <name>ИспользоватьСервисОблачнойПодписиРасширеннаяПодсказка</name>
           <id>2117</id>
           <title>
             <key>ru</key>
-            <value>Разрешает использовать для подписания сервисы подписи DSS.</value>
+            <value>В программном коде</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2919,6 +3165,10 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <handlers>
+              <event>URLProcessing</event>
+              <name>ИспользоватьСервисОблачнойПодписиРасширеннаяПодсказкаОбработкаНавигационнойСсылки</name>
+            </handlers>
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
@@ -3877,6 +4127,10 @@
     <name>ОбработкаОповещения</name>
   </handlers>
   <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
@@ -3895,6 +4149,7 @@
   <excludedCommands>Write</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -4266,6 +4521,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПосмотретьПомеченныеНаУдаление</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>Метки</name>
+    <title>
+      <key>ru</key>
+      <value>Метки</value>
+    </title>
+    <id>9</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Метки</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

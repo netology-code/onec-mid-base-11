@@ -61,7 +61,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Путь к каталогу на диске</value>
+      <value>Путь к каталогу на компьютере</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

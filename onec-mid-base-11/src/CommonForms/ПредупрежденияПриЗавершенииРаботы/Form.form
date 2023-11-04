@@ -117,6 +117,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>HorizontalIfPossible</group>
+      <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -211,6 +212,7 @@
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <windowOpeningMode>LockWholeInterface</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -219,7 +221,7 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
-    <name>МассивСоотношенияЭлементовИПараметров</name>
+    <name>ЭлементыИПараметры</name>
     <id>1</id>
     <valueType>
       <types>ValueList</types>
@@ -235,7 +237,7 @@
     </extInfo>
   </attributes>
   <attributes>
-    <name>МассивЗадачНаВыполнениеПослеЗакрытия</name>
+    <name>ЗадачиНаВыполнениеПослеЗакрытия</name>
     <id>2</id>
     <valueType>
       <types>ValueList</types>
@@ -292,6 +294,10 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>Предупреждения</name>
+    <valueType/>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

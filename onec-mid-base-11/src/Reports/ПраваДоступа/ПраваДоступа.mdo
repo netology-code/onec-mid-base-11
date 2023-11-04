@@ -10,9 +10,11 @@
     <value>Права доступа</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ПраваДоступа.Template.МакетПараметров</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
   <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
-  <settingsStorage>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorage>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>

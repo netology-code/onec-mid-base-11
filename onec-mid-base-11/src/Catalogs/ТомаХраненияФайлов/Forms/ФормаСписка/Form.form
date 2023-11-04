@@ -242,7 +242,7 @@
     <excludedCommands>Delete</excludedCommands>
     <excludedCommands>SetDeletionMark</excludedCommands>
     <items xsi:type="form:FormGroup">
-      <name>ВертикальнаяГруппа1</name>
+      <name>ПерваяКолонка</name>
       <id>56</id>
       <displayImportance>VeryHigh</displayImportance>
       <items xsi:type="form:FormField">
@@ -350,10 +350,10 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Вертикальная группа 1</value>
+        <value>Первая колонка</value>
       </title>
       <extendedTooltip>
-        <name>ВертикальнаяГруппа1РасширеннаяПодсказка</name>
+        <name>ПерваяКолонкаРасширеннаяПодсказка</name>
         <id>57</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -374,7 +374,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>ВертикальнаяГруппа2</name>
+      <name>ВтораяКолонка</name>
       <id>58</id>
       <items xsi:type="form:FormField">
         <name>СписокПорядокЗаполнения</name>
@@ -479,10 +479,10 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Вертикальная группа 2</value>
+        <value>Вторая колонка</value>
       </title>
       <extendedTooltip>
-        <name>ВертикальнаяГруппа2РасширеннаяПодсказка</name>
+        <name>ВтораяКолонкаРасширеннаяПодсказка</name>
         <id>59</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -503,7 +503,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>ВертикальнаяГруппа3</name>
+      <name>ТретьяКолонка</name>
       <id>60</id>
       <items xsi:type="form:FormField">
         <name>СписокПолныйПутьWindows</name>
@@ -616,10 +616,10 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Вертикальная группа 3</value>
+        <value>Третья колонка</value>
       </title>
       <extendedTooltip>
-        <name>ВертикальнаяГруппа3РасширеннаяПодсказка</name>
+        <name>ТретьяКолонкаРасширеннаяПодсказка</name>
         <id>61</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -920,6 +920,7 @@
   </handlers>
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>SetDeletionMark</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

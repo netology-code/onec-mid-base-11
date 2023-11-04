@@ -464,6 +464,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -620,7 +621,7 @@
     <id>2</id>
     <toolTip>
       <key>ru</key>
-      <value>Сохранить файл на диск или другое устройство</value>
+      <value>Сохранить файл на компьютер или другое устройство</value>
     </toolTip>
     <use>
       <common>true</common>

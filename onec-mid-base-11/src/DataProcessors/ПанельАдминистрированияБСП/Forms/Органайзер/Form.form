@@ -715,7 +715,7 @@
             <id>1659</id>
             <title>
               <key>ru</key>
-              <value>Основная учетная запись электронной почты для отправки уведомлений из программы.</value>
+              <value>Электронная почта для рассылки уведомлений из программы.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2870,6 +2870,7 @@
   <excludedCommands>Write</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

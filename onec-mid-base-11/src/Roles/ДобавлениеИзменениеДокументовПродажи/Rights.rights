@@ -958,7 +958,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СведенияОПользователях.Resource.ИспользованныеПароли</name>
+		<name>InformationRegister.СведенияОПользователях.Resource.УдалитьИспользованныеПароли</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1871,7 +1871,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СведенияОПользователях.Resource.ДатаНачалаИспользованияПароля</name>
+		<name>InformationRegister.СведенияОПользователях.Resource.УдалитьДатаНачалаИспользованияПароля</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2036,7 +2036,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВидыКонтактнойИнформации.Attribute.ТелефонCДобавочнымНомером</name>
+		<name>Catalog.ВидыКонтактнойИнформации.Attribute.ТелефонСДобавочнымНомером</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -3604,7 +3604,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ОтправленныеСерверныеОповещения.Attribute.ЗаписаноВСистемуВзаимодействия</name>
+		<name>InformationRegister.ОтправленныеСерверныеОповещения.Attribute.ДатаЗаписиВСистемуВзаимодействияМиллисекунды</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -3803,17 +3803,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ.Dimension.Очередь</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.УдаляемыеОбъекты.Resource.ВремяБлокировки</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -5372,7 +5361,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВнешниеПользователи.Attribute.СвойстваПользователяИБ</name>
+		<name>Catalog.ВнешниеПользователи.Attribute.УдалитьСвойстваПользователяИБ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -10795,7 +10784,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВидыКонтактнойИнформации.Attribute.ПроверятьПоФИАС</name>
+		<name>Catalog.ВидыКонтактнойИнформации.Attribute.УдалитьПроверятьПоФИАС</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -14327,17 +14316,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.УдалитьХранимыеФайлыВерсий.Dimension.ВерсияФайла</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДлительныеОперации.Attribute.ИдентификаторПроцесса</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -18715,7 +18693,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Пользователи.Attribute.СвойстваПользователяИБ</name>
+		<name>Catalog.Пользователи.Attribute.УдалитьСвойстваПользователяИБ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

@@ -19,5 +19,6 @@
   <content>CommonForm.ДополнительныеПараметрыПроксиСервера</content>
   <content>CommonModule.ПолучениеФайловИзИнтернетаСлужебный</content>
   <content>CommonModule.ПолучениеФайловИзИнтернетаСлужебныйВызовСервера</content>
+  <content>CommonModule.ПолучениеФайловИзИнтернетаСлужебныйЛокализация</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

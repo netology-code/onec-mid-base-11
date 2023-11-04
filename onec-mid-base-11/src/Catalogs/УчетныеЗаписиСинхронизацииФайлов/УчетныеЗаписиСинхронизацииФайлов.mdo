@@ -130,7 +130,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Адрес сервера Webdav</value>
+      <value>Адрес сервиса WebDAV</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

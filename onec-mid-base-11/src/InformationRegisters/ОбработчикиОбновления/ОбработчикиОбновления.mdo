@@ -113,6 +113,24 @@
       <value></value>
     </fillValue>
   </resources>
+  <resources uuid="6e82e4ec-cf8e-4e9f-aaed-69b146c2ed84">
+    <name>ДлительностьРегистрацииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность регистрации данных</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <resources uuid="35dbc542-3ad9-4a72-9863-229a67cda425">
     <name>ДлительностьОбработки</name>
     <synonym>
@@ -139,6 +157,21 @@
     </synonym>
     <type>
       <types>EnumRef.РежимыВыполненияОбработчиков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ea232693-49b2-4e10-9349-66e26760602c">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПорядокОбработчиковОбновления</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -239,17 +272,13 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>1024</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="c0e2673a-1846-4ae5-933a-4e33b73a866b">
     <name>Комментарий</name>
@@ -494,6 +523,36 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+  </attributes>
+  <attributes uuid="1908b558-9619-477e-ab33-0c731adf2b0e">
+    <name>ИспользуетсяРазделениеПоКритичности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется разделение по критичности</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2bed313f-06ac-43a1-a0bd-008c5457deb1">
+    <name>ОбработаныАктуальныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработаны актуальные данные</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <dimensions uuid="304feda3-6d33-466c-9e0d-9cea97d763be">
     <name>ИмяОбработчика</name>

@@ -178,6 +178,9 @@
     <mdObject>InformationRegister.ДополнительныеСведения</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.СнимкиОтчетов</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ПредопределенныеВариантыОтчетовРасширений</mdObject>
   </content>
   <content>
@@ -473,6 +476,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.КлючиДоступаПользователей</mdObject>

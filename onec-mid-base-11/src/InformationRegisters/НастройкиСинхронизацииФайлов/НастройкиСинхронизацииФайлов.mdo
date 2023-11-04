@@ -16,7 +16,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <defaultRecordForm>InformationRegister.НастройкиСинхронизацииФайлов.Form.ФормаЗаписиНастройки</defaultRecordForm>
+  <defaultRecordForm>InformationRegister.НастройкиСинхронизацииФайлов.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.НастройкиСинхронизацииФайлов.Form.НастройкиСинхронизацииФайлов</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -201,7 +201,7 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="0811f6c2-6bb3-43b8-9944-910adc4c6f23">
-    <name>ДобавленияУсловияПоДате</name>
+    <name>ДобавлениеУсловияПоДате</name>
     <synonym>
       <key>ru</key>
       <value>Добавление условия по дате</value>
@@ -210,10 +210,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="c1646df4-9fce-44f0-9cc3-a5dab0bbef2e">
-    <name>ФормаЗаписиНастройки</name>
+    <name>ФормаЗаписи</name>
     <synonym>
       <key>ru</key>
-      <value>Форма записи настройки</value>
+      <value>Форма записи</value>
     </synonym>
     <help>
       <pages>

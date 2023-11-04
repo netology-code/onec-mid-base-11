@@ -77,7 +77,7 @@
           <excludedCommands>Add</excludedCommands>
           <excludedCommands>Change</excludedCommands>
           <excludedCommands>CheckAll</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
+          <excludedCommands>Choose</excludedCommands>
           <excludedCommands>CopyToClipboard</excludedCommands>
           <excludedCommands>Delete</excludedCommands>
           <excludedCommands>EndEdit</excludedCommands>
@@ -145,12 +145,53 @@
           <autoCommandBar>
             <name>ВидЗагрузкиДанныхКоманднаяПанель</name>
             <id>19</id>
+            <items xsi:type="form:Addition">
+              <title>
+                <key>ru</key>
+                <value>Поиск</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <name>СтрокаПоиска</name>
+              <id>687</id>
+              <extendedTooltip>
+                <name>СтрокаПоискаРасширеннаяПодсказка</name>
+                <id>689</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>СтрокаПоискаКонтекстноеМеню</name>
+                <id>688</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <source>ВидЗагрузкиДанныхСтрокаПоиска</source>
+              <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
+              </extInfo>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <horizontalAlign>Left</horizontalAlign>
           </autoCommandBar>
           <handlers>
             <event>ValueChoice</event>
@@ -606,6 +647,10 @@
               <handlers>
                 <event>OnActivate</event>
                 <name>ШаблонСДаннымиПриАктивизации</name>
+              </handlers>
+              <handlers>
+                <event>Selection</event>
+                <name>ШаблонСДаннымиВыбор</name>
               </handlers>
               <width>45</width>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3761,6 +3806,7 @@
   <height>35</height>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveDataInSettings>UseList</saveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -4138,6 +4184,22 @@
         <types>String</types>
         <stringQualifiers>
           <length>150</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Использование</name>
+      <id>32</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
         </stringQualifiers>
       </valueType>
       <view>

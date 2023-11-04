@@ -194,6 +194,7 @@
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
+    <searchStringLocation>CommandBar</searchStringLocation>
     <viewMode>All</viewMode>
     <settingsNamedItemDetailedRepresentation>false</settingsNamedItemDetailedRepresentation>
   </items>
@@ -366,6 +367,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

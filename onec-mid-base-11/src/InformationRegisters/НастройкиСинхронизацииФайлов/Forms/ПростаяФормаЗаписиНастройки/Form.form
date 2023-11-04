@@ -107,6 +107,10 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <inputHint>
+        <key>ru</key>
+        <value>Выберите из списка</value>
+      </inputHint>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -242,6 +246,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

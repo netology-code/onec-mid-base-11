@@ -10,5 +10,7 @@
   <content>CommonModule.КонструкторФормулКлиентСервер</content>
   <content>CommonModule.КонструкторФормулСлужебный</content>
   <content>DataProcessor.КонструкторФормул</content>
+  <content>CommonModule.КонструкторФормулПовтИсп</content>
+  <content>CommonModule.КонструкторФормулВызовСервера</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

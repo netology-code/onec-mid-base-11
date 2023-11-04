@@ -2880,7 +2880,7 @@
                   </userVisible>
                   <title>
                     <key>ru</key>
-                    <value>Представление адреса контекстное меню группа 1</value>
+                    <value>Представление адреса</value>
                   </title>
                   <extendedTooltip>
                     <name>ПредставлениеАдресаКонтекстноеМенюГруппаРасширеннаяПодсказка</name>
@@ -3968,6 +3968,7 @@
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveDataInSettings>UseList</saveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -5151,7 +5152,7 @@
     <id>9</id>
     <toolTip>
       <key>ru</key>
-      <value>Подключить интернет поддержку</value>
+      <value>Подключить Интернет-поддержку пользователей</value>
     </toolTip>
     <use>
       <common>true</common>

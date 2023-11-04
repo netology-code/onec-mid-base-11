@@ -388,6 +388,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Сортировать</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаСортироватьРасширеннаяПодсказка</name>
             <id>242</id>
@@ -526,6 +530,48 @@
             </extInfo>
           </extendedTooltip>
           <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+        </items>
+        <items xsi:type="form:Addition">
+          <title>
+            <key>ru</key>
+            <value>Поиск</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <name>СтрокаПоискаМестаИспользования</name>
+          <id>246</id>
+          <extendedTooltip>
+            <name>СтрокаПоискаМестаИспользованияРасширеннаяПодсказка</name>
+            <id>248</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СтрокаПоискаМестаИспользованияКонтекстноеМеню</name>
+            <id>247</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <source>МестаИспользованияСтрокаПоиска</source>
+          <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+          </extInfo>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1075,7 +1121,7 @@
           <name>МестаИспользованияКонтекстноеМеню</name>
           <id>2</id>
           <items xsi:type="form:FormGroup">
-            <name>МестаИспользованияКонтекстноеМенюГруппа1</name>
+            <name>МестаИспользованияКонтекстноеМенюГруппаОсновное</name>
             <id>158</id>
             <items xsi:type="form:Button">
               <name>МестаИспользованияКонтекстноеМенюУстановитьОсновным</name>
@@ -1174,10 +1220,10 @@
             </userVisible>
             <title>
               <key>ru</key>
-              <value>Места использования контекстное меню группа 1</value>
+              <value>Основное</value>
             </title>
             <extendedTooltip>
-              <name>МестаИспользованияКонтекстноеМенюГруппа1РасширеннаяПодсказка</name>
+              <name>МестаИспользованияКонтекстноеМенюГруппаОсновноеРасширеннаяПодсказка</name>
               <id>159</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1284,7 +1330,7 @@
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:FormGroup">
-            <name>МестаИспользованияКонтекстноеМенюГруппа2</name>
+            <name>МестаИспользованияКонтекстноеМенюГруппаСортировка</name>
             <id>222</id>
             <items xsi:type="form:Button">
               <name>МестаИспользованияКонтекстноеМенюСортироватьСписокПоВозрастанию</name>
@@ -1353,10 +1399,10 @@
             </userVisible>
             <title>
               <key>ru</key>
-              <value>Места использования контекстное меню группа 2</value>
+              <value>Сортировка</value>
             </title>
             <extendedTooltip>
-              <name>МестаИспользованияКонтекстноеМенюГруппа2РасширеннаяПодсказка</name>
+              <name>МестаИспользованияКонтекстноеМенюГруппаСортировкаРасширеннаяПодсказка</name>
               <id>223</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2018,6 +2064,48 @@
           </extendedTooltip>
           <extInfo xsi:type="form:ButtonGroupExtInfo"/>
         </items>
+        <items xsi:type="form:Addition">
+          <title>
+            <key>ru</key>
+            <value>Поиск</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <name>СтрокаПоискаНеудачныеЗамены</name>
+          <id>243</id>
+          <extendedTooltip>
+            <name>СтрокаПоискаНеудачныеЗаменыРасширеннаяПодсказка</name>
+            <id>245</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СтрокаПоискаНеудачныеЗаменыКонтекстноеМеню</name>
+            <id>244</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <source>НеудачныеЗаменыСтрокаПоиска</source>
+          <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+          </extInfo>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2067,7 +2155,7 @@
           <name>НеудачныеЗаменыДанныеКод</name>
           <id>150</id>
           <items xsi:type="form:FormGroup">
-            <name>НеудачныеЗаменыГруппа1</name>
+            <name>НеудачныеЗаменыГруппа</name>
             <id>178</id>
             <items xsi:type="form:FormField">
               <name>НеудачныеЗаменыПиктограмма</name>
@@ -2178,10 +2266,10 @@
             </userVisible>
             <title>
               <key>ru</key>
-              <value>Неудачные замены группа 1</value>
+              <value>Неудачные замены группа</value>
             </title>
             <extendedTooltip>
-              <name>НеудачныеЗаменыГруппа1РасширеннаяПодсказка</name>
+              <name>НеудачныеЗаменыГруппаРасширеннаяПодсказка</name>
               <id>179</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3057,6 +3145,7 @@
   <excludedCommands>Yes</excludedCommands>
   <width>60</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -3349,20 +3438,6 @@
   <attributes>
     <name>СобытиеОповещенияОЗамене</name>
     <id>9</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ТекстОшибкиПараметров</name>
-    <id>10</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

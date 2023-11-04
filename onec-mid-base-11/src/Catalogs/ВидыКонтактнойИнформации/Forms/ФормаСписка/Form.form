@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <items xsi:type="form:FormGroup">
     <name>ГруппаПользовательскихНастроек</name>
     <id>42</id>
@@ -432,6 +432,7 @@
   </handlers>
   <excludedCommands>CreateFolder</excludedCommands>
   <excludedCommands>MoveItem</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -468,68 +469,224 @@
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
 	ВЫБОР
-		КОГДА СправочникВидыКонтактнойИнформации.ЭтоГруппа
+		КОГДА СправочникВидыКонтактнойИнформацииПереопределяемый.ЭтоГруппа
 			ТОГДА ВЫБОР
-					КОГДА СправочникВидыКонтактнойИнформации.ПометкаУдаления
-						ТОГДА 1
-					КОГДА СправочникВидыКонтактнойИнформации.Предопределенный
-						ТОГДА 2
-					ИНАЧЕ 0
-				КОНЕЦ
-		КОГДА СправочникВидыКонтактнойИнформации.ПометкаУдаления
+				КОГДА СправочникВидыКонтактнойИнформацииПереопределяемый.ПометкаУдаления
+					ТОГДА 1
+				КОГДА СправочникВидыКонтактнойИнформацииПереопределяемый.Предопределенный
+					ТОГДА 2
+				ИНАЧЕ 0
+			КОНЕЦ
+		КОГДА СправочникВидыКонтактнойИнформацииПереопределяемый.ПометкаУдаления
 			ТОГДА 4
-		КОГДА СправочникВидыКонтактнойИнформации.Предопределенный
-			ТОГДА ВЫБОР СправочникВидыКонтактнойИнформации.Тип
-					КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.Телефон)
-						ТОГДА 14
-					КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.АдресЭлектроннойПочты)
-						ТОГДА 15
-					КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.ВебСтраница)
-						ТОГДА 16
-					КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.Факс)
-						ТОГДА 17
-					КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.Другое)
-						ТОГДА 18
-					КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.Адрес)
-						ТОГДА 19
-					КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.Skype)
-						ТОГДА 21
-					ИНАЧЕ 3
-				КОНЕЦ
-		ИНАЧЕ ВЫБОР СправочникВидыКонтактнойИнформации.Тип
+		КОГДА СправочникВидыКонтактнойИнформацииПереопределяемый.Предопределенный
+			ТОГДА ВЫБОР СправочникВидыКонтактнойИнформацииПереопределяемый.Тип
 				КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.Телефон)
-					ТОГДА 7
+					ТОГДА 14
 				КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.АдресЭлектроннойПочты)
-					ТОГДА 8
+					ТОГДА 15
 				КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.ВебСтраница)
-					ТОГДА 9
+					ТОГДА 16
 				КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.Факс)
-					ТОГДА 10
+					ТОГДА 17
 				КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.Другое)
-					ТОГДА 11
+					ТОГДА 18
 				КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.Адрес)
-					ТОГДА 12
+					ТОГДА 19
 				КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.Skype)
-					ТОГДА 20
+					ТОГДА 21
 				ИНАЧЕ 3
 			КОНЕЦ
+		ИНАЧЕ ВЫБОР СправочникВидыКонтактнойИнформацииПереопределяемый.Тип
+			КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.Телефон)
+				ТОГДА 7
+			КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.АдресЭлектроннойПочты)
+				ТОГДА 8
+			КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.ВебСтраница)
+				ТОГДА 9
+			КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.Факс)
+				ТОГДА 10
+			КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.Другое)
+				ТОГДА 11
+			КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.Адрес)
+				ТОГДА 12
+			КОГДА ЗНАЧЕНИЕ(Перечисление.ТипыКонтактнойИнформации.Skype)
+				ТОГДА 20
+			ИНАЧЕ 3
+		КОНЕЦ
 	КОНЕЦ КАК ИндексПиктограммы,
-	СправочникВидыКонтактнойИнформации.Ссылка КАК Ссылка,
-	СправочникВидыКонтактнойИнформации.Наименование КАК Наименование,
-	СправочникВидыКонтактнойИнформации.РеквизитДопУпорядочивания КАК РеквизитДопУпорядочивания,
-	СправочникВидыКонтактнойИнформации.Используется КАК Используется,
-	СправочникВидыКонтактнойИнформации.ЭтоГруппа КАК ЭтоГруппа
+	СправочникВидыКонтактнойИнформацииПереопределяемый.Ссылка КАК Ссылка,
+	СправочникВидыКонтактнойИнформацииПереопределяемый.Наименование КАК Наименование,
+	СправочникВидыКонтактнойИнформацииПереопределяемый.РеквизитДопУпорядочивания КАК РеквизитДопУпорядочивания,
+	СправочникВидыКонтактнойИнформацииПереопределяемый.Используется КАК Используется,
+	СправочникВидыКонтактнойИнформацииПереопределяемый.ЭтоГруппа КАК ЭтоГруппа
 ИЗ
-	Справочник.ВидыКонтактнойИнформации КАК СправочникВидыКонтактнойИнформации
+	Справочник.ВидыКонтактнойИнформации КАК СправочникВидыКонтактнойИнформацииПереопределяемый
 ГДЕ
-	СправочникВидыКонтактнойИнформации.Используется
-	И ЕСТЬNULL(СправочникВидыКонтактнойИнформации.Родитель.Используется, ИСТИНА)</queryText>
+	СправочникВидыКонтактнойИнформацииПереопределяемый.Используется
+	И ЕСТЬNULL(СправочникВидыКонтактнойИнформацииПереопределяемый.Родитель.Используется, ИСТИНА)</queryText>
       <mainTable>Catalog.ВидыКонтактнойИнформации</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИндексПиктограммы</dataPath>
+        <field>ИндексПиктограммы</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Индекс пиктограммы</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наименование</dataPath>
+        <field>Наименование</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>РеквизитДопУпорядочивания</dataPath>
+        <field>РеквизитДопУпорядочивания</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Используется</dataPath>
+        <field>Используется</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЭтоГруппа</dataPath>
+        <field>ЭтоГруппа</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВводитьНомерПоМаске</dataPath>
+        <field>ВводитьНомерПоМаске</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВключатьСтрануВПредставление</dataPath>
+        <field>ВключатьСтрануВПредставление</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВидПоляДругое</dataPath>
+        <field>ВидПоляДругое</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВидРедактирования</dataPath>
+        <field>ВидРедактирования</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЗапретитьРедактированиеПользователем</dataPath>
+        <field>ЗапретитьРедактированиеПользователем</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИдентификаторДляФормул</dataPath>
+        <field>ИдентификаторДляФормул</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИмяГруппы</dataPath>
+        <field>ИмяГруппы</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИмяПредопределенногоВида</dataPath>
+        <field>ИмяПредопределенногоВида</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИсправлятьУстаревшиеАдреса</dataPath>
+        <field>ИсправлятьУстаревшиеАдреса</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>МаскаНомераТелефона</dataPath>
+        <field>МаскаНомераТелефона</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>МеждународныйФорматАдреса</dataPath>
+        <field>МеждународныйФорматАдреса</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>МожноИзменятьСпособРедактирования</dataPath>
+        <field>МожноИзменятьСпособРедактирования</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОбязательноеЗаполнение</dataPath>
+        <field>ОбязательноеЗаполнение</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПроверятьКорректность</dataPath>
+        <field>ПроверятьКорректность</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УдалитьПроверятьПоФИАС</dataPath>
+        <field>УдалитьПроверятьПоФИАС</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>РазрешитьВводНесколькихЗначений</dataPath>
+        <field>РазрешитьВводНесколькихЗначений</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СкрыватьНеактуальныеАдреса</dataPath>
+        <field>СкрыватьНеактуальныеАдреса</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Тип</dataPath>
+        <field>Тип</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТолькоНациональныйАдрес</dataPath>
+        <field>ТолькоНациональныйАдрес</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УдалитьРедактированиеТолькоВДиалоге</dataPath>
+        <field>УдалитьРедактированиеТолькоВДиалоге</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УказыватьОКТМО</dataPath>
+        <field>УказыватьОКТМО</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ХранитьИсториюИзменений</dataPath>
+        <field>ХранитьИсториюИзменений</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОтображатьВсегда</dataPath>
+        <field>ОтображатьВсегда</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НаименованиеЯзык1</dataPath>
+        <field>НаименованиеЯзык1</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НаименованиеЯзык2</dataPath>
+        <field>НаименованиеЯзык2</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Представления</dataPath>
+        <field>Представления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Предопределенный</dataPath>
+        <field>Предопределенный</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИмяПредопределенныхДанных</dataPath>
+        <field>ИмяПредопределенныхДанных</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Родитель</dataPath>
+        <field>Родитель</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТелефонСДобавочнымНомером</dataPath>
+        <field>ТелефонСДобавочнымНомером</field>
+      </fields>
     </extInfo>
   </attributes>
   <formCommands>
@@ -553,6 +710,12 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>ВладелецКонтактнойИнформации</name>
+    <valueType>
+      <types>AnyRef</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

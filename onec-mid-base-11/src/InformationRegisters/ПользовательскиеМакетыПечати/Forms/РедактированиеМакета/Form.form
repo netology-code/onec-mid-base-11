@@ -15,9 +15,9 @@
         <id>42</id>
         <title>
           <key>ru</key>
-          <value>Файл макета &quot;[ИмяМакета]&quot; подготовлен для загрузки на компьютер и [ОписаниеДействия] с помощью другой программы.
+          <value>Файл макета &quot;%1&quot; подготовлен для загрузки на компьютер и %3 с помощью другой программы.
 
-Если программа для редактирования еще не установлена, рекомендуется установить &quot;[НазваниеПрограммы]&quot;.</value>
+Если программа для редактирования еще не установлена, рекомендуется установить &quot;%2&quot;.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -60,7 +60,7 @@
         <id>53</id>
         <title>
           <key>ru</key>
-          <value>Перейти на страницу программы &quot;[НазваниеПрограммы]&quot; для установки</value>
+          <value>Перейти на страницу программы &quot;%2&quot; для установки</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -183,7 +183,7 @@
         <id>40</id>
         <title>
           <key>ru</key>
-          <value>Файл макета &quot;[ИмяМакета]&quot; подготовлен для внесения изменений с помощью другой программы. Если программа для редактирования еще не установлена, рекомендуется установить &quot;[НазваниеПрограммы]&quot;.</value>
+          <value>Файл макета &quot;%1&quot; подготовлен для внесения изменений с помощью другой программы. Если программа для редактирования еще не установлена, рекомендуется установить &quot;%2&quot;.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -226,7 +226,7 @@
         <id>57</id>
         <title>
           <key>ru</key>
-          <value>Перейти на страницу программы &quot;[НазваниеПрограммы]&quot; для установки</value>
+          <value>Перейти на страницу программы &quot;%2&quot; для установки</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -353,7 +353,7 @@
 
 После завершения редактирования, закройте файл макета, подтвердив изменения. Затем нажмите на кнопку &quot;Завершить изменение&quot; и выберите этот файл в следующем диалоге. 
 
-Если программа для редактирования еще не установлена, рекомендуется установить &quot;[НазваниеПрограммы]&quot;.</value>
+Если программа для редактирования еще не установлена, рекомендуется установить &quot;%2&quot;.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -396,7 +396,7 @@
         <id>59</id>
         <title>
           <key>ru</key>
-          <value>Перейти на страницу программы &quot;[НазваниеПрограммы]&quot; для установки</value>
+          <value>Перейти на страницу программы &quot;%2&quot; для установки</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -480,7 +480,7 @@
 
 После завершения редактирования, закройте макет, подтвердив изменения. Затем нажмите на кнопку &quot;Завершить изменение&quot;.
 
-Если программа для редактирования еще не установлена, рекомендуется установить &quot;[НазваниеПрограммы]&quot;.</value>
+Если программа для редактирования еще не установлена, рекомендуется установить &quot;%2&quot;.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -523,7 +523,7 @@
         <id>61</id>
         <title>
           <key>ru</key>
-          <value>Перейти на страницу программы &quot;[НазваниеПрограммы]&quot; для установки</value>
+          <value>Перейти на страницу программы &quot;%2&quot; для установки</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1038,6 +1038,7 @@
   <excludedCommands>Yes</excludedCommands>
   <width>55</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1230,6 +1231,22 @@
     <edit>
       <common>true</common>
     </edit>
+  </attributes>
+  <attributes>
+    <name>ИсточникиДанных</name>
+    <id>14</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <formCommands>
     <name>ЗавершитьИзменение</name>

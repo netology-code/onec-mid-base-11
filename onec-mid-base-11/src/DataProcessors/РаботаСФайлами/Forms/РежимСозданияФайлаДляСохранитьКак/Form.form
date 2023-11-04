@@ -341,7 +341,7 @@
       <choiceList>
         <presentation>
           <key>ru</key>
-          <value>Копию файла на комьютере в рабочем каталоге (рекомендуется)</value>
+          <value>Копию файла на компьютере в рабочем каталоге (рекомендуется)</value>
         </presentation>
         <value xsi:type="core:NumberValue">
           <value>1</value>
@@ -438,6 +438,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

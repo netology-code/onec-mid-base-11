@@ -798,7 +798,7 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Учетная запись успешно настроена картинка и надпись</value>
+          <value>Почта успешно настроена.</value>
         </title>
         <extendedTooltip>
           <name>УчетнаяЗаписьУспешноНастроенаКартинкаИНадписьРасширеннаяПодсказка</name>
@@ -1216,6 +1216,7 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

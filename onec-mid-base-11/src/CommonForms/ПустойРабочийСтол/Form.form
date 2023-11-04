@@ -51,14 +51,6 @@
     <items xsi:type="form:Decoration">
       <name>Надпись</name>
       <id>6</id>
-      <title>
-        <key>ru</key>
-        <value>Вход в информационную базу был выполнен в целях автоматического тестирования
-с параметром запуска &lt;b>ОтключитьЛогикуНачалаРаботыСистемы&lt;/>.
-
-Работа пользователей в этом режиме настоятельно не рекомендуется,
-так как это приведет к рассогласованию или потере данных.</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -89,7 +81,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <formatted>true</formatted>
       <type>Label</type>
       <width>60</width>
       <autoMaxWidth>true</autoMaxWidth>
@@ -145,6 +136,11 @@
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

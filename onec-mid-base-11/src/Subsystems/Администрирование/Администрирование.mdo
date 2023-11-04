@@ -46,6 +46,7 @@
   <content>Catalog.КлючевыеОперации</content>
   <content>Report.СведенияОПользователях</content>
   <content>CommonCommand.ПанельОтчетовАдминистрирование</content>
+  <content>DataProcessor.ЗагрузкаДанныхИзФайла</content>
   <content>CommonCommand.ДополнительныеОбработкиАдминистрирование</content>
   <content>CommonCommand.ДополнительныеОтчетыАдминистрирование</content>
   <content>DataProcessor.СдвигГраницыИтогов</content>
@@ -66,4 +67,5 @@
   <content>Report.АнализПравДоступа</content>
   <content>CommonForm.ВосстановлениеПаролей</content>
   <content>Report.ПраваРолей</content>
+  <content>Report.ДлительностьОтложенногоОбновления</content>
 </mdclass:Subsystem>

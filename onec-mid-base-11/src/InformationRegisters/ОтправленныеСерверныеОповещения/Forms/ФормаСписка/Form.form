@@ -105,6 +105,10 @@
   <items xsi:type="form:Table">
     <name>Список</name>
     <id>3</id>
+    <title>
+      <key>ru</key>
+      <value>Список</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -231,7 +235,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Список.ДатаДобавления</segments>
       </dataPath>
-      <defaultItem>true</defaultItem>
       <extendedTooltip>
         <name>ДатаДобавленияРасширеннаяПодсказка</name>
         <id>21</id>
@@ -270,6 +273,10 @@
     <items xsi:type="form:FormField">
       <name>ДатаДобавленияМиллисекунды</name>
       <id>22</id>
+      <title>
+        <key>ru</key>
+        <value>мс</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -279,6 +286,10 @@
         <segments>Список.ДатаДобавленияМиллисекунды</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата добавления (миллисекунды)</value>
+      </toolTip>
       <extendedTooltip>
         <name>ДатаДобавленияМиллисекундыРасширеннаяПодсказка</name>
         <id>24</id>
@@ -315,11 +326,12 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ЗаписаноВСистемуВзаимодействия</name>
-      <id>25</id>
+      <name>ОтсрочкаЗаписиВСистемуВзаимодействия</name>
+      <id>38</id>
       <title>
         <key>ru</key>
-        <value>Записано в СВ</value>
+        <value>Отсрочка
+записи в СВ</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -327,12 +339,11 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ЗаписаноВСистемуВзаимодействия</segments>
+        <segments>Список.ОтсрочкаЗаписиВСистемуВзаимодействия</segments>
       </dataPath>
-      <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ЗаписаноВСистемуВзаимодействияРасширеннаяПодсказка</name>
-        <id>27</id>
+        <name>ОтсрочкаЗаписиВСистемуВзаимодействияРасширеннаяПодсказка</name>
+        <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -346,8 +357,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ЗаписаноВСистемуВзаимодействияКонтекстноеМеню</name>
-        <id>26</id>
+        <name>ОтсрочкаЗаписиВСистемуВзаимодействияКонтекстноеМеню</name>
+        <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -355,12 +366,120 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>CheckBoxField</type>
+      <type>LabelField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ДатаЗаписиВСистемуВзаимодействия</name>
+      <id>44</id>
+      <title>
+        <key>ru</key>
+        <value>Дата записи
+в СВ</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ДатаЗаписиВСистемуВзаимодействия</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ДатаЗаписиВСистемуВзаимодействияРасширеннаяПодсказка</name>
+        <id>46</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДатаЗаписиВСистемуВзаимодействияКонтекстноеМеню</name>
+        <id>45</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ДатаЗаписиВСистемуВзаимодействияМиллисекунды</name>
+      <id>47</id>
+      <title>
+        <key>ru</key>
+        <value>мс</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ДатаЗаписиВСистемуВзаимодействияМиллисекунды</segments>
+      </dataPath>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата записи в СВ (миллисекунды)</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ДатаЗаписиВСистемуВзаимодействияМиллисекундыРасширеннаяПодсказка</name>
+        <id>49</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДатаЗаписиВСистемуВзаимодействияМиллисекундыКонтекстноеМеню</name>
+        <id>48</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>ИдентификаторГруппы</name>
@@ -392,6 +511,98 @@
       <contextMenu>
         <name>ИдентификаторГруппыКонтекстноеМеню</name>
         <id>29</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ВидОповещенияВГруппе</name>
+      <id>41</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ВидОповещенияВГруппе</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ВидОповещенияВГруппеРасширеннаяПодсказка</name>
+        <id>43</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ВидОповещенияВГруппеКонтекстноеМеню</name>
+        <id>42</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Адресаты</name>
+      <id>50</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Адресаты</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>АдресатыРасширеннаяПодсказка</name>
+        <id>52</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>АдресатыКонтекстноеМеню</name>
+        <id>51</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -568,7 +779,7 @@
     <autoMaxRowsCount>true</autoMaxRowsCount>
     <selectionMode>MultiRow</selectionMode>
     <header>true</header>
-    <headerHeight>1</headerHeight>
+    <headerHeight>2</headerHeight>
     <footerHeight>1</footerHeight>
     <horizontalScrollBar>AutoUse</horizontalScrollBar>
     <verticalScrollBar>AutoUse</verticalScrollBar>
@@ -611,6 +822,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

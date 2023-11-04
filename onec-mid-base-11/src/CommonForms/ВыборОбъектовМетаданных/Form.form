@@ -151,6 +151,7 @@
     <dataPath xsi:type="form:DataPath">
       <segments>ДеревоОбъектовМетаданных</segments>
     </dataPath>
+    <defaultItem>true</defaultItem>
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
     <excludedCommands>Add</excludedCommands>
@@ -531,6 +532,7 @@
     <initialTreeView>ExpandTopLevel</initialTreeView>
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
+    <searchStringLocation>Top</searchStringLocation>
   </items>
   <commandBarLocation>Top</commandBarLocation>
   <autoCommandBar>
@@ -558,6 +560,7 @@
   <excludedCommands>CustomizeForm</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -1277,6 +1277,12 @@
         <value></value>
       </code>
     </items>
+    <items id="0405403b-dc8f-4335-bc31-99751a5199dc">
+      <name>РегистрСведенийСнимкиОтчетов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
   </predefined>
   <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
   <editType>InDialog</editType>

@@ -185,7 +185,9 @@
           <event>Click</event>
           <name>ПредставлениеПравилПоискаНажатие</name>
         </handlers>
+        <height>2</height>
         <autoMaxHeight>true</autoMaxHeight>
+        <verticalStretch>true</verticalStretch>
         <hyperlink>true</hyperlink>
       </extInfo>
     </items>
@@ -294,6 +296,7 @@
         <key>ru</key>
         <value>Шаг поиск не выполнялся</value>
       </title>
+      <enableContentChange>true</enableContentChange>
       <extendedTooltip>
         <name>ШагПоискНеВыполнялсяРасширеннаяПодсказка</name>
         <id>63</id>
@@ -384,6 +387,7 @@
         <key>ru</key>
         <value>Шаг поиск не выполнялся</value>
       </title>
+      <enableContentChange>true</enableContentChange>
       <extendedTooltip>
         <name>ШагВыполнениеПоискаРасширеннаяПодсказка</name>
         <id>187</id>
@@ -798,6 +802,9 @@
             <type>PictureField</type>
             <editMode>EnterOnInput</editMode>
             <showInHeader>true</showInHeader>
+            <headerPicture xsi:type="core:PictureRef">
+              <picture>CommonPicture.МетаданныеРеквизиты</picture>
+            </headerPicture>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:ImageFieldExtInfo">
@@ -1439,7 +1446,7 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0</commandName>
+                <commandName>Form.StandardCommand.CustomizeForm</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1526,6 +1533,7 @@
           <verticalStretch>true</verticalStretch>
           <enableStartDrag>true</enableStartDrag>
           <enableDrag>true</enableDrag>
+          <searchStringLocation>Top</searchStringLocation>
         </items>
         <items xsi:type="form:FormGroup">
           <name>ГруппаПодробно</name>
@@ -1809,6 +1817,7 @@
                 <verticalStretch>true</verticalStretch>
                 <enableStartDrag>true</enableStartDrag>
                 <enableDrag>true</enableDrag>
+                <searchStringLocation>Top</searchStringLocation>
                 <rowFilter xsi:type="core:UndefinedValue"/>
               </items>
               <visible>true</visible>
@@ -2260,6 +2269,7 @@
         <key>ru</key>
         <value>Шаг выполнение удаления</value>
       </title>
+      <enableContentChange>true</enableContentChange>
       <extendedTooltip>
         <name>ШагВыполнениеУдаленияРасширеннаяПодсказка</name>
         <id>206</id>
@@ -2939,6 +2949,7 @@
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
           <fileDragMode>AsFileRef</fileDragMode>
+          <searchStringLocation>Top</searchStringLocation>
           <rowFilter xsi:type="core:UndefinedValue"/>
         </items>
         <visible>true</visible>
@@ -3611,47 +3622,17 @@
                 <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
               </items>
-              <items xsi:type="form:FormGroup">
-                <name>НеобработанныеДублиКонтекстноеМенюГруппаИзменитьФорму</name>
-                <id>440</id>
-                <items xsi:type="form:Button">
-                  <name>НеобработанныеДублиКонтекстноеМенюИзменитьФорму</name>
-                  <id>438</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>НеобработанныеДублиКонтекстноеМенюИзменитьФормуРасширеннаяПодсказка</name>
-                    <id>439</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <commandName>0</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
-                </items>
+              <items xsi:type="form:Button">
+                <name>НеобработанныеДублиКонтекстноеМенюИзменитьФорму</name>
+                <id>521</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>НеобработанныеДублиКонтекстноеМенюГруппаИзменитьФормуРасширеннаяПодсказка</name>
-                  <id>441</id>
+                  <name>НеобработанныеДублиКонтекстноеМенюИзменитьФормуРасширеннаяПодсказка</name>
+                  <id>522</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3664,7 +3645,12 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+                <commandName>Form.StandardCommand.CustomizeForm</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
               </items>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3695,6 +3681,7 @@
             <verticalStretch>true</verticalStretch>
             <enableStartDrag>true</enableStartDrag>
             <enableDrag>true</enableDrag>
+            <searchStringLocation>Top</searchStringLocation>
           </items>
           <items xsi:type="form:FormGroup">
             <name>СтраницыМестаИспользованияНеобработанных</name>
@@ -4026,6 +4013,7 @@
                 <verticalStretch>true</verticalStretch>
                 <enableStartDrag>true</enableStartDrag>
                 <enableDrag>true</enableDrag>
+                <searchStringLocation>Top</searchStringLocation>
                 <rowFilter xsi:type="core:UndefinedValue"/>
               </items>
               <items xsi:type="form:FormField">
@@ -4540,6 +4528,7 @@
         <key>ru</key>
         <value>Шаг дублей не найдено</value>
       </title>
+      <enableContentChange>true</enableContentChange>
       <extendedTooltip>
         <name>ШагДублейНеНайденоРасширеннаяПодсказка</name>
         <id>228</id>
@@ -4716,6 +4705,7 @@
         <key>ru</key>
         <value>Возникла ошибка</value>
       </title>
+      <enableContentChange>true</enableContentChange>
       <extendedTooltip>
         <name>ШагВозниклаОшибкаРасширеннаяПодсказка</name>
         <id>449</id>
@@ -4969,6 +4959,7 @@
       <key>ru</key>
       <value>Панель действий мастера</value>
     </title>
+    <enableContentChange>true</enableContentChange>
     <extendedTooltip>
       <name>ПанельДействийМастераРасширеннаяПодсказка</name>
       <id>168</id>
@@ -5221,6 +5212,7 @@
       <key>ru</key>
       <value>Картинок</value>
     </title>
+    <enableContentChange>true</enableContentChange>
     <extendedTooltip>
       <name>ГруппаКартинокРасширеннаяПодсказка</name>
       <id>76</id>
@@ -5269,8 +5261,8 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>CustomizeForm</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -6393,6 +6385,138 @@
     <id>42</id>
     <valueType>
       <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КоличествоПорций</name>
+    <id>43</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОбщееКоличествоВыбранных</name>
+    <id>44</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОбщееКоличествоОбработанных</name>
+    <id>45</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПрогрессУдаления</name>
+    <id>46</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>НомерСеанса</name>
+      <id>1</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>КоличествоОбработанных</name>
+      <id>2</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>КоличествоУдаленных</name>
+      <id>3</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
+  <attributes>
+    <name>ОбщееКоличествоУдаленных</name>
+    <id>47</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>

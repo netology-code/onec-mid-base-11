@@ -200,13 +200,13 @@
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
-      <value>Настройки очистки файлов</value>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="30e9f89d-7b94-488e-9963-886c271b1af7">
-    <name>ФормаДобавленияУсловияПоДате</name>
+    <name>ДобавлениеУсловияПоДате</name>
     <synonym>
       <key>ru</key>
       <value>Добавление условия по дате</value>

@@ -13,4 +13,6 @@
   <content>InformationRegister.ДополнительныеСведения</content>
   <content>Catalog.ЗначенияСвойствОбъектов</content>
   <content>Catalog.ЗначенияСвойствОбъектовИерархия</content>
+  <content>Enum.ЦветаСвойств</content>
+  <content>Enum.ВариантыОтображенияМеток</content>
 </mdclass:FunctionalOption>

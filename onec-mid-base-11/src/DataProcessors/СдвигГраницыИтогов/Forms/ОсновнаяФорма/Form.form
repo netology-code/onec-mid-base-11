@@ -58,7 +58,7 @@
       <id>20</id>
       <title>
         <key>ru</key>
-        <value>&lt;fontstyle -31>Выполняется сдвиг границы рассчитанных итогов...&lt;/>
+        <value>&lt;b>&lt;fontstyle -31>Выполняется сдвиг границы рассчитанных итогов...&lt;/>&lt;/>
 &lt;fontstyle -31>Пожалуйста, подождите, это может занять некоторое время.&lt;/></value>
       </title>
       <visible>true</visible>
@@ -165,6 +165,7 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

@@ -189,8 +189,8 @@
       <id>10</id>
       <title>
         <key>ru</key>
-        <value>Если в файлах, которые есть на диске, но сведения о них в базе отсутствуют, может содержаться полезная информация,
-то рекомендуется скопировать их в другую папку.</value>
+        <value>Если в файлах в томе, о которых в программе нет сведений, может содержаться полезная информация,
+то рекомендуется скопировать их в другой каталог.</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -489,6 +489,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -641,6 +642,12 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>ТомХраненияФайлов</name>
+    <valueType>
+      <types>CatalogRef.ТомаХраненияФайлов</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

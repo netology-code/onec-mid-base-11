@@ -8,5 +8,7 @@
   <content>DataProcessor.ПанельАдминистрированияБСП</content>
   <content>CommonPicture.РазделАдминистрирование</content>
   <content>CommonModule.НастройкиПрограммыПереопределяемый</content>
+  <content>CommonModule.НастройкиПрограммы</content>
+  <content>CommonModule.НастройкиПрограммыКлиент</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

@@ -119,5 +119,11 @@
   <content>CommonPicture.ПроверитьФормулу</content>
   <content>CommonPicture.ОтменитьДействие</content>
   <content>CommonPicture.ПовторитьДействие</content>
+  <content>CommonPicture.НазначенияВариантовОтчетов</content>
+  <content>Enum.НазначенияВариантовОтчетов</content>
+  <content>InformationRegister.СнимкиОтчетов</content>
+  <content>CommonCommand.СнимкиОтчетовДляАвтономногоРежима</content>
+  <content>Role.ДобавлениеИзменениеСнимковОтчетов</content>
+  <content>DefinedType.ВариантОбновляемогоОтчета</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

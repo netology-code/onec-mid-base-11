@@ -76,5 +76,12 @@
   <content>Constant.ИспользоватьГруппыВнешнихПользователей</content>
   <content>Constant.НастройкиВходаПользователей</content>
   <content>CommonForm.КонтрольИзмененияРолейПользователяИБ</content>
+  <content>SessionParameter.ОбновлениеСправочниковПользователей</content>
+  <content>CommonPicture.СостояниеПользователя13</content>
+  <content>CommonPicture.СостояниеПользователя14</content>
+  <content>CommonPicture.СостояниеПользователя15</content>
+  <content>CommonPicture.СостояниеПользователя16</content>
+  <content>CommonPicture.СостояниеПользователя17</content>
+  <content>CommonPicture.СостояниеПользователя18</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

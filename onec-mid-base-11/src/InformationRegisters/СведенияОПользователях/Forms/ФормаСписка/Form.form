@@ -71,6 +71,37 @@
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
+    <items xsi:type="form:Button">
+      <name>ФормаОбновитьДанныеРегистра</name>
+      <id>53</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаОбновитьДанныеРегистраРасширеннаяПодсказка</name>
+        <id>54</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ОбновитьДанныеРегистра</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -163,6 +194,60 @@
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>НомерКартинкиСостояния</name>
+      <id>55</id>
+      <title>
+        <key>ru</key>
+        <value>Номер
+картинки
+состояния</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.НомерКартинкиСостояния</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>НомерКартинкиСостоянияРасширеннаяПодсказка</name>
+        <id>57</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>НомерКартинкиСостоянияКонтекстноеМеню</name>
+        <id>56</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -523,59 +608,6 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ДатаНачалаИспользованияПароля</name>
-      <id>29</id>
-      <title>
-        <key>ru</key>
-        <value>Дата начала
-использования
-пароля</value>
-      </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ДатаНачалаИспользованияПароля</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ДатаНачалаИспользованияПароляРасширеннаяПодсказка</name>
-        <id>31</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ДатаНачалаИспользованияПароляКонтекстноеМеню</name>
-        <id>30</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <width>12</width>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
       <name>ПоследнийИспользуемыйКлиент</name>
       <id>44</id>
       <visible>true</visible>
@@ -624,6 +656,58 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>УдалитьДатаНачалаИспользованияПароля</name>
+      <id>58</id>
+      <title>
+        <key>ru</key>
+        <value>(не используется)
+Дата начала
+использования пароля</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.УдалитьДатаНачалаИспользованияПароля</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>УдалитьДатаНачалаИспользованияПароляРасширеннаяПодсказка</name>
+        <id>60</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>УдалитьДатаНачалаИспользованияПароляКонтекстноеМеню</name>
+        <id>59</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
       </extInfo>
     </items>
     <commandBarLocation>None</commandBarLocation>
@@ -799,8 +883,11 @@
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
     <rowPictureDataPath xsi:type="form:DataPath">
-      <segments>Список.DefaultPicture</segments>
+      <segments>Список.НомерКартинки</segments>
     </rowPictureDataPath>
+    <rowsPicture xsi:type="core:PictureRef">
+      <picture>CommonPicture.СостоянияПользователей</picture>
+    </rowsPicture>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
@@ -827,6 +914,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -849,9 +937,42 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	Сведения.НомерКартинкиСостояния - 1 КАК НомерКартинки,
+	Сведения.Пользователь КАК Пользователь,
+	Сведения.ПотребоватьСменуПароляПриВходе КАК ПотребоватьСменуПароляПриВходе,
+	Сведения.СрокДействияНеОграничен КАК СрокДействияНеОграничен,
+	Сведения.СрокДействия КАК СрокДействия,
+	Сведения.ПросрочкаРаботыВПрограммеДоЗапрещенияВхода КАК ПросрочкаРаботыВПрограммеДоЗапрещенияВхода,
+	Сведения.ДатаРазрешенияВходаВПрограмму КАК ДатаРазрешенияВходаВПрограмму,
+	Сведения.ДатаПоследнейАктивности КАК ДатаПоследнейАктивности,
+	Сведения.ДатаАвтоматическогоЗапрещенияВхода КАК ДатаАвтоматическогоЗапрещенияВхода,
+	Сведения.УдалитьДатаНачалаИспользованияПароля КАК УдалитьДатаНачалаИспользованияПароля,
+	Сведения.ПоследнийИспользуемыйКлиент КАК ПоследнийИспользуемыйКлиент,
+	Сведения.НомерКартинкиСостояния КАК НомерКартинкиСостояния,
+	Сведения.ВходВПрограммуРазрешен КАК ВходВПрограммуРазрешен,
+	Сведения.ВходВПрограммуОграничен КАК ВходВПрограммуОграничен,
+	Сведения.НетПрав КАК НетПрав,
+	Сведения.НедостаточноПравДляВхода КАК НедостаточноПравДляВхода,
+	Сведения.Имя КАК Имя,
+	Сведения.АдресЭлектроннойПочты КАК АдресЭлектроннойПочты,
+	Сведения.АутентификацияСтандартная КАК АутентификацияСтандартная,
+	Сведения.ЗапрещеноИзменятьПароль КАК ЗапрещеноИзменятьПароль,
+	Сведения.ЗапрещеноВосстанавливатьПароль КАК ЗапрещеноВосстанавливатьПароль,
+	Сведения.ПоказыватьВСпискеВыбора КАК ПоказыватьВСпискеВыбора,
+	Сведения.АутентификацияOpenID КАК АутентификацияOpenID,
+	Сведения.АутентификацияOpenIDConnect КАК АутентификацияOpenIDConnect,
+	Сведения.АутентификацияТокеномДоступа КАК АутентификацияТокеномДоступа,
+	Сведения.АутентификацияОС КАК АутентификацияОС,
+	Сведения.ПользовательОС КАК ПользовательОС,
+	Сведения.Язык КАК Язык,
+	Сведения.ЗащитаОтОпасныхДействий КАК ЗащитаОтОпасныхДействий
+ИЗ
+	РегистрСведений.СведенияОПользователях КАК Сведения</queryText>
       <mainTable>InformationRegister.СведенияОПользователях</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
@@ -876,6 +997,27 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОбновитьДанныеРегистра</name>
+    <title>
+      <key>ru</key>
+      <value>Обновить данные регистра</value>
+    </title>
+    <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Обновить данные регистра</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОбновитьДанныеРегистра</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

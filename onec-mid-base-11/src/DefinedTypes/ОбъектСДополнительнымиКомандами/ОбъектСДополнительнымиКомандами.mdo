@@ -9,11 +9,6 @@
     <value>Объект с дополнительными командами</value>
   </synonym>
   <type>
-    <types>DocumentRef.ЗаказПокупателя</types>
-    <types>DocumentRef.ПоступлениеТоваровУслуг</types>
-    <types>DocumentRef.РеализацияТоваровУслуг</types>
-    <types>DocumentRef.ОплатаПоставщику</types>
-    <types>DocumentRef.ОплатаОтПокупателя</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
   </type>
 </mdclass:DefinedType>

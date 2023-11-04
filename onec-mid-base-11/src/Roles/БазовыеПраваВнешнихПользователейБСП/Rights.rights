@@ -72,6 +72,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.РазблокированиеРеквизитов</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ЗапрещатьЗагрузкуФайловПоРасширению</name>
 		<right>
 			<name>Read</name>
@@ -206,6 +213,20 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.РедактированиеДокументаOfficeOpen</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ФормаВыбораЦвета</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.ВопросОбУстановкеВнешнейКомпоненты</name>
 		<right>
 			<name>View</name>
@@ -321,6 +342,17 @@
 		<name>SessionParameter.ВыполняетсяОбновлениеИБ</name>
 		<right>
 			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ЗагрузкаДанныхИзФайла</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -881,6 +913,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.ФормаВыбораШрифта</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.МаксимальныйРазмерФайлаОбластиДанных</name>
 		<right>
 			<name>Read</name>
@@ -1224,6 +1263,13 @@
 		<name>SessionParameter.УстановленныеРасширения</name>
 		<right>
 			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ПечатьДокументовOfficeOpen</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

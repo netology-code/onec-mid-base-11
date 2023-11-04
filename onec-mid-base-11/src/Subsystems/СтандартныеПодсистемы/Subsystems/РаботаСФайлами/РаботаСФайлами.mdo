@@ -26,7 +26,6 @@
   <content>CommonPicture.Папки</content>
   <content>CommonCommand.РазместитьФайлыНачальногоОбраза</content>
   <content>CommonPicture.Сканирование</content>
-  <content>FilterCriterion.ФайлыВТоме</content>
   <content>Enum.ФорматыСканированногоИзображения</content>
   <content>Enum.РазрешенияСканированногоИзображения</content>
   <content>Enum.ЦветностиИзображения</content>
@@ -89,7 +88,7 @@
   <content>CommonPicture.ПодписанЗашифрованСостояния</content>
   <content>CommonPicture.РабочийКаталогПоУмолчанию</content>
   <content>CommonPicture.РедактироватьФайл</content>
-  <content>CommonTemplate.КомпонентаTWAIN</content>
+  <content>CommonTemplate.КомпонентаСканированияДокументов_3_1_0_1018</content>
   <content>CommonCommand.СозданиеНачальногоОбразаСФайлами</content>
   <content>CommonCommand.ФайлыВТоме</content>
   <content>CommonCommand.РедактируемыеФайлы</content>

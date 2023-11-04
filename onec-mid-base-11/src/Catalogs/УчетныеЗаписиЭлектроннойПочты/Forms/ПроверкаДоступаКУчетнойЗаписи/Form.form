@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Введите пароль учетной записи</value>
+    <value>Введите пароль почты</value>
   </title>
   <items xsi:type="form:FormField">
     <name>Пароль</name>
@@ -145,6 +145,7 @@
   <excludedCommands>Yes</excludedCommands>
   <width>30</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

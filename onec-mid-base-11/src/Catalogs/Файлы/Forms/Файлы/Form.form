@@ -770,6 +770,39 @@
             <extInfo xsi:type="form:ButtonGroupExtInfo"/>
           </items>
           <items xsi:type="form:Button">
+            <name>ПапкиКонтекстноеМенюНастроитьПрава</name>
+            <id>448</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Items.Папки.CurrentData.Ref</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ПапкиКонтекстноеМенюНастроитьПраваРасширеннаяПодсказка</name>
+              <id>449</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>CommonCommand.НастроитьПрава</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
             <name>ПапкиКонтекстноеМенюКопироватьВБуферОбмена</name>
             <id>141</id>
             <displayImportance>VeryLow</displayImportance>
@@ -835,7 +868,7 @@
         <borderColor xsi:type="core:ColorRef">
           <color>Style.BorderColor</color>
         </borderColor>
-        <searchStringLocation>None</searchStringLocation>
+        <searchStringLocation>Top</searchStringLocation>
         <viewStatusLocation>None</viewStatusLocation>
         <searchControlLocation>None</searchControlLocation>
         <currentRowUse>SelectionPresentation</currentRowUse>
@@ -2962,7 +2995,7 @@
           <borderColor xsi:type="core:ColorRef">
             <color>Style.BorderColor</color>
           </borderColor>
-          <searchStringLocation>None</searchStringLocation>
+          <searchStringLocation>Top</searchStringLocation>
           <viewStatusLocation>None</viewStatusLocation>
           <searchControlLocation>None</searchControlLocation>
           <extInfo xsi:type="form:DynamicListTableExtInfo">
@@ -3142,7 +3175,7 @@
         <id>87</id>
         <title>
           <key>ru</key>
-          <value>Файл с диска...</value>
+          <value>Файл с компьютера...</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -4505,6 +4538,39 @@
         <representationInContextMenu>Auto</representationInContextMenu>
         <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
+      <items xsi:type="form:Button">
+        <name>ФормаНастроитьПрава</name>
+        <id>450</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Items.Папки.CurrentData.Ref</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ФормаНастроитьПраваРасширеннаяПодсказка</name>
+          <id>451</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>CommonCommand.НастроитьПрава</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <items xsi:type="form:FormGroup">
         <name>ФормаГруппаНастройкаСписка</name>
         <id>329</id>
@@ -4936,6 +5002,7 @@
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>Refresh</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
@@ -5072,9 +5139,6 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Папки.ДатаСинхронизации</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Папки.Description</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -5094,9 +5158,6 @@
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Папки.УчетнаяЗапись</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Папки.УчетнаяЗаписьDescription</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Папки.УчетнаяЗаписьСервис</segments>
@@ -5149,19 +5210,6 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ПапкаПриОткрытии</name>
-    <id>4</id>
-    <valueType>
-      <types>CatalogRef.ПапкиФайлов</types>
     </valueType>
     <view>
       <common>true</common>
@@ -5425,12 +5473,12 @@
     <name>ДобавитьФайл</name>
     <title>
       <key>ru</key>
-      <value>Из файла на диске ...</value>
+      <value>Из файла на компьютере ...</value>
     </title>
     <id>3</id>
     <toolTip>
       <key>ru</key>
-      <value>Создать файл из файла на диске</value>
+      <value>Загрузить файл из компьютера или другого устройства</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -5662,7 +5710,7 @@
     <id>13</id>
     <toolTip>
       <key>ru</key>
-      <value>Сохранить файл на диск или другое устройство</value>
+      <value>Сохранить файл на компьютер или другое устройство</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -5728,12 +5776,12 @@
     <name>ОбновитьИзФайлаНаДиске</name>
     <title>
       <key>ru</key>
-      <value>Обновить из файла на диске...</value>
+      <value>Обновить из файла на компьютере...</value>
     </title>
     <id>16</id>
     <toolTip>
       <key>ru</key>
-      <value>Обновить из файла на диске</value>
+      <value>Обновить из файла на компьютере или другого устройства</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -6143,6 +6191,16 @@
       <value>Список</value>
     </associatedTableElementId>
   </formCommands>
+  <parameters>
+    <name>Папка</name>
+    <valueType>
+      <types>CatalogRef.ПапкиФайлов</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПараметрыОтправки</name>
+    <valueType/>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar>

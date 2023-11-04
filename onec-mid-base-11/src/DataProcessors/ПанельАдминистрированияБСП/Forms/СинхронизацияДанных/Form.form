@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>ГруппаЗаголовок</name>
     <id>2001</id>
@@ -594,6 +594,42 @@
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
+      <items xsi:type="form:Button">
+        <name>УдалениеПредупрежденийСинхронизацииДанных</name>
+        <id>2082</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>УдалениеПредупрежденийСинхронизацииДанныхРасширеннаяПодсказка</name>
+          <id>2083</id>
+          <title>
+            <key>ru</key>
+            <value>Обработка актуальна для списка предупреждений синхронизации, который содержит большое количество записей, приводящих к долгому открытию или невозможности работать</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Form.Command.УдалениеПредупрежденийСинхронизацииДанных</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -671,6 +707,133 @@
         <placementArea>UserCmds</placementArea>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаОценкаПроизводительности</name>
+        <id>2087</id>
+        <items xsi:type="form:FormField">
+          <name>ИспользоватьОценкуПроизводительности</name>
+          <id>2084</id>
+          <title>
+            <key>ru</key>
+            <value>Оценка производительности</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <titleLocation>Right</titleLocation>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <handlers>
+            <event>OnChange</event>
+            <name>Подключаемый_ПриИзмененииРеквизита</name>
+          </handlers>
+          <extendedTooltip>
+            <name>ИспользоватьОценкуПроизводительностиРасширеннаяПодсказка</name>
+            <id>2086</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ИспользоватьОценкуПроизводительностиКонтекстноеМеню</name>
+            <id>2085</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>CheckBoxField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        </items>
+        <items xsi:type="form:Button">
+          <name>СеансыОбменов</name>
+          <id>2089</id>
+          <title>
+            <key>ru</key>
+            <value>Сеансы обменов</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>СеансыОбменовРасширеннаяПодсказка</name>
+            <id>2090</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>0</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Оценка производительности</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Включение оценки производительности для синхронизации в формате EnterpriseData.</value>
+        </toolTip>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <extendedTooltip>
+          <name>ГруппаОценкаПроизводительностиРасширеннаяПодсказка</name>
+          <id>2088</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>HorizontalIfPossible</group>
+          <behavior>Auto</behavior>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -757,10 +920,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <handlers>
-        <event>OnChange</event>
-        <name>ПрефиксУзлаРаспределеннойИнформационнойБазыПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ПрефиксУзлаРаспределеннойИнформационнойБазыExtendedTooltip</name>
         <id>2035</id>
@@ -786,6 +945,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <readOnly>true</readOnly>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -800,21 +960,17 @@
         <editTextUpdate>OnValueChange</editTextUpdate>
       </extInfo>
     </items>
-    <items xsi:type="form:Decoration">
-      <name>ДекорацияОжиданиеИзмененияПрефикса</name>
-      <id>2073</id>
-      <title>
-        <key>ru</key>
-        <value>Декорация ожидание изменения префикса</value>
-      </title>
+    <items xsi:type="form:Button">
+      <name>ИзменитьПрефиксИБ</name>
+      <id>2080</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДекорацияОжиданиеИзмененияПрефиксаРасширеннаяПодсказка</name>
-        <id>2075</id>
+        <name>ИзменитьПрефиксИБРасширеннаяПодсказка</name>
+        <id>2081</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -827,25 +983,13 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <contextMenu>
-        <name>ДекорацияОжиданиеИзмененияПрефиксаКонтекстноеМеню</name>
-        <id>2074</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <width>2</width>
+      <type>Hyperlink</type>
+      <commandName>Form.Command.ИзменитьПрефиксИБ</commandName>
+      <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
-      <height>1</height>
       <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:PictureDecorationExtInfo">
-        <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.НезавершившаясяПроверка</picture>
-        </picture>
-      </extInfo>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -875,7 +1019,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
+      <group>AlwaysHorizontal</group>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -1140,6 +1284,7 @@
   <excludedCommands>Write</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1271,6 +1416,44 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>НастройкиСинхронизацииДанных</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ИзменитьПрефиксИБ</name>
+    <title>
+      <key>ru</key>
+      <value>Изменить</value>
+    </title>
+    <id>3</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Изменить префикс ИБ</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ИзменитьПрефиксИБ</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>УдалениеПредупрежденийСинхронизацииДанных</name>
+    <title>
+      <key>ru</key>
+      <value>Удаление предупреждений синхронизации данных</value>
+    </title>
+    <id>4</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УдалениеПредупрежденийСинхронизацииДанных</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

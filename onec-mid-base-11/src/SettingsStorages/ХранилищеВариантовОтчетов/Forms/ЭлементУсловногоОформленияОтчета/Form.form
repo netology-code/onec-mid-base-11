@@ -122,7 +122,7 @@
               <value>Поля</value>
             </presentation>
             <value xsi:type="core:StringValue">
-              <value>Поля</value>
+              <value>Поле</value>
             </value>
           </choiceList>
           <choiceList>
@@ -2585,7 +2585,7 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Фильтр группа 6</value>
+            <value>Фильтры</value>
           </title>
           <extendedTooltip>
             <name>ОтборГруппа6РасширеннаяПодсказка</name>
@@ -4072,6 +4072,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>

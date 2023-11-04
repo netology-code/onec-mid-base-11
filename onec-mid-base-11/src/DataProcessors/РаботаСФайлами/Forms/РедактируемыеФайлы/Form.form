@@ -1527,6 +1527,7 @@
     <name>ПриЗакрытии</name>
   </handlers>
   <excludedCommands>Refresh</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1774,7 +1775,7 @@
     <id>6</id>
     <toolTip>
       <key>ru</key>
-      <value>Сохранить файл на диск или другое устройство</value>
+      <value>Сохранить файл на компьютер или другое устройство</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -1794,12 +1795,12 @@
     <name>ОбновитьИзФайлаНаДиске</name>
     <title>
       <key>ru</key>
-      <value>Обновить из файла на диске...</value>
+      <value>Обновить из файла на компьютере...</value>
     </title>
     <id>7</id>
     <toolTip>
       <key>ru</key>
-      <value>Обновить из файла на диске</value>
+      <value>Обновить из файла на компьютере</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -1886,7 +1887,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:DynamicListFormExtInfo">
-    <groupList>СписокКонтекстноеМеню</groupList>
-  </extInfo>
+  <extInfo xsi:type="form:DynamicListFormExtInfo"/>
 </form:Form>

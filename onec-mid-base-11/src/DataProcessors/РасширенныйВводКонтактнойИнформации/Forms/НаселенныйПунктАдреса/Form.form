@@ -422,75 +422,6 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВнутригородскойРайон</name>
-      <id>27</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ВнутригородскойРайон</segments>
-      </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ВнутригородскойРайонПриИзменении</name>
-      </handlers>
-      <extendedTooltip>
-        <name>ВнутригородскойРайонРасширеннаяПодсказка</name>
-        <id>29</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ВнутригородскойРайонКонтекстноеМеню</name>
-        <id>28</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <handlers>
-          <event>AutoComplete</event>
-          <name>ВнутригородскойРайонАвтоПодбор</name>
-        </handlers>
-        <handlers>
-          <event>StartChoice</event>
-          <name>ВнутригородскойРайонНачалоВыбора</name>
-        </handlers>
-        <handlers>
-          <event>ChoiceProcessing</event>
-          <name>ВнутригородскойРайонОбработкаВыбора</name>
-        </handlers>
-        <width>30</width>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <choiceButton>true</choiceButton>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <editTextUpdate>OnValueChange</editTextUpdate>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
       <name>НаселенныйПункт</name>
       <id>30</id>
       <visible>true</visible>
@@ -766,10 +697,6 @@
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <handlers>
-    <event>ChoiceProcessing</event>
-    <name>ОбработкаВыбора</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
@@ -778,6 +705,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -897,25 +825,6 @@
       <value>Поселение</value>
     </title>
     <id>11</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <savedData>true</savedData>
-  </attributes>
-  <attributes>
-    <name>ВнутригородскойРайон</name>
-    <title>
-      <key>ru</key>
-      <value>Внутригородской район</value>
-    </title>
-    <id>12</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

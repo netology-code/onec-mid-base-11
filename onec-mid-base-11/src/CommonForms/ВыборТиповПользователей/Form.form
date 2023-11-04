@@ -67,11 +67,11 @@
         <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
       </items>
       <items xsi:type="form:FormField">
-        <name>НазначениеЗначение</name>
+        <name>НазначениеПредставление</name>
         <id>60</id>
         <title>
           <key>ru</key>
-          <value>Значение</value>
+          <value>Представление</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -79,10 +79,10 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Назначение.Value</segments>
+          <segments>Назначение.Presentation</segments>
         </dataPath>
         <extendedTooltip>
-          <name>НазначениеЗначениеРасширеннаяПодсказка</name>
+          <name>НазначениеПредставлениеРасширеннаяПодсказка</name>
           <id>62</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -97,7 +97,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>НазначениеЗначениеКонтекстноеМеню</name>
+          <name>НазначениеПредставлениеКонтекстноеМеню</name>
           <id>61</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -355,17 +355,83 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <items xsi:type="form:Button">
-      <name>НазначениеУстановитьФлажки</name>
-      <id>68</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаКомандФлажки</name>
+      <id>72</id>
+      <items xsi:type="form:Button">
+        <name>НазначениеУстановитьФлажки</name>
+        <id>68</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>НазначениеУстановитьФлажкиРасширеннаяПодсказка</name>
+          <id>69</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Item.Назначение.StandardCommand.CheckAll</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
+      </items>
+      <items xsi:type="form:Button">
+        <name>НазначениеСнятьФлажки</name>
+        <id>70</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>НазначениеСнятьФлажкиРасширеннаяПодсказка</name>
+          <id>71</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Item.Назначение.StandardCommand.UncheckAll</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа команд флажки</value>
+      </title>
       <extendedTooltip>
-        <name>НазначениеУстановитьФлажкиРасширеннаяПодсказка</name>
-        <id>69</id>
+        <name>ГруппаКомандФлажкиРасширеннаяПодсказка</name>
+        <id>73</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -378,25 +444,25 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Item.Назначение.StandardCommand.CheckAll</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-      <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
+      <extInfo xsi:type="form:ButtonGroupExtInfo">
+        <representation>Compact</representation>
+      </extInfo>
     </items>
-    <items xsi:type="form:Button">
-      <name>НазначениеСнятьФлажки</name>
-      <id>70</id>
+    <items xsi:type="form:Addition">
+      <title>
+        <key>ru</key>
+        <value>Поиск</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <name>СтрокаПоиск</name>
+      <id>74</id>
       <extendedTooltip>
-        <name>НазначениеСнятьФлажкиРасширеннаяПодсказка</name>
-        <id>71</id>
+        <name>СтрокаПоискРасширеннаяПодсказка</name>
+        <id>76</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -409,13 +475,20 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Item.Назначение.StandardCommand.UncheckAll</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-      <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
+      <contextMenu>
+        <name>СтрокаПоискКонтекстноеМеню</name>
+        <id>75</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>НазначениеСтрокаПоиска</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -430,6 +503,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

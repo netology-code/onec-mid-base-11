@@ -250,6 +250,28 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="710059de-c70e-4b6e-b2a0-11197139144d">
+    <name>КоличествоМеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество меток</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество меток в наборе не помеченных на удаление.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="091ccac1-9a63-4a89-bb0c-333b274b0c70">
     <name>Используется</name>
     <synonym>
@@ -555,6 +577,16 @@
     <synonym>
       <key>ru</key>
       <value>Дополнительные сведения</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="225a011b-337d-4c83-9771-95eebce18024">
+    <name>Метки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метки</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>

@@ -2418,6 +2418,50 @@
     <items xsi:type="form:FormGroup">
       <name>РасчетПрогрессаПоКоличествуДанных</name>
       <id>282</id>
+      <items xsi:type="form:Addition">
+        <title>
+          <key>ru</key>
+          <value>Поиск</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <name>СтрокаПоиск</name>
+        <id>339</id>
+        <extendedTooltip>
+          <name>СтрокаПоискРасширеннаяПодсказка</name>
+          <id>341</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СтрокаПоискКонтекстноеМеню</name>
+          <id>340</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <source>СпискиСтрокаПоиска</source>
+        <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+          <width>15</width>
+          <autoMaxWidth>true</autoMaxWidth>
+          <horizontalStretch>false</horizontalStretch>
+        </extInfo>
+      </items>
       <items xsi:type="form:FormField">
         <name>РассчитыватьПоКоличествуДанных</name>
         <id>93</id>
@@ -3773,6 +3817,7 @@
   </handlers>
   <width>80</width>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

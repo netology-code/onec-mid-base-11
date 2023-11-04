@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Управление печатью MS Word клиент</value>
   </synonym>
-  <comment>АПК:566 АПК:1353 устаревший код, исправление не требуется.</comment>
+  <comment>АПК:566 АПК:1353 АПК:441 устаревший код, исправление не требуется.</comment>
   <clientManagedApplication>true</clientManagedApplication>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

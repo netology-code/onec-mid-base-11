@@ -39,7 +39,7 @@
     <name>ВТомахНаДиске</name>
     <synonym>
       <key>ru</key>
-      <value>В томах на диске</value>
+      <value>В томах</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

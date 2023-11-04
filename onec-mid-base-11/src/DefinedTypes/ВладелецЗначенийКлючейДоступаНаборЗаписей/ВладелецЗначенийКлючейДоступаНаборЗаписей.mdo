@@ -10,6 +10,7 @@
   </synonym>
   <type>
     <types>InformationRegisterRecordSet.НастройкиВариантовОтчетов</types>
+    <types>InformationRegisterRecordSet.СнимкиОтчетов</types>
     <types>InformationRegisterRecordSet.ДополнительныеСведения</types>
     <types>InformationRegisterRecordSet.СоставыГруппПользователей</types>
   </type>

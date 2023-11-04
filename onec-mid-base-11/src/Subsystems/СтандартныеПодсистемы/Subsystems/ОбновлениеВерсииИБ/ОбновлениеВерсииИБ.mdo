@@ -43,5 +43,11 @@
   <content>Enum.РежимыВыполненияОтложенныхОбработчиков</content>
   <content>DataProcessor.ОписаниеОбработчиковОбновления</content>
   <content>InformationRegister.ПрогрессОбновления</content>
+  <content>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</content>
+  <content>Enum.ПорядокОбработчиковОбновления</content>
+  <content>Constant.ПорядокОбрабатываемыхДанных</content>
+  <content>Report.ДлительностьОтложенногоОбновления</content>
+  <content>ScheduledJob.УстановкаПорядкаОтложенногоОбновленияВМоделиСервиса</content>
+  <content>ScheduledJob.ОчисткаУстаревшихДанных</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

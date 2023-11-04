@@ -235,6 +235,10 @@
       <command>Report.ПраваРолей.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.НаборыДополнительныхРеквизитовИСведений.Command.Метки</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>

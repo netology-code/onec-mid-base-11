@@ -247,6 +247,51 @@
       <name>ГруппаТипОбщиеДляВсех</name>
       <id>64</id>
       <items xsi:type="form:FormField">
+        <name>ОтображатьВсегда</name>
+        <id>189</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ОтображатьВсегда</segments>
+        </dataPath>
+        <titleLocation>Right</titleLocation>
+        <toolTipRepresentation>Button</toolTipRepresentation>
+        <extendedTooltip>
+          <name>ОтображатьВсегдаРасширеннаяПодсказка</name>
+          <id>191</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ОтображатьВсегдаКонтекстноеМеню</name>
+          <id>190</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      </items>
+      <items xsi:type="form:FormField">
         <name>ОбязательноеЗаполнение</name>
         <id>18</id>
         <visible>true</visible>
@@ -258,6 +303,10 @@
           <segments>Объект.ОбязательноеЗаполнение</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>ОбязательноеЗаполнениеПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ОбязательноеЗаполнениеExtendedTooltip</name>
           <id>92</id>
@@ -838,7 +887,7 @@
           <name>Телефон</name>
           <id>132</id>
           <items xsi:type="form:FormField">
-            <name>ТелефонCДобавочнымНомером</name>
+            <name>ТелефонСДобавочнымНомером</name>
             <id>134</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -846,11 +895,15 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ТелефонCДобавочнымНомером</segments>
+              <segments>Объект.ТелефонСДобавочнымНомером</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ТелефонСДобавочнымНомеромПриИзменении</name>
+            </handlers>
             <extendedTooltip>
-              <name>ТелефонCДобавочнымНомеромРасширеннаяПодсказка</name>
+              <name>ТелефонСДобавочнымНомеромРасширеннаяПодсказка</name>
               <id>136</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -865,7 +918,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>ТелефонCДобавочнымНомеромКонтекстноеМеню</name>
+              <name>ТелефонСДобавочнымНомеромКонтекстноеМеню</name>
               <id>135</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -945,6 +998,10 @@
               <segments>Объект.ВводитьНомерПоМаске</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>МаскаПриВводеНомераТелефонаПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>МаскаПриВводеНомераТелефонаРасширеннаяПодсказка</name>
               <id>180</id>
@@ -1039,16 +1096,14 @@
                 <id>183</id>
                 <title>
                   <key>ru</key>
-                  <value>&lt;font Arial>&lt;fontsize 8>&lt;color #333333>&lt;bgcolor #FFFFFF>В строке маски допустимо использование следующих специальных символов:&lt;/>&lt;/>&lt;/>&lt;/>
-&lt;font Arial>&lt;fontsize 8>&lt;color #333333>&lt;bgcolor #FFFFFF>! - любой введенный символ преобразуется в верхний регистр;&lt;/>&lt;/>&lt;/>&lt;/>
-&lt;font Arial>&lt;fontsize 8>&lt;color #333333>&lt;bgcolor #FFFFFF>9 - допустимо ввести произвольный символ цифры;&lt;/>&lt;/>&lt;/>&lt;/>
-&lt;font Arial>&lt;fontsize 8>&lt;color #333333>&lt;bgcolor #FFFFFF># - допустимо ввести произвольный символ цифры или - (знак минус) или + (знак плюс) или пробел;&lt;/>&lt;/>&lt;/>&lt;/>
-&lt;font Arial>&lt;fontsize 8>&lt;color #333333>&lt;bgcolor #FFFFFF>N - допустимо ввести любые алфавитно-цифровые символы (буквы или цифры);&lt;/>&lt;/>&lt;/>&lt;/>
-&lt;font Arial>&lt;fontsize 8>&lt;color #333333>&lt;bgcolor #FFFFFF>U - допустимо ввести любые алфавитно-цифровые символы (буквы или цифры) и любой введенный символ преобразуется в верхний регистр;&lt;/>&lt;/>&lt;/>&lt;/>
-&lt;font Arial>&lt;fontsize 8>&lt;color #333333>&lt;bgcolor #FFFFFF>X (латинского алфавита) - допустимо ввести произвольный символ;&lt;/>&lt;/>&lt;/>&lt;/>
-&lt;font Arial>&lt;fontsize 8>&lt;color #333333>&lt;bgcolor #FFFFFF>^ - недопустимо вводить этот символ интерактивно пользователем, он может устанавливаться только из языка;&lt;/>&lt;/>&lt;/>&lt;/>
-&lt;font Arial>&lt;fontsize 8>&lt;color #333333>&lt;bgcolor #FFFFFF>@ – допустимо ввести любые алфавитно-цифровые символы (буквы или цифры) в верхнем регистре или пробел.&lt;/>&lt;/>&lt;/>&lt;/>
-</value>
+                  <value>&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>В строке маски допустимо использование следующих специальных символов:&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>! - любой введенный символ преобразуется в верхний регистр;&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>9 - допустимо ввести произвольный символ цифры;&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333># - допустимо ввести произвольный символ цифры или - (знак минус) или + (знак плюс) или пробел;&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>N - допустимо ввести любой алфавитно-цифровой символ (буква или цифра);&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>U - допустимо ввести любой алфавитно-цифровой символ (буква или цифра) и любой введенный символ преобразуется в верхний регистр;&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>X (латинского алфавита) - допустимо ввести произвольный символ;&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>@ – допустимо ввести любой алфавитно-цифровой символ (буква или цифра) в верхнем регистре или пробел.&lt;/>&lt;/>&lt;/>&lt;/></value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1520,6 +1575,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ИдентификаторДляФормул</segments>
       </dataPath>
+      <titleHeight>2</titleHeight>
       <extendedTooltip>
         <name>ИдентификаторДляФормулРасширеннаяПодсказка</name>
         <id>175</id>
@@ -1651,6 +1707,7 @@
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

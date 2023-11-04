@@ -247,7 +247,7 @@
     <representation>Auto</representation>
     <toolTip>
       <key>ru</key>
-      <value>Интернет-сервисы и поддержка. Обновление версии программы. Загрузка классификаторов.</value>
+      <value>Интернет-сервисы и поддержка. Загрузка классификаторов.</value>
     </toolTip>
   </commands>
 </mdclass:DataProcessor>

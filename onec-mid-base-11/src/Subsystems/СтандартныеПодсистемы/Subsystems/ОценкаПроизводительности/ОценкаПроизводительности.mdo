@@ -34,5 +34,6 @@
   <content>XDTOPackage.ApdexExport_1_0_0_3</content>
   <content>InformationRegister.ЗамерыВремени</content>
   <content>XDTOPackage.ApdexExport_1_0_0_4</content>
+  <content>FunctionalOption.ВыполнятьЗамерыПроизводительности</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

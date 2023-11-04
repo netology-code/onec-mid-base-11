@@ -638,6 +638,36 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
+    <attributes uuid="c26283d2-dda1-438c-a444-05bdd2797691">
+      <name>ЧтениеНизкогоПорядка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Чтение низкого порядка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Обработчик читает данные которые обрабатываются с более низким приоритетом</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3ae1ecf1-e062-4e89-96d6-9ac88bbc8aa8">
+      <name>Порядок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПорядокОбработчиковОбновления</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="62f9c12c-1837-4320-99b0-8f7ae44af735">
     <producedTypes>
@@ -821,6 +851,19 @@
           <precision>10</precision>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a8b828da-6172-4732-a01e-c5127175cd60">
+      <name>НовыеОбъекты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Новые объекты</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1413,6 +1456,160 @@
       <fillValue xsi:type="core:StringValue">
         <value></value>
       </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="75daf728-ee8c-41a4-a249-8db123bb802e">
+    <producedTypes>
+      <objectType typeId="9c70aa1b-552c-4500-80d4-ac46720ab15a" valueTypeId="32dcc63e-ca8b-484a-a611-f280dd4f9000"/>
+      <rowType typeId="22269597-5f0b-4cb5-85a8-f3e046441d9b" valueTypeId="0a632a32-cdc3-45b4-aba3-e20c79930034"/>
+    </producedTypes>
+    <name>ЧтениеНизкогоПорядка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чтение низкого порядка</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0b154103-47b5-4c54-a4ea-60aa41190940">
+      <name>Ссылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="1eb52621-8915-46f4-b1bb-db04bb58b065">
+      <name>ОбъектМетаданных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект метаданных</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="d0fcb0f9-6d6c-444a-8b32-4287a963f72b">
+      <name>Писатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Писатель</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="1d583292-1820-498a-890a-66f5b154e698">
+      <name>ПорядокЧитатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок читатель</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПорядокОбработчиковОбновления</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a3b0430c-743d-4351-a928-9be3c8db9a0b">
+      <name>ПорядокПисатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок писатель</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПорядокОбработчиковОбновления</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f094241b-ae82-426c-92b0-18be87566ad6">
+      <name>ПроцедураЧитатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процедура читатель</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="1a570b62-6644-4427-a432-c6823c7d522a">
+      <name>ПроцедураПисатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процедура писатель</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="7bae5ebc-85a5-43eb-8dfa-bc75cd54c013">
+      <name>ИндексКартинки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Индекс картинки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
   <forms uuid="0b2c1689-22ba-4ed6-80f3-10475f11db1a">

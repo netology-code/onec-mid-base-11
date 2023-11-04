@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <items xsi:type="form:FormField">
-    <name>ЭтоНаборыДополнительныхСведений</name>
+    <name>ВидСвойств</name>
     <id>71</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -9,14 +9,15 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ЭтоНаборыДополнительныхСведений</segments>
+      <segments>ВидСвойств</segments>
     </dataPath>
+    <shortcut>Ctrl+S</shortcut>
     <handlers>
       <event>OnChange</event>
-      <name>ЭтоНаборыДополнительныхСведенийПриИзменении</name>
+      <name>ВидСвойствПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ЭтоНаборыДополнительныхСведенийExtendedTooltip</name>
+      <name>ВидСвойствРасширеннаяПодсказка</name>
       <id>103</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -31,7 +32,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ЭтоНаборыДополнительныхСведенийКонтекстноеМеню</name>
+      <name>ВидСвойствКонтекстноеМеню</name>
       <id>72</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -59,15 +60,26 @@
           <key>ru</key>
           <value>Дополнительные реквизиты</value>
         </presentation>
-        <value xsi:type="core:BooleanValue"/>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыСвойств.EnumValue.ДополнительныеРеквизиты</value>
+        </value>
       </choiceList>
       <choiceList>
         <presentation>
           <key>ru</key>
           <value>Дополнительные сведения</value>
         </presentation>
-        <value xsi:type="core:BooleanValue">
-          <value>true</value>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыСвойств.EnumValue.ДополнительныеСведения</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>Метки</value>
+        </presentation>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыСвойств.EnumValue.Метки</value>
         </value>
       </choiceList>
       <backColor xsi:type="core:ColorRef">
@@ -120,6 +132,61 @@
       <items xsi:type="form:FormGroup">
         <name>Основная</name>
         <id>190</id>
+        <items xsi:type="form:FormField">
+          <name>ПолеПоиска</name>
+          <id>213</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПолеПоиска</segments>
+          </dataPath>
+          <titleLocation>None</titleLocation>
+          <extendedTooltip>
+            <name>ПолеПоискаРасширеннаяПодсказка</name>
+            <id>215</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ПолеПоискаКонтекстноеМеню</name>
+            <id>214</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <clearButton>true</clearButton>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+            <inputHint>
+              <key>ru</key>
+              <value>Поле поиска</value>
+            </inputHint>
+          </extInfo>
+        </items>
         <items xsi:type="form:Table">
           <name>НаборыСвойств</name>
           <id>1</id>
@@ -722,7 +789,7 @@
           <verticalStretch>true</verticalStretch>
           <enableStartDrag>true</enableStartDrag>
           <rowPictureDataPath xsi:type="form:DataPath">
-            <segments>НеиспользуемыеНаборы.DefaultPicture</segments>
+            <segments>НеиспользуемыеНаборы.НомерКартинки</segments>
           </rowPictureDataPath>
           <rowsPicture xsi:type="core:PictureRef">
             <picture>CommonPicture.ПиктограммыЭлементов</picture>
@@ -1588,11 +1655,12 @@
         <segments>Свойства.НомерКартинки</segments>
       </rowPictureDataPath>
       <rowsPicture xsi:type="core:PictureRef">
-        <picture>CommonPicture.ПиктограммыЭлементов</picture>
+        <picture>CommonPicture.ПиктограммыСвойств</picture>
       </rowsPicture>
       <backColor xsi:type="core:ColorRef">
         <color>Style.FormBackColor</color>
       </backColor>
+      <searchStringLocation>Top</searchStringLocation>
       <rowFilter xsi:type="core:UndefinedValue"/>
     </items>
     <visible>true</visible>
@@ -2018,66 +2086,6 @@
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
-    <items xsi:type="form:Button">
-      <name>СписокНайти</name>
-      <id>36</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>СписокНайтиExtendedTooltip</name>
-        <id>117</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>0</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
-    <items xsi:type="form:Button">
-      <name>СписокОтменитьПоиск</name>
-      <id>37</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>СписокОтменитьПоискExtendedTooltip</name>
-        <id>118</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>0</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаКнопокКопирование</name>
       <id>177</id>
@@ -2245,6 +2253,7 @@
   <excludedCommands>Change</excludedCommands>
   <excludedCommands>Find</excludedCommands>
   <excludedCommands>FindByCurrentValue</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -2270,7 +2279,13 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>НаборыСвойств.НаименованиеНаДругихЯзыках</segments>
+      <segments>НаборыСвойств.ЭтоСведения</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборыСвойств.ВидСвойств</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборыСвойств.КоличествоМеток</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборыСвойств.КоличествоРеквизитов</segments>
@@ -2287,9 +2302,6 @@
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборыСвойств.ЭтоГруппа</segments>
     </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>НаборыСвойств.ЭтоСведения</segments>
-    </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
@@ -2302,7 +2314,7 @@
 	НаборыПереопределяемый.Наименование КАК Наименование,
 	НаборыПереопределяемый.Используется КАК Используется,
 	ВЫРАЗИТЬ(&quot;&quot; КАК СТРОКА(150)) КАК Представление,
-	&amp;ЭтоНаборыДополнительныхСведений КАК ЭтоСведения,
+	&amp;ВидСвойств КАК ВидСвойств,
 	ВЫБОР
 		КОГДА НаборыПереопределяемый.ПометкаУдаления
 			ТОГДА 1
@@ -2313,7 +2325,8 @@
 		ИНАЧЕ 0
 	КОНЕЦ КАК НомерКартинки,
 	НаборыПереопределяемый.КоличествоРеквизитов КАК КоличествоРеквизитов,
-	НаборыПереопределяемый.КоличествоСведений КАК КоличествоСведений
+	НаборыПереопределяемый.КоличествоСведений КАК КоличествоСведений,
+	НаборыПереопределяемый.КоличествоМеток КАК КоличествоМеток
 ИЗ
 	Справочник.НаборыДополнительныхРеквизитовИСведений КАК НаборыПереопределяемый
 ГДЕ
@@ -2323,13 +2336,140 @@
 		ИНАЧЕ НаборыПереопределяемый.Родитель В (&amp;Наборы)
 	КОНЕЦ
 	И НаборыПереопределяемый.Используется
-	И ЕСТЬNULL(НаборыПереопределяемый.Родитель.Используется, ИСТИНА)</queryText>
+	И ЕСТЬNULL(НаборыПереопределяемый.Родитель.Используется, ИСТИНА)
+	И НЕ НаборыПереопределяемый.ПометкаУдаления</queryText>
       <mainTable>Catalog.НаборыДополнительныхРеквизитовИСведений</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВерсияДанных</dataPath>
+        <field>ВерсияДанных</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Предопределенный</dataPath>
+        <field>Предопределенный</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Родитель</dataPath>
+        <field>Родитель</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЭтоГруппа</dataPath>
+        <field>ЭтоГруппа</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наименование</dataPath>
+        <field>Наименование</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Используется</dataPath>
+        <field>Используется</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Представление</dataPath>
+        <field>Представление</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Представление</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НомерКартинки</dataPath>
+        <field>НомерКартинки</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Номер картинки</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КоличествоРеквизитов</dataPath>
+        <field>КоличествоРеквизитов</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КоличествоСведений</dataPath>
+        <field>КоличествоСведений</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КоличествоМеток</dataPath>
+        <field>КоличествоМеток</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИмяПредопределенногоНабора</dataPath>
+        <field>ИмяПредопределенногоНабора</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НаименованиеЯзык1</dataPath>
+        <field>НаименованиеЯзык1</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НаименованиеЯзык2</dataPath>
+        <field>НаименованиеЯзык2</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДополнительныеРеквизиты</dataPath>
+        <field>ДополнительныеРеквизиты</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДополнительныеСведения</dataPath>
+        <field>ДополнительныеСведения</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Представления</dataPath>
+        <field>Представления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИмяПредопределенныхДанных</dataPath>
+        <field>ИмяПредопределенныхДанных</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВидСвойств</dataPath>
+        <field>ВидСвойств</field>
+      </fields>
+      <parameters>
+        <name>Наборы</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Наборы</value>
+            </content>
+          </localValue>
+        </title>
+        <useRestriction>true</useRestriction>
+        <valueListAllowed>true</valueListAllowed>
+      </parameters>
+      <parameters>
+        <name>ВидСвойств</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Вид свойств</value>
+            </content>
+          </localValue>
+        </title>
+        <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
     </extInfo>
   </attributes>
   <attributes>
@@ -2449,7 +2589,7 @@
       <valueType>
         <types>Number</types>
         <numberQualifiers>
-          <precision>1</precision>
+          <precision>2</precision>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </valueType>
@@ -2514,12 +2654,25 @@
     </columns>
   </attributes>
   <attributes>
-    <name>ЭтоНаборыДополнительныхСведений</name>
+    <name>ВидСвойств</name>
     <title>
       <key>ru</key>
       <value>Показать</value>
     </title>
     <id>3</id>
+    <valueType>
+      <types>EnumRef.ВидыСвойств</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЭтоНаборыДополнительныхСведений</name>
+    <id>16</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -2669,17 +2822,68 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	ВЫБОР
-		КОГДА &amp;ЭтоДополнительноеСведение
-			ТОГДА &amp;ОбщиеДополнительныеСведения
-		ИНАЧЕ &amp;ОбщиеДополнительныеРеквизиты
-	КОНЕЦ КАК Представление,
+	&amp;ПредставлениеСписка КАК Представление,
 	0 КАК НомерКартинки</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Представление</dataPath>
+        <field>Представление</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Представление</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НомерКартинки</dataPath>
+        <field>НомерКартинки</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Номер картинки</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <parameters>
+        <name>ПредставлениеСписка</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Представление списка</value>
+            </content>
+          </localValue>
+        </title>
+        <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
     </extInfo>
+  </attributes>
+  <attributes>
+    <name>ПолеПоиска</name>
+    <title>
+      <key>ru</key>
+      <value>Поле поиска</value>
+    </title>
+    <id>15</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>ПереместитьВверх</name>

@@ -426,6 +426,7 @@
       <key>ru</key>
       <value>Наименование  (дополнительный язык)</value>
     </synonym>
+    <comment>АПК:58</comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -439,6 +440,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -452,6 +454,7 @@
       <key>ru</key>
       <value>Наименование (дополнительный язык 2)</value>
     </synonym>
+    <comment>АПК:58</comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -465,6 +468,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -532,6 +536,7 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -704,6 +709,36 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:BooleanValue"/>
     <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="73cc5b8b-4cba-4988-b2c6-d974dde9723d">
+    <name>ВидСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид свойств</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыСвойств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b9bbdb1-b8c0-4459-8b5c-656055482f00">
+    <name>ЦветСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет свойств</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЦветаСвойств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

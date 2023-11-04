@@ -284,7 +284,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="ec24df9c-d0cf-40b4-857d-d8ce21b0e1fa">
+    <attributes uuid="8e6fe1fb-3f24-49ca-bda2-75d73150c48a">
       <name>Скидка</name>
       <synonym>
         <key>ru</key>
@@ -399,7 +399,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="537e3112-0e4a-40d8-af2c-f78c53184e09">
+    <attributes uuid="08aeed50-9129-4979-acd5-f1b55212bb51">
       <name>Скидка</name>
       <synonym>
         <key>ru</key>

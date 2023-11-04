@@ -50,5 +50,14 @@
   <content>SessionParameter.ИнтерактивнаяПроверкаЗаполненияКонтактнойИнформации</content>
   <content>EventSubscription.КонтактнаяИнформацияОбработкаПроверкиЗаполнения</content>
   <content>ScheduledJob.ИсправлениеУстаревшихАдресов</content>
+  <content>CommonPicture.Адрес</content>
+  <content>CommonPicture.ЭлектроннаяПочта</content>
+  <content>CommonPicture.ВебСтраница</content>
+  <content>CommonPicture.ПоказатьНаКарте</content>
+  <content>CommonPicture.Другое</content>
+  <content>CommonPicture.Факс</content>
+  <content>CommonModule.УправлениеКонтактнойИнформациейЛокализация</content>
+  <content>CommonModule.РаботаСАдресамиПовтИсп</content>
+  <content>CommonPicture.КонтактнаяИнформацияОтправитьЭлектронноеПисьмо</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

@@ -245,7 +245,7 @@
     <rowPictureDataPath xsi:type="form:DataPath">
       <segments>СписокКодировок.Picture</segments>
     </rowPictureDataPath>
-    <searchStringLocation>None</searchStringLocation>
+    <searchStringLocation>Top</searchStringLocation>
     <viewStatusLocation>None</viewStatusLocation>
     <searchControlLocation>None</searchControlLocation>
   </items>
@@ -345,6 +345,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
