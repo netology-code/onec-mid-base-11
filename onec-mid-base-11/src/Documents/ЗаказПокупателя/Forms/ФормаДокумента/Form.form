@@ -211,6 +211,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.ДЗ_СогласованнаяСкидка</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ДЗ_СогласованнаяСкидкаПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ДЗ_СогласованнаяСкидкаРасширеннаяПодсказка</name>
             <id>174</id>
@@ -2059,6 +2063,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.МетаданныеПерерасчеты</picture>
     </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПересчитатьСкидку</name>
+      </handler>
+    </action>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
