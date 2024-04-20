@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d68e64e-43b3-4d2a-9ff3-5986fbb9baf5">
+  <producedTypes>
+    <objectType typeId="d511ff92-cd7b-421a-aba2-4ef729c4a4e3" valueTypeId="a2ec8111-c46b-4586-9838-ade3a46cede5"/>
+    <refType typeId="ddb46dc4-d96a-4dcd-92e4-0564665ae57c" valueTypeId="23e3cf6d-eb8f-4e76-8f1b-4c02854db18f"/>
+    <selectionType typeId="89d603eb-2db3-4d86-97c1-eb7276d1bdad" valueTypeId="ce75b4ad-275c-4d70-a94f-aea893ad999e"/>
+    <listType typeId="586f9f03-487e-4704-9f75-9eb8df326b51" valueTypeId="48c88af0-747b-4825-a49c-9740b71d0aaf"/>
+    <managerType typeId="abe721cc-9c81-4af9-ad9f-375a8922226c" valueTypeId="fb32e03c-b97a-4bd3-ace7-ef046bc7adcc"/>
+  </producedTypes>
+  <name>Нетология_КонтактныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Нетология_КонтактныеЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Нетология_КонтактныеЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Контактные Лица</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
