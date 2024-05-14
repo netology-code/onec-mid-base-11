@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0991d12c-99d8-4aab-8bc7-e0e0adab7b1d">
+  <producedTypes>
+    <objectType typeId="e67d7d86-bfe5-4237-8159-72962f290c36" valueTypeId="182d4d5b-d462-4818-b20b-8e65b144d785"/>
+    <refType typeId="3f9d8e52-64c3-4de3-8c75-c4f38174372e" valueTypeId="da8b369c-f100-4d82-87f3-8c693285499d"/>
+    <selectionType typeId="427e069c-44b4-4b82-b7f9-f90e5a54ffeb" valueTypeId="5418c773-559d-4422-8397-095bfb4630a9"/>
+    <listType typeId="c8a7a952-cd78-4d3a-94dd-173acfb97b02" valueTypeId="51208295-b810-40f8-afb5-e41d99b8f6ba"/>
+    <managerType typeId="ad920ae3-821e-4f80-af98-b966309003cb" valueTypeId="c64b6623-13af-448e-959c-995dd0429beb"/>
+  </producedTypes>
+  <name>KRV_Должность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KRV_Должность.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.KRV_Должность.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
