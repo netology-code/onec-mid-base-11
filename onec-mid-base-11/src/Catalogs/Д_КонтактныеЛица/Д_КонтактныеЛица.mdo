@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1744e15-0d2d-41cf-b8a3-aee36312995e">
+  <producedTypes>
+    <objectType typeId="523312eb-6bff-4ea1-a379-d586e4fc00e2" valueTypeId="0dc6a2a0-1968-4e43-a6ac-3e35ab0d5c4c"/>
+    <refType typeId="a27afdc2-175c-4c8c-a77d-718b9d9567a7" valueTypeId="7c7756d4-2a3b-4e88-abf4-b1e18c899c04"/>
+    <selectionType typeId="b5d09557-43b9-4a1b-b9c1-1262a1741288" valueTypeId="7aabbe6b-4136-440d-a2d5-b315c6933a23"/>
+    <listType typeId="717c017e-fcfc-407f-8469-e97a2427dbed" valueTypeId="b91978dc-189f-4b69-a0b9-b30ed9ea8015"/>
+    <managerType typeId="933cbc09-dd3d-45cf-87ee-347c7884e258" valueTypeId="7b24b8ae-727f-4b31-9a6d-ba72688a2e9b"/>
+  </producedTypes>
+  <name>Д_КонтактныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Д_КонтактныеЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Д_КонтактныеЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контактное лицо</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Контактные лица</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="837c9ed4-771a-401c-8c30-6672d80853e7">
+    <name>Д_КонтактныйТелефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактный телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
