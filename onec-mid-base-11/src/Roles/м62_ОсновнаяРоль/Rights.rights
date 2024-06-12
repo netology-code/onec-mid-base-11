@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Catalog.КонтактныеЛицаКонтрагента</name>
+		<name>Catalog.м62_КонтактныеЛицаКонтрагента</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -146,7 +146,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ДолжностиКонтрагента</name>
+		<name>Catalog.м62_ДолжностиКонтрагента</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
