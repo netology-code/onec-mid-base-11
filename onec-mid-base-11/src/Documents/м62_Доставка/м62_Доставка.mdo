@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.м62_Доставка.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="973dfb30-2f0b-4332-886f-975625f693ae">
@@ -134,4 +135,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="70d5ebac-3c0c-4781-a9b5-619d9ffefbfb">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="987b7f7a-fb16-44ac-a463-629fd6053af0">
+    <producedTypes>
+      <objectType typeId="9fe3b848-e8b3-4608-b0ad-c16685cd6fab" valueTypeId="154853d2-9c46-42c2-938b-182648bed638"/>
+      <rowType typeId="c07b1d19-2ab1-4cd4-8a03-25e5afb1094a" valueTypeId="4d150e95-969c-4b63-bd35-27996702d793"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+  </tabularSections>
 </mdclass:Document>
