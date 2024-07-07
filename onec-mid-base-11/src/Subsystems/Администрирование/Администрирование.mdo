@@ -68,4 +68,6 @@
   <content>CommonForm.ВосстановлениеПаролей</content>
   <content>Report.ПраваРолей</content>
   <content>Report.ДлительностьОтложенногоОбновления</content>
+  <content>Catalog.НК_Должности</content>
+  <content>Catalog.НК_КонтактныеЛица</content>
 </mdclass:Subsystem>
