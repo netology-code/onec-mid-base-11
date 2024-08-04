@@ -2065,7 +2065,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Перерасчет</name>
+        <name>Дораб_ПерерасчетПосле</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
