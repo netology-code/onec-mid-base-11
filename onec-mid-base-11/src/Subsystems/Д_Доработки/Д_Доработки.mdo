@@ -14,4 +14,5 @@
   <content>Document.ОплатаПоставщику</content>
   <content>Document.ПоступлениеТоваровУслуг</content>
   <content>Document.РеализацияТоваровУслуг</content>
+  <content>Document.Д_Доставка</content>
 </mdclass:Subsystem>
