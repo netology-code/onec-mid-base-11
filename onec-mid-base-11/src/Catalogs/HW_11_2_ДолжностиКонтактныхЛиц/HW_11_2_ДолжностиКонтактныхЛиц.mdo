@@ -23,6 +23,18 @@
     <key>ru</key>
     <value>Должности контактных лиц</value>
   </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Должности контактных лиц</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности контактных лиц</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Должности контактных лиц</value>
+  </extendedListPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
