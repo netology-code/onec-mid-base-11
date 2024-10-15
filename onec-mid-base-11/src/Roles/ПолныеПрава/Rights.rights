@@ -1108,6 +1108,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ДЗ_13_7_КонтактныеЛица</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ВерсииПодсистем</name>
 		<right>
 			<name>Update</name>
@@ -1549,6 +1560,17 @@
 		</right>
 		<right>
 			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ДЗ_13_7_Должности</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>
 	</object>
