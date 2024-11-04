@@ -12,7 +12,6 @@
   <content>Catalog.НоменклатурныеГруппы</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>Catalog.Организации</content>
-  <content>Catalog.АЗ_КонтактныеЛица</content>
   <content>Catalog.АЗ_Должности</content>
   <parentSubsystem>Subsystem.ПокупкиИПродажи</parentSubsystem>
 </mdclass:Subsystem>
