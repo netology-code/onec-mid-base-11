@@ -5,4 +5,6 @@
     <key>ru</key>
     <value>Доработка</value>
   </synonym>
+  <content>Catalog.ДК_КонтактныеЛица</content>
+  <content>Catalog.ДК_Должности</content>
 </mdclass:Subsystem>
