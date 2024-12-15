@@ -265,7 +265,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>РеквизитыОбъектаСтрокаПоиска</source>
+          <source>РеквизитыОбъекта</source>
           <groupHorizontalAlign>Right</groupHorizontalAlign>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <width>30</width>
@@ -555,7 +555,7 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
-                  <source>РеквизитыОбъектаСтрокаПоиска</source>
+                  <source>РеквизитыОбъекта</source>
                   <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -594,7 +594,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>ViewStatusAddition</type>
-                  <source>РеквизитыОбъектаСостояниеПросмотра</source>
+                  <source>РеквизитыОбъекта</source>
                   <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -633,7 +633,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>SearchControlAddition</type>
-                  <source>РеквизитыОбъектаУправлениеПоиском</source>
+                  <source>РеквизитыОбъекта</source>
                   <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -1139,7 +1139,7 @@
                       </userVisible>
                       <autoFill>true</autoFill>
                     </contextMenu>
-                    <source>РеквизитыОбъектаАлгоритмСтрокаПоиска</source>
+                    <source>РеквизитыОбъектаАлгоритм</source>
                     <groupHorizontalAlign>Right</groupHorizontalAlign>
                     <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                       <width>20</width>
@@ -1405,7 +1405,7 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
-                  <source>РеквизитыОбъектаАлгоритмСтрокаПоиска</source>
+                  <source>РеквизитыОбъектаАлгоритм</source>
                   <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -1444,7 +1444,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>ViewStatusAddition</type>
-                  <source>РеквизитыОбъектаАлгоритмСостояниеПросмотра</source>
+                  <source>РеквизитыОбъектаАлгоритм</source>
                   <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -1483,7 +1483,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>SearchControlAddition</type>
-                  <source>РеквизитыОбъектаАлгоритмУправлениеПоиском</source>
+                  <source>РеквизитыОбъектаАлгоритм</source>
                   <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -2390,7 +2390,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>ОбъектыКоторыеНеУдалосьИзменитьСтрокаПоиска</source>
+            <source>ОбъектыКоторыеНеУдалосьИзменить</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2429,7 +2429,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>ОбъектыКоторыеНеУдалосьИзменитьСостояниеПросмотра</source>
+            <source>ОбъектыКоторыеНеУдалосьИзменить</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2468,7 +2468,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>ОбъектыКоторыеНеУдалосьИзменитьУправлениеПоиском</source>
+            <source>ОбъектыКоторыеНеУдалосьИзменить</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>

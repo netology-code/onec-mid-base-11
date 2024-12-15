@@ -1174,7 +1174,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>НайденныеДублиСтрокаПоиска</source>
+            <source>НайденныеДубли</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1213,7 +1213,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>НайденныеДублиСостояниеПросмотра</source>
+            <source>НайденныеДубли</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1252,7 +1252,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>НайденныеДублиУправлениеПоиском</source>
+            <source>НайденныеДубли</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1662,7 +1662,7 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
-                  <source>МестаИспользованияКандидатаСтрокаПоиска</source>
+                  <source>МестаИспользованияКандидата</source>
                   <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -1701,7 +1701,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>ViewStatusAddition</type>
-                  <source>МестаИспользованияКандидатаСостояниеПросмотра</source>
+                  <source>МестаИспользованияКандидата</source>
                   <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -1740,7 +1740,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>SearchControlAddition</type>
-                  <source>МестаИспользованияКандидатаУправлениеПоиском</source>
+                  <source>МестаИспользованияКандидата</source>
                   <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -2827,7 +2827,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>ВозможныеДублиСтрокаПоиска</source>
+            <source>ВозможныеДубли</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2866,7 +2866,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>ВозможныеДублиСостояниеПросмотра</source>
+            <source>ВозможныеДубли</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2905,7 +2905,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>ВозможныеДублиУправлениеПоиском</source>
+            <source>ВозможныеДубли</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -3406,7 +3406,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>НеобработанныеДублиСтрокаПоиска</source>
+              <source>НеобработанныеДубли</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3445,7 +3445,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>НеобработанныеДублиСостояниеПросмотра</source>
+              <source>НеобработанныеДубли</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3484,7 +3484,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>НеобработанныеДублиУправлениеПоиском</source>
+              <source>НеобработанныеДубли</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3857,7 +3857,7 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
-                  <source>МестаИспользованияНеобработанныхСтрокаПоиска</source>
+                  <source>МестаИспользованияНеобработанных</source>
                   <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -3896,7 +3896,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>ViewStatusAddition</type>
-                  <source>МестаИспользованияНеобработанныхСостояниеПросмотра</source>
+                  <source>МестаИспользованияНеобработанных</source>
                   <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -3935,7 +3935,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>SearchControlAddition</type>
-                  <source>МестаИспользованияНеобработанныхУправлениеПоиском</source>
+                  <source>МестаИспользованияНеобработанных</source>
                   <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>

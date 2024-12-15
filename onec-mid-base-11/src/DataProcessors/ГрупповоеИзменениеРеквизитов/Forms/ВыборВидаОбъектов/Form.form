@@ -217,7 +217,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ДоступныеОбъектыДляИзмененияСтрокаПоиска</source>
+      <source>ДоступныеОбъектыДляИзменения</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -256,7 +256,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ДоступныеОбъектыДляИзмененияСостояниеПросмотра</source>
+      <source>ДоступныеОбъектыДляИзменения</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -295,7 +295,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ДоступныеОбъектыДляИзмененияУправлениеПоиском</source>
+      <source>ДоступныеОбъектыДляИзменения</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -444,7 +444,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ДоступныеОбъектыДляИзмененияСтрокаПоиска</source>
+      <source>ДоступныеОбъектыДляИзменения</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

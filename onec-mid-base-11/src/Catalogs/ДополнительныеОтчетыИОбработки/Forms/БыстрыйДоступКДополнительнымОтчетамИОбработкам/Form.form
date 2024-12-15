@@ -193,7 +193,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>ВсеПользователиСтрокаПоиска</source>
+        <source>ВсеПользователи</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -232,7 +232,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>ВсеПользователиСостояниеПросмотра</source>
+        <source>ВсеПользователи</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -271,7 +271,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>ВсеПользователиУправлениеПоиском</source>
+        <source>ВсеПользователи</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -672,7 +672,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>ПользователиКороткогоСпискаСтрокаПоиска</source>
+        <source>ПользователиКороткогоСписка</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -711,7 +711,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>ПользователиКороткогоСпискаСостояниеПросмотра</source>
+        <source>ПользователиКороткогоСписка</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -750,7 +750,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>ПользователиКороткогоСпискаУправлениеПоиском</source>
+        <source>ПользователиКороткогоСписка</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

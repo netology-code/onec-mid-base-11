@@ -369,7 +369,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>НаборыСвойствСтрокаПоиска</source>
+            <source>НаборыСвойств</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -408,7 +408,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>НаборыСвойствСостояниеПросмотра</source>
+            <source>НаборыСвойств</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -447,7 +447,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>НаборыСвойствУправлениеПоиском</source>
+            <source>НаборыСвойств</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -664,7 +664,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>НеиспользуемыеНаборыСтрокаПоиска</source>
+            <source>НеиспользуемыеНаборы</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -703,7 +703,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>НеиспользуемыеНаборыСостояниеПросмотра</source>
+            <source>НеиспользуемыеНаборы</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -742,7 +742,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>НеиспользуемыеНаборыУправлениеПоиском</source>
+            <source>НеиспользуемыеНаборы</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1250,7 +1250,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>СвойстваСтрокаПоиска</source>
+        <source>Свойства</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1289,7 +1289,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>СвойстваСостояниеПросмотра</source>
+        <source>Свойства</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1328,7 +1328,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>СвойстваУправлениеПоиском</source>
+        <source>Свойства</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
