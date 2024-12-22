@@ -11,6 +11,7 @@
   <type>
     <types>CatalogObject.ДоговорыКонтрагентовПрисоединенныеФайлы</types>
     <types>CatalogObject.ВерсииФайлов</types>
+    <types>CatalogObject.ДР_ДоставкаПрисоединенныеФайлы</types>
     <types>CatalogObject.ПоступлениеТоваровУслугПрисоединенныеФайлы</types>
     <types>CatalogObject.ОрганизацииПрисоединенныеФайлы</types>
     <types>CatalogObject.ЗаказПокупателяПрисоединенныеФайлы</types>

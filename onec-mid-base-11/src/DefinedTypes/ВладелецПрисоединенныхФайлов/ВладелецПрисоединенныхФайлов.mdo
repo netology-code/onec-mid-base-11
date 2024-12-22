@@ -13,6 +13,7 @@
     <types>CatalogRef.ПапкиФайлов</types>
     <types>DocumentRef.ЗаказПокупателя</types>
     <types>CatalogRef.Организации</types>
+    <types>DocumentRef.Доставка</types>
     <types>DocumentRef.ПоступлениеТоваровУслуг</types>
     <types>CatalogRef.ДоговорыКонтрагентов</types>
     <types>DocumentRef.РеализацияТоваровУслуг</types>

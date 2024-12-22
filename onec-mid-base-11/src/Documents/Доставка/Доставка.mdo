@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e40dc59e-bc35-4cc9-ae86-fbe73017bc40">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40ccdc8f-c6b7-4e1c-ae71-45ae9320d927">
   <producedTypes>
-    <objectType typeId="bce78e09-45a7-43e6-a379-ecf48e6a8e68" valueTypeId="eae677bc-b997-4b3b-8458-9959c2675f57"/>
-    <refType typeId="d65787dc-97c4-45b4-b82a-f8be9bd64fa1" valueTypeId="804c5e89-caa6-4d86-9b86-6ac133de64a1"/>
-    <selectionType typeId="4db25e35-cca7-4a0b-857e-f23245677d8c" valueTypeId="c6ee6b77-eb2a-44e6-a9dd-ceb3fff0fc10"/>
-    <listType typeId="dd6c9fe2-b7f1-438f-9957-d6a37de2515e" valueTypeId="0c6022fc-cbbe-4bcb-b60d-4d399302307b"/>
-    <managerType typeId="4409ac07-53f9-40aa-88f9-2aa3d89a69e9" valueTypeId="901c7062-820b-4636-9880-243f428b1f20"/>
+    <objectType typeId="5f00afd3-763d-4970-a2f8-31e874674403" valueTypeId="60131038-c762-416c-98d6-65421b3e51d5"/>
+    <refType typeId="86ce9d5d-524c-4725-bcf8-04dfa4214bc8" valueTypeId="d1055b56-6ee5-4136-8da6-67fedee1bc39"/>
+    <selectionType typeId="16edb492-1ac1-42e2-ba4c-aba1cd0f705f" valueTypeId="5e5f3884-426e-4af5-8bee-2d6340372681"/>
+    <listType typeId="c5e79be0-d63a-487d-8bdb-65d8d7e34581" valueTypeId="bd35c100-4146-483a-bfcd-a4548d1437c8"/>
+    <managerType typeId="b3dd2a2a-6dc2-49d4-8598-6ba875b2c6a3" valueTypeId="ea944a00-3f4c-40ab-99ea-a1e202d6ed95"/>
   </producedTypes>
-  <name>ОплатаОтПокупателя</name>
+  <name>Доставка</name>
   <synonym>
     <key>ru</key>
-    <value>Оплата от покупателя</value>
+    <value>Доставка</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ОплатаОтПокупателя.StandardAttribute.Number</inputByString>
+  <inputByString>Document.Доставка.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -56,25 +56,24 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <basedOn>Document.РеализацияТоваровУслуг</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <listPresentation>
+  <objectPresentation>
     <key>ru</key>
-    <value>Оплаты от покупателей</value>
-  </listPresentation>
+    <value>Доставка</value>
+  </objectPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ОплатаОтПокупателя.Form.ФормаДокумента</defaultObjectForm>
-  <defaultListForm>Document.ОплатаОтПокупателя.Form.ФормаСписка</defaultListForm>
-  <registerRecords>AccumulationRegister.ОбработкаЗаказов</registerRecords>
-  <registerRecords>AccumulationRegister.ЗадолженностьПокупателей</registerRecords>
+  <defaultObjectForm>Document.Доставка.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Доставка.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="ffb63700-9850-4f22-9f60-d68701c162e8">
+  <attributes uuid="54b4425f-f88a-4956-bbf2-0001e875b97d">
     <name>Организация</name>
     <synonym>
       <key>ru</key>
@@ -85,13 +84,11 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="e0a9762d-88b3-4450-afe4-34c7971fd1f9">
+  <attributes uuid="8e5b9223-d364-4aaa-ac0b-3e2d187f7ce4">
     <name>Контрагент</name>
     <synonym>
       <key>ru</key>
@@ -102,13 +99,11 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="e92e29a2-fe97-4610-979c-583aeb509f2e">
+  <attributes uuid="f6b002ad-ea9d-4c5f-bd58-5b813db56b7a">
     <name>Договор</name>
     <synonym>
       <key>ru</key>
@@ -119,63 +114,46 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <choiceParameterLinks>
-      <name>Отбор.Владелец</name>
-      <field>Document.ОплатаОтПокупателя.Attribute.Контрагент</field>
-    </choiceParameterLinks>
-    <choiceParameterLinks>
-      <name>Отбор.Организация</name>
-      <field>Document.ОплатаОтПокупателя.Attribute.Организация</field>
-    </choiceParameterLinks>
-    <choiceParameters>
-      <name>Отбор.ВидДоговора</name>
-      <value xsi:type="core:ReferenceValue">
-        <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.Поставщик</value>
-      </value>
-    </choiceParameters>
-    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="ecfc8732-da6f-44c7-82b8-c9b0a6e2edb8">
-    <name>СуммаДокумента</name>
+  <attributes uuid="ac949d1d-eb80-4da6-8acc-b9a2dedacd69">
+    <name>АдресДоставки</name>
     <synonym>
       <key>ru</key>
-      <value>Сумма документа</value>
+      <value>Адрес доставки</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-      </numberQualifiers>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="b6350e86-8ecd-4122-9f40-f35773e0be7c">
+  <attributes uuid="f08746e7-812d-4592-a6af-fe1e549f8191">
     <name>Основание</name>
     <synonym>
       <key>ru</key>
       <value>Основание</value>
     </synonym>
     <type>
-      <types>DocumentRef.ЗаказПокупателя</types>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="74e9640d-56f0-429b-8aa4-d41c0fafd7bd">
+  <attributes uuid="164b3163-08cf-4a1f-887d-81d034c057fd">
     <name>Ответственный</name>
     <synonym>
       <key>ru</key>
@@ -190,7 +168,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="d778aa11-8463-49ab-b360-5db8f5ca1ce5">
+  <attributes uuid="2bccb300-7a9f-404c-a5ff-ad4923849ef8">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -200,49 +178,14 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="310411be-6d41-4806-b3be-17f009338be0">
-    <name>КонтактныеЛица</name>
-    <synonym>
-      <key>ru</key>
-      <value>Контактные лица</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.КонтактныеЛица</types>
-    </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="25b0a780-0067-4ac8-b684-f1decb0d6090">
-    <name>КонтактноеЛицо</name>
-    <synonym>
-      <key>ru</key>
-      <value>Контактное лицо</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.КонтактныеЛица</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameterLinks>
-      <name>Отбор.Владелец</name>
-      <field>Document.ОплатаОтПокупателя.Attribute.Контрагент</field>
-    </choiceParameterLinks>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="976f23f0-3fb8-45d3-9d21-0aa14380fea2">
+  <forms uuid="f8de1231-ed65-438f-9388-e547b65831fa">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -251,7 +194,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="f3fb61f8-c005-42cf-b246-9ed2141096ef">
+  <forms uuid="9ffc42c8-0424-44d8-ab98-3833ffb9133d">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -260,4 +203,76 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <tabularSections uuid="00608687-8920-4d6a-be94-0125cf483b60">
+    <producedTypes>
+      <objectType typeId="64cf5e99-4a3b-4ad3-92e4-a707e9f8bad7" valueTypeId="b4b40d36-00d2-4076-97b5-625a04e47a4e"/>
+      <rowType typeId="24ec685e-5945-40b3-930a-cc758426f113" valueTypeId="26629a00-1be6-4388-8ade-17ab6c73e4b2"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="7f30c7e0-815a-41d2-bc8e-826c879949b9">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="43493f05-b63c-4034-b50d-839d3e271f1f">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="0d9ea6ce-c27d-49b9-a5c0-cf657e3b06b8">
+    <name>ПФ_MXL_АнкетаДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анкета доставки</value>
+    </synonym>
+  </templates>
+  <templates uuid="5c62143a-dbe9-4ed3-a2aa-d5d595fb1b9f">
+    <name>ПФ_MXL_ТранспортнаяНакладная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортная накладная</value>
+    </synonym>
+  </templates>
+  <templates uuid="03640912-0f30-4290-a53a-dc8a94a6e530">
+    <name>ПФ_DOC_ДоговорДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор доставки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
 </mdclass:Document>

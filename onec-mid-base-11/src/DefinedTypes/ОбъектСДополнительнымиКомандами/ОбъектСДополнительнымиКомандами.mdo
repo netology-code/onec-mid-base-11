@@ -9,6 +9,6 @@
     <value>Объект с дополнительными командами</value>
   </synonym>
   <type>
-    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>DocumentRef.ЗаказПокупателя</types>
   </type>
 </mdclass:DefinedType>
