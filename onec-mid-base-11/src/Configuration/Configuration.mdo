@@ -880,6 +880,7 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
+  <commonModules>CommonModule.ДЗ_РаботаСФормами</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
