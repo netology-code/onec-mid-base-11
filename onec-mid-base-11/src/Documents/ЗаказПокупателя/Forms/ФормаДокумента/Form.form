@@ -1786,12 +1786,16 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <maxHeight>1</maxHeight>
+        <verticalStretch>false</verticalStretch>
         <wrap>true</wrap>
+        <multiLine>false</multiLine>
+        <choiceListHeight>1</choiceListHeight>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <heightControlVariant>ByContent</heightControlVariant>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1824,7 +1828,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
+      <group>Vertical</group>
       <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
