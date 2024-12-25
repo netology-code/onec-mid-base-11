@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0046ef08-46cb-4073-85e7-93daa98c8279">
+  <producedTypes>
+    <objectType typeId="3a7bcd39-60b5-4134-b769-0dc60737d104" valueTypeId="c102a9b4-1e20-4753-8ee9-6b20eb52997b"/>
+    <refType typeId="25e0313e-bc19-4edc-a15b-dc3edc7e8b5e" valueTypeId="ec1d670b-1e48-4542-80f1-e195b079a6ad"/>
+    <selectionType typeId="c1d90e2f-fce4-4653-8956-ee5439aad3e6" valueTypeId="1fab8d3b-6659-45be-89f3-8b0010b6ec48"/>
+    <listType typeId="b833c2b7-4ae4-46c6-95bc-b2a21299ae54" valueTypeId="b46a118a-792a-4162-8e3d-236cad06fdb0"/>
+    <managerType typeId="e2ac0604-b8fb-42e0-9abb-667b5d12cbc4" valueTypeId="315c964b-9ea3-4dda-a141-f3d4a8637462"/>
+  </producedTypes>
+  <name>ОД_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <comment>Добавлен в рамках ДЗ 11-2 &quot;Внесение изменений в конфигурацию на поддержке&quot;</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОД_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ОД_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
