@@ -195,10 +195,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="a2ad386a-6f7d-45c4-be4b-36113447f805">
-    <name>КонтактноеЛицо</name>
+    <name>Zhuck_КонтактноеЛицо</name>
     <synonym>
       <key>ru</key>
-      <value>Контактное лицо</value>
+      <value>Zhuck контактное лицо</value>
     </synonym>
     <type>
       <types>CatalogRef.Zhuck_КонтакнтыеЛица</types>
