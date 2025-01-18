@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ДЗ_Должность</content>
+  <content>Catalog.ДЗ_КонтактноеЛицо</content>
 </mdclass:Subsystem>
