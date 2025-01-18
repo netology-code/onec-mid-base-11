@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e660f78-6f12-4fd0-885e-cda4b6aaa741">
+  <producedTypes>
+    <objectType typeId="2f274564-7a85-4e3e-aa94-086e870419be" valueTypeId="8358e777-48cd-4c59-8a5c-446bd05e4813"/>
+    <refType typeId="21354277-2486-4977-b67a-5cdb0550ee43" valueTypeId="9beff801-3d58-4a06-9cc6-595a3218a147"/>
+    <selectionType typeId="76624a21-53d7-453c-a2ca-339249a224a9" valueTypeId="96a8a73d-0692-45b7-8692-bc50993e7cd1"/>
+    <listType typeId="ba92af75-4ce6-42ce-9af1-6ba44bbb6e77" valueTypeId="78b891b2-7e8a-4665-93cc-4d9bf850c1bf"/>
+    <managerType typeId="5ce821ba-9700-447e-b460-f2d1609c13de" valueTypeId="b9761899-2338-4c43-9e0a-5821c0fc97a7"/>
+  </producedTypes>
+  <name>ДЗ_Должность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДЗ_Должность.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДЗ_Должность.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
