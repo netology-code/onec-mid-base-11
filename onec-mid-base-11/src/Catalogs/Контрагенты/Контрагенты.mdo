@@ -10,7 +10,7 @@
   <name>Контрагенты</name>
   <synonym>
     <key>ru</key>
-    <value>Контрагенты</value>
+    <value>Контрагент</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
