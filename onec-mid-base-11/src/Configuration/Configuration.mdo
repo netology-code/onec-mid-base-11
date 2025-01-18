@@ -53,7 +53,6 @@
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
-  <subsystems>Subsystem.ДЗ_Доработки</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
   <styleItems>StyleItem.ВычисленноеПравоДоступаЦвет</styleItems>

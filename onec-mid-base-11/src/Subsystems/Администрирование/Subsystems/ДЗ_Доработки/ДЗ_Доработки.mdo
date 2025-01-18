@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="147b6ebf-d1b7-4de8-a88d-aa3974e54fd6">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a80c8aa-9978-47da-a831-9c6b409d6039">
   <name>ДЗ_Доработки</name>
   <synonym>
     <key>ru</key>
@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ДЗ_Должность</content>
   <content>Catalog.ДЗ_КонтактноеЛицо</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

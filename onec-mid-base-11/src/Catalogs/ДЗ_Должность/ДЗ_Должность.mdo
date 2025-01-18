@@ -13,7 +13,6 @@
     <value>Должность</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ДЗ_Должность.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.ДЗ_Должность.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
@@ -37,12 +36,9 @@
   </extendedListPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
   <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
-  <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
