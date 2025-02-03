@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="940c1b86-5828-4a2b-89f9-9f91f99bd513">
+  <name>ДК_Доработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доработки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ДК_Должности</content>
+  <content>Catalog.ДК_КонтактныеЛица</content>
+</mdclass:Subsystem>
