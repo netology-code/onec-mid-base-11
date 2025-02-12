@@ -386,6 +386,12 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <choiceParameterLinks>
+            <name>Отбор.Владелец</name>
+            <datapath xsi:type="form:DataPath">
+              <segments>Объект.Контрагент</segments>
+            </datapath>
+          </choiceParameterLinks>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -478,6 +484,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.СогласованнаяСкидка</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>СогласованнаяСкидкаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>СогласованнаяСкидкаРасширеннаяПодсказка</name>
         <id>168</id>
@@ -2056,6 +2066,11 @@
     <use>
       <common>true</common>
     </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПересчетТабличнойЧасти</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
