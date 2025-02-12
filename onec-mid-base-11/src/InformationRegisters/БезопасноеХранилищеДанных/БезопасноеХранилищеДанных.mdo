@@ -49,6 +49,10 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Безопасное хранилище данных</value>
+  </recordPresentation>
   <resources uuid="bb7cf0f8-56b0-4c0d-b206-79051ba83f6d">
     <name>Данные</name>
     <synonym>
