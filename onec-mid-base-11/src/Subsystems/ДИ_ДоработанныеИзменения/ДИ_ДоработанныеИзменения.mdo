@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9090bcf-c684-4591-ac6e-bb81a10c26fb">
+  <name>ДИ_ДоработанныеИзменения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доработанные изменения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+</mdclass:Subsystem>
