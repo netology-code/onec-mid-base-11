@@ -1215,6 +1215,7 @@
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ДИ_Должности</catalogs>
+  <catalogs>Catalog.ДИ_КонтактныеЛица</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
