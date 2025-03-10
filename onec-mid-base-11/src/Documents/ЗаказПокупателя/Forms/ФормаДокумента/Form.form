@@ -208,6 +208,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.ДИ_СогласоаннаяСкидка</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ДИ_СогласоаннаяСкидкаПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ДИ_СогласоаннаяСкидкаРасширеннаяПодсказка</name>
           <id>171</id>
@@ -246,6 +250,37 @@
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
         </extInfo>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ПересчитатьСоСкидкой</name>
+        <id>172</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ПересчитатьСоСкидкойРасширеннаяПодсказка</name>
+          <id>173</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualButton</type>
+        <commandName>Form.Command.ПересчитатьСоСкидкой</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1984,6 +2019,23 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <formCommands>
+    <name>ПересчитатьСоСкидкой</name>
+    <title>
+      <key>ru</key>
+      <value>Пересчитать со скидкой</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПересчитатьСоСкидкой</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
