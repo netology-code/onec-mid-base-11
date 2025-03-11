@@ -298,19 +298,19 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>КонтрагентДИ_КонтактноеЛицо</name>
-    <id>27</id>
+    <name>ДИ_КонтактноеЛицо</name>
+    <id>30</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Контрагент.ДИ_КонтактноеЛицо</segments>
+      <segments>Объект.ДИ_КонтактноеЛицо</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КонтрагентДИ_КонтактноеЛицоРасширеннаяПодсказка</name>
-      <id>29</id>
+      <name>ДИ_КонтактноеЛицоРасширеннаяПодсказка</name>
+      <id>32</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -324,8 +324,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>КонтрагентДИ_КонтактноеЛицоКонтекстноеМеню</name>
-      <id>28</id>
+      <name>ДИ_КонтактноеЛицоКонтекстноеМеню</name>
+      <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
