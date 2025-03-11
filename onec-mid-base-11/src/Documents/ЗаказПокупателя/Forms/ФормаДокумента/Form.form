@@ -198,7 +198,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>ДИ_СогласоаннаяСкидка</name>
+        <name>ДИ_СогласованнаяСкидка</name>
         <id>169</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -206,14 +206,14 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ДИ_СогласоаннаяСкидка</segments>
+          <segments>Объект.ДИ_СогласованнаяСкидка</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
           <name>ДИ_СогласоаннаяСкидкаПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ДИ_СогласоаннаяСкидкаРасширеннаяПодсказка</name>
+          <name>ДИ_СогласованнаяСкидкаРасширеннаяПодсказка</name>
           <id>171</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -228,7 +228,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДИ_СогласоаннаяСкидкаКонтекстноеМеню</name>
+          <name>ДИ_СогласованнаяСкидкаКонтекстноеМеню</name>
           <id>170</id>
           <visible>true</visible>
           <enabled>true</enabled>

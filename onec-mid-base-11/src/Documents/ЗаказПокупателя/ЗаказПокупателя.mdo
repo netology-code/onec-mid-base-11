@@ -194,7 +194,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="8c73907a-2c5b-49ed-bee2-1b21b6d29221">
-    <name>ДИ_СогласоаннаяСкидка</name>
+    <name>ДИ_СогласованнаяСкидка</name>
     <synonym>
       <key>ru</key>
       <value>Согласоанная скидка</value>
