@@ -195,10 +195,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="c0df04fd-c864-49d1-8fa2-4ea7c8c4b2b2">
-    <name>КонтактнноеЛицо</name>
+    <name>КонтактноеЛицо</name>
     <synonym>
       <key>ru</key>
-      <value>Контактнное лицо</value>
+      <value>Контактное лицо</value>
     </synonym>
     <type>
       <types>CatalogRef.КонтактныеЛица</types>
