@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb8e2f7d-43a5-47a2-96b5-15b530292738">
+  <name>юб_Доработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доработка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.юб_ДоработкаФормДокументов</content>
+  <content>Catalog.юб_Должности</content>
+  <content>Catalog.юб_КонтактныеЛица</content>
+</mdclass:Subsystem>
