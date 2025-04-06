@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0a135f9-de25-498a-9fba-e7918e17673b">
+  <producedTypes>
+    <objectType typeId="73df12a1-cc99-45c9-b6d2-32964a1b16c6" valueTypeId="a788bd2a-b2c5-4a78-8e5c-f9e9cda4a16e"/>
+    <refType typeId="5c616f58-6358-4c65-a03c-8995b738c994" valueTypeId="f86a4cb3-2c0d-4fb2-b56f-fcc400b03e9d"/>
+    <selectionType typeId="4876e96f-1660-4b5d-863c-7c29f8be9af5" valueTypeId="dc0d12f4-c2a8-4ce2-b964-96340765e6e6"/>
+    <listType typeId="2cf7ddfe-8f16-46db-a79b-ab6f2e6c4938" valueTypeId="b54e0cc2-7641-4175-9362-c1efc0125b4f"/>
+    <managerType typeId="e9b6f96c-6ad3-416f-a9c4-b4c0bb428f95" valueTypeId="f69f5e1d-0187-417b-a35b-113b87841c78"/>
+  </producedTypes>
+  <name>ДЗ_КонтактныеЛицаКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДЗ_КонтактныеЛицаКонтрагентов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДЗ_КонтактныеЛицаКонтрагентов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДЗ_КонтактныеЛицаКонтрагентов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ДЗ_КонтактныеЛицаКонтрагентов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ДЗ_КонтактныеЛицаКонтрагентов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="56864b84-b8a7-4339-ab13-48eeb47b321a">
+    <name>КонтактныйТелефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактный телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea08a065-078f-4d48-b036-4cb509d6b0dc">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДЗ_Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5f9973d0-9203-43f4-bccb-0754f1b97e97">
+    <name>ДействуетНаОсновании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует на основании</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5c68524d-4e6d-48c0-b9a1-dbad32aed581">
+    <name>Заметка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заметка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4b883f43-f438-4da5-9e0a-b51107a2ee91">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b6da354d-2983-4dea-bfb3-2360159b7897">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e3970808-7437-4dda-8465-0e6fa3afa5e7">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
