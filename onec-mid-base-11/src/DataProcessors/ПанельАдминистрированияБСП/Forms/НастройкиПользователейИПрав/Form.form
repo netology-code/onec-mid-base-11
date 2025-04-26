@@ -18,11 +18,6 @@
       <extendedTooltip>
         <name>ОписаниеРазделаExtendedTooltip</name>
         <id>2038</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -33,11 +28,6 @@
       <contextMenu>
         <name>ОписаниеРазделаКонтекстноеМеню</name>
         <id>2024</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>Label</type>
@@ -62,11 +52,6 @@
         <extendedTooltip>
           <name>СправкаExtendedTooltip</name>
           <id>2041</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -93,11 +78,6 @@
       <extendedTooltip>
         <name>ГруппаСправкаExtendedTooltip</name>
         <id>2040</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -122,11 +102,6 @@
     <extendedTooltip>
       <name>ГруппаЗаголовокExtendedTooltip</name>
       <id>2037</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -164,11 +139,6 @@
             <key>ru</key>
             <value>Ведение списка пользователей, которые работают с программой.</value>
           </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -213,11 +183,6 @@
         <extendedTooltip>
           <name>ИспользоватьГруппыПользователейExtendedTooltip</name>
           <id>2047</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -228,11 +193,6 @@
         <contextMenu>
           <name>ИспользоватьГруппыПользователейКонтекстноеМеню</name>
           <id>698</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>CheckBoxField</type>
@@ -273,11 +233,6 @@
           <extendedTooltip>
             <name>ИспользоватьВнешнихПользователейExtendedTooltip</name>
             <id>2072</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -288,11 +243,6 @@
           <contextMenu>
             <name>ИспользоватьВнешнихПользователейКонтекстноеМеню</name>
             <id>700</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>CheckBoxField</type>
@@ -317,11 +267,6 @@
               <key>ru</key>
               <value>Ведение списка внешних пользователей, которым предоставлен удаленный доступ к программе.</value>
             </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -350,11 +295,6 @@
         <extendedTooltip>
           <name>ГруппаВнешниеПользователиРасширеннаяПодсказка</name>
           <id>2070</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -389,11 +329,6 @@
       <extendedTooltip>
         <name>ГруппаПользователиИГруппыРасширеннаяПодсказка</name>
         <id>2043</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -428,11 +363,6 @@
             <key>ru</key>
             <value>Помощь при входе, восстановление паролей пользователей</value>
           </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -471,11 +401,6 @@
               <key>ru</key>
               <value>Сложность и смена паролей, ограничение работы неактивных пользователей.</value>
             </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -506,11 +431,6 @@
         <extendedTooltip>
           <name>ГруппаНастройкиВходаПользователейРасширеннаяПодсказка</name>
           <id>2143</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -542,11 +462,6 @@
             <key>ru</key>
             <value>Показывает текущие настройки прав доступа пользователей к таблицам информационной базы.</value>
           </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -575,11 +490,6 @@
       <extendedTooltip>
         <name>НастройкиВходаИОтчетПоПравамРасширеннаяПодсказка</name>
         <id>2242</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -608,11 +518,6 @@
     <extendedTooltip>
       <name>ГруппаПользователиРасширеннаяПодсказка</name>
       <id>2042</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -658,11 +563,6 @@
               <key>ru</key>
               <value>Групповая настройка прав доступа.</value>
             </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -703,11 +603,6 @@
           <extendedTooltip>
             <name>ОграничиватьДоступНаУровнеЗаписейExtendedTooltip</name>
             <id>2058</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
@@ -717,11 +612,6 @@
           <contextMenu>
             <name>ОграничиватьДоступНаУровнеЗаписейКонтекстноеМеню</name>
             <id>702</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>CheckBoxField</type>
@@ -745,11 +635,6 @@
         <extendedTooltip>
           <name>ГруппаГруппыДоступаИОграничениеНаУровнеЗаписейРасширеннаяПодсказка</name>
           <id>2177</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -784,11 +669,6 @@
               <key>ru</key>
               <value>Шаблоны настроек прав доступа пользователей.</value>
             </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -840,11 +720,6 @@
 не интенсивно, то производительный вариант не накладывает каких-либо дополнительных ограничений и
 ускорит просмотр списков и формирование отчетов по сравнению со стандартным вариантом.</value>
             </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -855,11 +730,6 @@
           <contextMenu>
             <name>ОграничиватьДоступНаУровнеЗаписейУниверсальноКонтекстноеМеню</name>
             <id>2237</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
@@ -906,11 +776,6 @@
           <extendedTooltip>
             <name>ОбновлениеДоступаНаУровнеЗаписейРасширеннаяПодсказка</name>
             <id>2220</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -941,11 +806,6 @@
         <extendedTooltip>
           <name>ГруппаПрофилиГруппДоступаРасширеннаяПодсказка</name>
           <id>2054</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -974,11 +834,6 @@
       <extendedTooltip>
         <name>ГруппаГруппыДоступаПрофилиИОграничениеНаУровнеЗаписейРасширеннаяПодсказка</name>
         <id>2049</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1008,11 +863,6 @@
     <extendedTooltip>
       <name>ГруппаГруппыДоступаРасширеннаяПодсказка</name>
       <id>2175</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1057,11 +907,6 @@
               <key>ru</key>
               <value>Копирование пользовательских настроек между учетными записями.</value>
             </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
@@ -1091,11 +936,6 @@
         <extendedTooltip>
           <name>ГруппаКопированиеНастроекПользователейExtendedTooltip</name>
           <id>2061</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1130,11 +970,6 @@
               <key>ru</key>
               <value>Управление пользовательскими настройками отчетов, внешнего вида программы и прочими настройками.</value>
             </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
@@ -1164,11 +999,6 @@
         <extendedTooltip>
           <name>ГруппаНастройкиПользователейExtendedTooltip</name>
           <id>2064</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1197,11 +1027,6 @@
       <extendedTooltip>
         <name>ГруппаРаботаСНастройкамиПользователейРасширеннаяПодсказка</name>
         <id>2060</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1237,11 +1062,6 @@
             <key>ru</key>
             <value>Удаление настроек у всех или выбранных пользователей.</value>
           </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
@@ -1271,11 +1091,6 @@
       <extendedTooltip>
         <name>ГруппаОчисткаНастроекПользователейExtendedTooltip</name>
         <id>2067</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1304,11 +1119,6 @@
     <extendedTooltip>
       <name>ГруппаПерсональныеНастройкиПользователейРасширеннаяПодсказка</name>
       <id>2195</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1361,11 +1171,6 @@
         <extendedTooltip>
           <name>ИспользоватьДатыЗапретаИзмененияРасширеннаяПодсказка</name>
           <id>2204</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1376,11 +1181,6 @@
         <contextMenu>
           <name>ИспользоватьДатыЗапретаИзмененияКонтекстноеМеню</name>
           <id>2203</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>CheckBoxField</type>
@@ -1409,11 +1209,6 @@
             <key>ru</key>
             <value>Настроить даты запрета изменения</value>
           </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1448,11 +1243,6 @@
       <extendedTooltip>
         <name>ГруппаДатыЗапретаИзмененияИспользованиеРасширеннаяПодсказка</name>
         <id>2201</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1482,11 +1272,6 @@
     <extendedTooltip>
       <name>ГруппаДатыЗапретаИзмененияРасширеннаяПодсказка</name>
       <id>2199</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1532,11 +1317,6 @@
               <key>ru</key>
               <value>Регистрация событий доступа в соответствии с требованиями Федерального закона от 27.07.2006 N152-ФЗ &quot;О персональных данных&quot;.</value>
             </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
@@ -1566,11 +1346,6 @@
         <extendedTooltip>
           <name>ГруппаОткрытьНастройкиРегистрацииСобытийДоступаКПерсональнымДаннымExtendedTooltip</name>
           <id>2212</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1614,11 +1389,6 @@
             <extendedTooltip>
               <name>ИспользоватьУничтожениеПерсональныхДанныхРасширеннаяПодсказка</name>
               <id>2229</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1629,11 +1399,6 @@
             <contextMenu>
               <name>ИспользоватьУничтожениеПерсональныхДанныхКонтекстноеМеню</name>
               <id>2228</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>CheckBoxField</type>
@@ -1657,11 +1422,6 @@
             <extendedTooltip>
               <name>ДекорацияОжиданиеИзмененияИспользованияУничтоженияПДнРасширеннаяПодсказка</name>
               <id>2235</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1672,11 +1432,6 @@
             <contextMenu>
               <name>ДекорацияОжиданиеИзмененияИспользованияУничтоженияПДнКонтекстноеМеню</name>
               <id>2234</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
             <width>2</width>
@@ -1708,11 +1463,6 @@
           <extendedTooltip>
             <name>ГруппаДнейДоУничтоженияРасширеннаяПодсказка</name>
             <id>2226</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1740,11 +1490,6 @@
         <extendedTooltip>
           <name>ГруппаУничтожениеПерсональныхДанныхИспользованиеРасширеннаяПодсказка</name>
           <id>2224</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1773,11 +1518,6 @@
       <extendedTooltip>
         <name>ГруппаНастройкиЗащитыПерсональныхДанныхРасширеннаяПодсказка</name>
         <id>2222</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1813,11 +1553,6 @@
             <key>ru</key>
             <value>Просмотр обращений к персональным данным выбранных объектов программы.</value>
           </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
@@ -1847,11 +1582,6 @@
       <extendedTooltip>
         <name>ГруппаОбработкаЗащитаПерсональныхДанныхExtendedTooltip</name>
         <id>2216</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1880,11 +1610,6 @@
     <extendedTooltip>
       <name>ГруппаЗащитаПерсональныхДанныхExtendedTooltip</name>
       <id>2210</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1910,11 +1635,6 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
