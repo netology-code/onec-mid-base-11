@@ -611,4 +611,16 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="6d95773b-8aae-467f-ac8d-f7c70c6de45c">
+    <name>Д_СписокКонтактов</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Д) Список контактов</value>
+    </synonym>
+    <group>FormNavigationPanelImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Контрагенты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>
