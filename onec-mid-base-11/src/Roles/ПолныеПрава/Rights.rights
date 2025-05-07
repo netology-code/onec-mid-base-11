@@ -1458,6 +1458,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ДК_Должности</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ОценкаПроизводительности.Command.ПодборЦелевогоВремени</name>
 		<right>
 			<name>View</name>
@@ -1491,6 +1502,29 @@
 		<name>DataProcessor.ОценкаПроизводительности.Command.ЭкспортЗамеровПроизводительности</name>
 		<right>
 			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ДК_КонтактныеЛица</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMarkPredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMarkPredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>false</value>
 		</right>
 	</object>
