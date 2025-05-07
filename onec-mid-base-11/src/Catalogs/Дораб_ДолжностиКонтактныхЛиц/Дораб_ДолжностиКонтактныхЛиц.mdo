@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c0f85de-b59d-4a41-8198-eaf354e11f30">
+  <producedTypes>
+    <objectType typeId="9e869450-9024-467d-8c2a-dc1ec460d30a" valueTypeId="da36a591-16a5-4bea-9f4c-1e05e9eade53"/>
+    <refType typeId="63e384bf-00dd-4c30-9cce-150503c2f1a2" valueTypeId="e86d1128-d4ac-49aa-b82d-7cf1692998a6"/>
+    <selectionType typeId="2aa14232-23ca-42bb-bf57-2c02ab4074be" valueTypeId="5fc68a7c-6fdc-4f79-bfc5-4f82cba64c6f"/>
+    <listType typeId="879410ef-565b-4f41-bdb6-f26789270f8c" valueTypeId="d84a45e3-b176-4df0-b947-d4972c3144e2"/>
+    <managerType typeId="aba20e22-38cf-4d7f-91fd-fadb16763b97" valueTypeId="ee665f03-74d3-4ce3-8ee9-7bef7a3b19b4"/>
+  </producedTypes>
+  <name>Дораб_ДолжностиКонтактныхЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности контактных лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Дораб_ДолжностиКонтактныхЛиц.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Дораб_ДолжностиКонтактныхЛиц.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности контактных лиц</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
