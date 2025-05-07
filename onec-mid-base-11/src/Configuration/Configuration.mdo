@@ -623,6 +623,7 @@
   <roles>Role.ЧтениеДополнительныхСведений</roles>
   <roles>Role.ЧтениеНСИ</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
+  <roles>Role.м62_ОсновнаяРоль</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
@@ -1213,11 +1214,14 @@
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
+  <catalogs>Catalog.м62_ДолжностиКонтрагента</catalogs>
+  <catalogs>Catalog.м62_КонтактныеЛицаКонтрагента</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
+  <documents>Document.м62_Доставка</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОтображенияМеток</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
