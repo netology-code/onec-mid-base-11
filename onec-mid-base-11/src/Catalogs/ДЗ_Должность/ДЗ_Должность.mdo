@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16c5ba3a-3f31-40bb-ad76-5959fe6b9ea3">
+  <producedTypes>
+    <objectType typeId="06201e9d-068f-44a1-972c-95be51a4bdb8" valueTypeId="44f27d75-002f-459b-bb20-0da52c5b839e"/>
+    <refType typeId="5d466820-d7e9-4ca1-8607-9cab9a4c4cec" valueTypeId="178a3db3-c9d0-441c-aece-d50b485abfec"/>
+    <selectionType typeId="30afa5ed-a38d-44ad-b6d2-199ff5f73a70" valueTypeId="ee7150df-976d-46cc-a6ff-0149ae9f8816"/>
+    <listType typeId="44fff09e-8467-4054-bc1d-2736fb5c79c2" valueTypeId="6979833a-c5d5-4c45-8973-e449523220e7"/>
+    <managerType typeId="2df46529-4622-40e4-b2e1-44a7a2839a06" valueTypeId="82808a16-12ff-4f13-bab0-2eae1ccc1caf"/>
+  </producedTypes>
+  <name>ДЗ_Должность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДЗ_Должность.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДЗ_Должность.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </extendedObjectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДЗ_Должность.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="c161823e-5fb5-4d0b-8a75-98e242b06901">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
