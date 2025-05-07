@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2b6b3dd-8f2d-4629-8a27-c29a54a997d1">
+  <producedTypes>
+    <objectType typeId="1e44b8a4-6d60-44e3-8321-7b67ef960b5f" valueTypeId="f2ac6509-e924-4d6e-93c1-d7401b95f928"/>
+    <refType typeId="1164751a-ea1b-47f2-8002-28a07a035691" valueTypeId="e9682fb4-3787-4ef3-89de-eaffdc05edfe"/>
+    <selectionType typeId="67fcfdd9-cafa-40fc-96fd-17e92083d4e4" valueTypeId="87b261f0-a4b9-4d8d-86eb-face53bdedca"/>
+    <listType typeId="bface226-57fc-4c72-83ed-ca1fa607930f" valueTypeId="1a19c3b1-a66d-4338-ac09-eb2cba2024bb"/>
+    <managerType typeId="34f4b8d3-f415-47db-b3b9-15b8214a264b" valueTypeId="5d4472ec-560d-46c1-91bd-1e7f665eb6f2"/>
+  </producedTypes>
+  <name>Zhuck_Должность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Zhuck должность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Zhuck_Должность.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Zhuck_Должность.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
