@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c64f78a3-d744-4328-af5c-7e1f1bd68f5f">
+  <name>TSV_РаботаСФормами</name>
+  <synonym>
+    <key>ru</key>
+    <value>TSV работа с формами</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>
