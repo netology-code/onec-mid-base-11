@@ -10,7 +10,7 @@
   <name>КЛ_КонтактныеЛица</name>
   <synonym>
     <key>ru</key>
-    <value>ФИО</value>
+    <value>Контактные лица</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.КЛ_КонтактныеЛица.StandardAttribute.Code</inputByString>
@@ -79,6 +79,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>

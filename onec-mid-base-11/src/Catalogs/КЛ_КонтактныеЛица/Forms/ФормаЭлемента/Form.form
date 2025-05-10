@@ -41,10 +41,6 @@
   <items xsi:type="form:FormField">
     <name>Наименование</name>
     <id>4</id>
-    <title>
-      <key>ru</key>
-      <value>ФИО</value>
-    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
