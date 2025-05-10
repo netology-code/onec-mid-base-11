@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="895b6f39-9258-433b-a28e-b8caa0e56e90">
+  <name>ДК_ЧтениеДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЧтениеДоставки</value>
+  </synonym>
+</mdclass:Role>
