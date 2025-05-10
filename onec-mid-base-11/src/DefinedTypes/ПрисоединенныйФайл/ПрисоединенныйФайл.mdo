@@ -11,6 +11,7 @@
   <type>
     <types>CatalogRef.ДоговорыКонтрагентовПрисоединенныеФайлы</types>
     <types>CatalogRef.РеализацияТоваровУслугПрисоединенныеФайлы</types>
+    <types>CatalogRef.ДК_ДоставкаПрисоединенныеФайлы</types>
     <types>CatalogRef.ПоступлениеТоваровУслугПрисоединенныеФайлы</types>
     <types>CatalogRef.ЗаказПокупателяПрисоединенныеФайлы</types>
     <types>CatalogRef.Файлы</types>
