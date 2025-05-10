@@ -2227,6 +2227,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ДК_Доставка</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.КаталогВременныхФайловДляWindows</name>
 		<right>
 			<name>Update</name>

@@ -1217,11 +1217,13 @@
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ДК_Должности</catalogs>
   <catalogs>Catalog.ДК_КонтактныеЛица</catalogs>
+  <catalogs>Catalog.ДК_ДоставкаПрисоединенныеФайлы</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
+  <documents>Document.ДК_Доставка</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОтображенияМеток</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
