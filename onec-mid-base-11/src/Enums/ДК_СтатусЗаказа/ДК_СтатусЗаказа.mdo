@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b11e1bb-ad94-4ccd-844b-3b4c3f33e6a5">
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a547ff5c-fe67-49ee-9263-17746d6650cd">
   <producedTypes>
-    <refType typeId="be5108e1-767e-4b47-a7e3-7ac824eae377" valueTypeId="0ef7dea9-eb6f-4198-87a3-13fc0a86adb5"/>
-    <listType typeId="3e8774db-24e5-4950-aa28-a6dba2fa942d" valueTypeId="6b86c04a-4df5-461c-bf4b-f5c6be8d1b50"/>
-    <managerType typeId="dd393522-60cb-423c-b8b0-3e3c48f12e12" valueTypeId="268ee241-7d44-4b74-bd84-414d92bf2dfa"/>
+    <refType typeId="2b0b0d39-21bd-4f76-b80e-3d2d1c484d6a" valueTypeId="e20b2bf0-1bc6-436a-9b1d-b29e5d9c4741"/>
+    <listType typeId="e2bb3f0c-2329-4f7e-98b2-b31ebd34d5c6" valueTypeId="3ccf889a-df4d-463a-9243-1a239ab8651b"/>
+    <managerType typeId="611e522b-a71f-4180-a328-132c2e043354" valueTypeId="e93551b2-e152-4f3d-8928-365b6dcae3e3"/>
   </producedTypes>
   <name>ДК_СтатусЗаказа</name>
   <synonym>
@@ -12,21 +12,21 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="84e95669-be8a-4d52-9e5b-3dec2bbbf77c">
+  <enumValues uuid="4f527a5c-a50e-4a76-9429-083e1187241d">
     <name>ВРаботе</name>
     <synonym>
       <key>ru</key>
       <value>В работе</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="8d0715ad-9801-4201-83e1-f320deaa7608">
+  <enumValues uuid="039b19c0-3bf4-4676-9189-3c15853d1c3a">
     <name>ОбратитьВнимание</name>
     <synonym>
       <key>ru</key>
       <value>Обратить внимание</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="779ca0fd-aa9a-4c95-bc98-4671673a3245">
+  <enumValues uuid="a895c9de-cda9-4003-aa45-f6bacf12b005">
     <name>Выполнен</name>
     <synonym>
       <key>ru</key>
