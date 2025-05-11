@@ -9,4 +9,5 @@
   <content>Catalog.ДК_Должности</content>
   <content>Catalog.ДК_КонтактныеЛица</content>
   <content>Document.ДК_Доставка</content>
+  <content>Enum.ДК_СтатусЗаказа</content>
 </mdclass:Subsystem>
