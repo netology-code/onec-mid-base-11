@@ -30,25 +30,25 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>5</index>
+			<index>4</index>
 			<column>
 				<formatIndex>4</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>4</index>
+			<index>5</index>
 			<column>
 				<formatIndex>5</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>10</index>
+			<index>6</index>
 			<column>
 				<formatIndex>6</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>9</index>
+			<index>7</index>
 			<column>
 				<formatIndex>7</formatIndex>
 			</column>
@@ -60,13 +60,13 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>7</index>
+			<index>9</index>
 			<column>
 				<formatIndex>7</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>6</index>
+			<index>10</index>
 			<column>
 				<formatIndex>9</formatIndex>
 			</column>
@@ -1511,6 +1511,7 @@
 		<endColumnOffset>6</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
+		<zOrder>1</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
@@ -1636,13 +1637,13 @@
 		<width>110</width>
 	</format>
 	<format>
-		<width>101</width>
-	</format>
-	<format>
 		<width>81</width>
 	</format>
 	<format>
-		<width>23</width>
+		<width>101</width>
+	</format>
+	<format>
+		<width>62</width>
 	</format>
 	<format>
 		<width>43</width>
@@ -1651,7 +1652,7 @@
 		<width>32</width>
 	</format>
 	<format>
-		<width>62</width>
+		<width>23</width>
 	</format>
 	<format>
 		<width>22</width>
@@ -1976,7 +1977,7 @@
 		<drawingBorder>1</drawingBorder>
 	</format>
 	<picture>
-		<index>1</index>
+		<index>0</index>
 		<picture t="false" ref="v8ui:МестоДляQRКода"/>
 	</picture>
 </document>

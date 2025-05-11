@@ -18,25 +18,25 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>10</index>
+			<index>1</index>
 			<column>
 				<formatIndex>2</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>1</index>
+			<index>5</index>
 			<column>
 				<formatIndex>3</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>5</index>
+			<index>9</index>
 			<column>
 				<formatIndex>4</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>9</index>
+			<index>10</index>
 			<column>
 				<formatIndex>5</formatIndex>
 			</column>
@@ -1205,6 +1205,7 @@
 		<endColumnOffset>6</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
+		<zOrder>1</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
@@ -1317,9 +1318,6 @@
 		<width>26</width>
 	</format>
 	<format>
-		<width>22</width>
-	</format>
-	<format>
 		<width>50</width>
 	</format>
 	<format>
@@ -1327,6 +1325,9 @@
 	</format>
 	<format>
 		<width>56</width>
+	</format>
+	<format>
+		<width>22</width>
 	</format>
 	<format>
 		<width>25</width>
@@ -1634,7 +1635,7 @@
 		<drawingBorder>2</drawingBorder>
 	</format>
 	<picture>
-		<index>1</index>
+		<index>0</index>
 		<picture t="false" ref="v8ui:МестоДляQRКода"/>
 	</picture>
 </document>
