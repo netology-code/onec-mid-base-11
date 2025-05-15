@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="180f0c44-18fa-4b47-b4ea-4191af6ec4eb">
+  <producedTypes>
+    <objectType typeId="3aa7deae-b034-42f1-91a0-23658e0529a3" valueTypeId="97107df8-866d-460b-bfd0-7cff7aaac4ba"/>
+    <refType typeId="b06ef96a-a2d4-403b-b311-e52463268eee" valueTypeId="9d3ce922-99b4-4fdc-85b4-4ebf1e35f849"/>
+    <selectionType typeId="5a965cac-41ba-4691-b95d-4a42ce076f2e" valueTypeId="a288a99d-9e9c-4eb7-9a71-2b9ac7723174"/>
+    <listType typeId="b0d4095b-f3bc-4ee8-b5ba-b65c7e372d55" valueTypeId="388e0af8-68d1-441d-8acc-5427fcad98e2"/>
+    <managerType typeId="0d5dd8a6-aa8a-4cce-861d-d6d5992cb29c" valueTypeId="854561b2-d9df-4c4a-a798-f45e2552993f"/>
+  </producedTypes>
+  <name>net_КонтактноеЛицо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Net контактное лицо</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.net_КонтактноеЛицо.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.net_КонтактноеЛицо.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
