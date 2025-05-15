@@ -278,6 +278,46 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
+      <items xsi:type="form:FormField">
+        <name>КонтактоеЛицо</name>
+        <id>166</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>КонтактоеЛицо</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>КонтактоеЛицоРасширеннаяПодсказка</name>
+          <id>168</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>КонтактоеЛицоКонтекстноеМеню</name>
+          <id>167</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1492,6 +1532,23 @@
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>КонтактоеЛицо</name>
+    <title>
+      <key>ru</key>
+      <value>Контактое лицо</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>CatalogRef.КонтактноеЛицо</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <commandInterface>
     <navigationPanel/>
