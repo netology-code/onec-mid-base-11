@@ -163,10 +163,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="18a2933e-2739-4db1-9cfd-2e7e60a3b431">
-    <name>ДейтвуетНаОсновании</name>
+    <name>ДействуетНаОсновании</name>
     <synonym>
       <key>ru</key>
-      <value>Дейтвует на основании</value>
+      <value>Действует на основании</value>
     </synonym>
     <type>
       <types>String</types>

@@ -261,7 +261,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ДейтвуетНаОсновании</segments>
+      <segments>Объект.ДействуетНаОсновании</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
