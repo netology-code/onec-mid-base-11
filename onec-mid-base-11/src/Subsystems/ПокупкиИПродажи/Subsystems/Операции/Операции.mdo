@@ -10,5 +10,6 @@
   <content>Document.ПоступлениеТоваровУслуг</content>
   <content>Document.ЗаказПокупателя</content>
   <content>Document.РеализацияТоваровУслуг</content>
+  <content>Catalog.КонтактныеЛица</content>
   <parentSubsystem>Subsystem.ПокупкиИПродажи</parentSubsystem>
 </mdclass:Subsystem>
