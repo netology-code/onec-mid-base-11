@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14edbee2-d915-4d13-a139-8547251ddce4">
+  <name>netology_ИзмененныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Netology измененные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <parentSubsystem>Subsystem.netology</parentSubsystem>
+</mdclass:Subsystem>
