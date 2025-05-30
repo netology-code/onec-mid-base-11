@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="076962f8-a358-49ae-945f-8c1763e811f1">
+  <producedTypes>
+    <objectType typeId="becd5af8-bbbf-4fa8-95aa-0277c581588a" valueTypeId="dd16508e-38db-4800-afe2-80416d09134c"/>
+    <refType typeId="77480053-b292-4951-9350-72b06d9c85f3" valueTypeId="99ad88c2-fd5c-45c5-a9c2-561baa11c269"/>
+    <selectionType typeId="5082787a-c75d-4d68-a39b-71b78e7bcc01" valueTypeId="f95b9c1b-1be0-4b52-8eb8-c9d41f9b556b"/>
+    <listType typeId="46512149-01c9-458f-a5a0-84157e07daff" valueTypeId="b6265cc9-f11e-4e35-9ca9-7ea4e520758d"/>
+    <managerType typeId="2f29b4ba-567c-485b-91f8-940e60571bfd" valueTypeId="d4073ad5-66fd-47e6-9453-6f835ceeef6b"/>
+  </producedTypes>
+  <name>netology_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.netology_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.netology_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
