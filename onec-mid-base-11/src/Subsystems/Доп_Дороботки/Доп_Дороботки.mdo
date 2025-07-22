@@ -6,4 +6,5 @@
     <value>Дороботки</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.Доп_Должность</content>
 </mdclass:Subsystem>
