@@ -7,4 +7,5 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>Catalog.Доп_Должность</content>
+  <content>Catalog.Доп_КонтактныеЛица</content>
 </mdclass:Subsystem>
