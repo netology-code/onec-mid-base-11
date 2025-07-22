@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b602e632-2fbb-495e-b252-103da6b5bff8">
+  <name>Доп_Дороботки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дороботки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+</mdclass:Subsystem>
