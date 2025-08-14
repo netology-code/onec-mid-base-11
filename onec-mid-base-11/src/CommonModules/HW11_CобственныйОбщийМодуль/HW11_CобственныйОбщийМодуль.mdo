@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b045bf0f-019e-47a3-bdd3-8a9699a0c741">
+  <name>HW11_CобственныйОбщийМодуль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Собственный общий</value>
+  </synonym>
+  <comment>для HW13-7</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
