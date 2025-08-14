@@ -201,6 +201,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="796f3467-d231-46e7-b96d-04984f985635">
+    <name>КонтактныеЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактные лица</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИТ_КонтактныеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Наименование</name>
+      <field>Catalog.Контрагенты.StandardAttribute.Description</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="fd53387a-bbe1-4e0c-b6ce-ea0557df7a4f">
     <producedTypes>
       <objectType typeId="8bb24b87-dbc3-4209-82ca-d437366b04f8" valueTypeId="b0b3da42-82f9-46a0-9117-7a873349de92"/>
