@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d17a2d0d-0f71-49d8-a90c-94ac45ab6b97">
+  <name>ИТ_Доработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доработка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>
