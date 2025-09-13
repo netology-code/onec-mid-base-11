@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cb0d371-3159-4b26-a7f0-41f3bdf4cda3">
+  <producedTypes>
+    <objectType typeId="e2f6c8fe-0a15-4456-8977-f6e84c7e6593" valueTypeId="689383da-3017-48d5-b001-4c8564c05c16"/>
+    <refType typeId="9b07a58d-2fec-4cbe-9766-29e7e5ce2e40" valueTypeId="ef05266a-b85d-4326-93f7-127287099470"/>
+    <selectionType typeId="eb3f45c8-d811-49d0-8bbf-326629b90014" valueTypeId="25dc569b-8d8e-463a-9783-63f48b7c2f22"/>
+    <listType typeId="231b5889-cda9-45fa-8311-8dc13354da2c" valueTypeId="2163834f-7794-4baf-a7cf-e34ace02849e"/>
+    <managerType typeId="e3ab1301-0525-4815-b975-5d1a81dd2651" valueTypeId="694adb0d-6b25-4dbb-9d26-269ca3fa4a4b"/>
+  </producedTypes>
+  <name>КП</name>
+  <synonym>
+    <key>ru</key>
+    <value>КП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КП.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
