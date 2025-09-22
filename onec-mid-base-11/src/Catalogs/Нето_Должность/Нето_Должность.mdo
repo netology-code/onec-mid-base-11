@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac2ead95-503d-402c-842b-324ea6a3fb4e">
+  <producedTypes>
+    <objectType typeId="36df552d-658e-424f-b495-f40cc3d12a07" valueTypeId="62f62e63-7086-44d1-9796-6e3df52d4917"/>
+    <refType typeId="e4e7749c-7874-4c07-bc5a-c55d0c384413" valueTypeId="631d1f8d-f52a-46a2-b210-2d2f4d856a7e"/>
+    <selectionType typeId="475b03ef-f18f-4298-8d31-9a16f8a1f2c0" valueTypeId="1d055988-fb42-43b4-83dd-b7c0e734bafb"/>
+    <listType typeId="2a6a1b02-f8a9-4fec-ba6d-7f35c037d9bd" valueTypeId="07bde884-2111-4934-8c76-8d186f7fdda3"/>
+    <managerType typeId="759d06b8-4d9e-4507-b541-48c5aa09eefe" valueTypeId="e839ea36-c805-41d8-9a84-dbc9a1f2dc53"/>
+  </producedTypes>
+  <name>Нето_Должность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Нето_Должность.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Нето_Должность.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Список должностей</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
