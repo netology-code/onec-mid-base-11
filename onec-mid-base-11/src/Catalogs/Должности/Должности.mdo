@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2511d529-ab02-4628-add0-d9d7117ba176">
+  <producedTypes>
+    <objectType typeId="4f313a53-187d-4e6f-9122-f9e986f81a62" valueTypeId="f5f530f1-6e16-42bb-9d46-c059ce548403"/>
+    <refType typeId="651dc132-2fe8-42ef-8f4e-4fb90235c725" valueTypeId="df5f784d-679a-4d0a-bff3-4264ad72d256"/>
+    <selectionType typeId="976a45e7-086b-4e44-bdd1-52d4cd2189c6" valueTypeId="159832d1-53ac-4a11-bfd4-8a419de96a46"/>
+    <listType typeId="45371c19-ddc5-4aa1-9eff-df7aa8d0bb2a" valueTypeId="f11eeb52-670a-4067-b6e3-9ea0b88547f0"/>
+    <managerType typeId="a6412196-cdba-4cbe-beea-7a3d229cf844" valueTypeId="2ddc08cd-9338-4a7b-9c16-764ad2c01cc7"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="283b69fd-0628-42b4-953f-6021d2cde4c6">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
