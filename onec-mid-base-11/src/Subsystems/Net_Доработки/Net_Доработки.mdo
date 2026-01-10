@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Доработки</value>
   </synonym>
+  <comment>NET(ДОБАВЛЕНИЕ), Самжилин Д.Р., 10.01.2026, ЗАДАЧА: 13.7.1</comment>
   <includeHelpInContents>true</includeHelpInContents>
   <content>Catalog.Net_КонтактныеЛица</content>
   <content>Catalog.Net_Должности</content>

@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Должности</value>
   </synonym>
+  <comment>NET(ДОБАВЛЕНИЕ), Самжилин Д.Р., 10.01.2026, ЗАДАЧА: 13.7.1</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Net_Должности.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.Net_Должности.StandardAttribute.Description</inputByString>

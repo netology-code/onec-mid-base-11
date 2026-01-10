@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Контактные лица</value>
   </synonym>
+  <comment>NET(ДОБАВЛЕНИЕ), Самжилин Д.Р., 10.01.2026, ЗАДАЧА: 13.7.1</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Net_КонтактныеЛица.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.Net_КонтактныеЛица.StandardAttribute.Description</inputByString>
@@ -27,7 +28,7 @@
   <foldersOnTop>true</foldersOnTop>
   <owners>Catalog.Контрагенты</owners>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
