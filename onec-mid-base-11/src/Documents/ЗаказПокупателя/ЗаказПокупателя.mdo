@@ -193,6 +193,49 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="68bf38e3-872c-4c66-9a29-218b73981bad">
+    <name>КЛ_КонтактныеЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактные лица (КЛ)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КЛ_КонтактныеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.ЗаказПокупателя.Attribute.Контрагент</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4c3b474e-e105-4bd0-a22f-d887b08793e9">
+    <name>КЛ_СогласованнаяСкидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласованная скидка (КЛ)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>100</value>
+    </maxValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="d2984117-1a5a-45ca-bc97-adb070bd946d">
     <name>ФормаДокумента</name>
     <synonym>
