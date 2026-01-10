@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a2e8d6a-eab4-4327-a4d3-09fad04c24dd">
+  <name>Net_Доработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доработки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.Net_КонтактныеЛица</content>
+  <content>Catalog.Net_Должности</content>
+</mdclass:Subsystem>
