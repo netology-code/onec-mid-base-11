@@ -6,6 +6,11 @@
     <value>Справочники</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Контрагенты</content>
   <content>Catalog.Номенклатура</content>
