@@ -12,5 +12,7 @@
   <content>Catalog.НоменклатурныеГруппы</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>Catalog.Организации</content>
+  <content>Catalog.ДЗ211_КонтактныеЛица</content>
+  <content>Catalog.ДЗ211_Должность</content>
   <parentSubsystem>Subsystem.ПокупкиИПродажи</parentSubsystem>
 </mdclass:Subsystem>
