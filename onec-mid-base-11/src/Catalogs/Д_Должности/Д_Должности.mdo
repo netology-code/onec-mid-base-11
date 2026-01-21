@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a05dd2f-3b88-465f-879d-cd5766b8358b">
+  <producedTypes>
+    <objectType typeId="fdae38a2-1ef0-4884-a925-65bddd15d54c" valueTypeId="eb72e48d-acbe-4394-8dc8-08aa836002e3"/>
+    <refType typeId="3286114d-2ec1-44c8-83d5-531e6163c515" valueTypeId="e746ea8b-d67d-47cb-82cc-654fa66b2c1e"/>
+    <selectionType typeId="343b73f4-1479-47e3-b2dc-ef07ee19708f" valueTypeId="9c998559-dcb0-4b5c-986a-560a2c16f2d0"/>
+    <listType typeId="6e7feb9d-5ee2-4a1d-a40d-f5e84b4ba5bb" valueTypeId="26cd5c6f-76e7-448b-a2ea-4ef67082ff60"/>
+    <managerType typeId="565671f4-bd4a-4d86-84fe-c9a69aca2071" valueTypeId="8823d97e-28e0-4ad2-8887-1aa05b6764a0"/>
+  </producedTypes>
+  <name>Д_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <comment>homework-13-7</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Д_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Д_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Д_Должности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Д_Должности.Form.ФормаСписка</defaultListForm>
+  <forms uuid="974ab482-4edd-4b4c-8817-c697925a840d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e1824b3e-d31c-4871-bae8-5fe397940314">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
