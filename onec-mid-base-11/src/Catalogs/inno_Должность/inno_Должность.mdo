@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d85ae0aa-9a53-476a-90ee-24fa9659b919">
+  <producedTypes>
+    <objectType typeId="0821f7e5-b4d8-4692-89c6-3a41ebcebeaf" valueTypeId="26e9a18e-6770-4897-b3b5-a3adb96d1e44"/>
+    <refType typeId="e4ffeb07-33e3-4ad5-8dcc-83b09fe789d6" valueTypeId="a3c7435f-755a-4f86-9b93-6d930bc57ddc"/>
+    <selectionType typeId="56836681-0176-47da-8f12-e2654f5d3708" valueTypeId="72bc97d9-e385-4920-87d4-0ec9af1a0763"/>
+    <listType typeId="a4ada202-3d6e-452c-bfdc-665e5f45841f" valueTypeId="493ec917-a60c-4b23-bb35-9900e09c6696"/>
+    <managerType typeId="fdd21c67-a2d9-4eaa-95fa-e0d23f81a24e" valueTypeId="d4a2a212-fc40-4cbc-852b-f5da826495f3"/>
+  </producedTypes>
+  <name>inno_Должность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Inno должность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.inno_Должность.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.inno_Должность.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
