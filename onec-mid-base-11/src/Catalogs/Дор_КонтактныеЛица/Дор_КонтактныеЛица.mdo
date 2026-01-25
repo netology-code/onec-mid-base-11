@@ -102,6 +102,7 @@
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
   <codeLength>9</codeLength>
   <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
@@ -172,9 +173,7 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
