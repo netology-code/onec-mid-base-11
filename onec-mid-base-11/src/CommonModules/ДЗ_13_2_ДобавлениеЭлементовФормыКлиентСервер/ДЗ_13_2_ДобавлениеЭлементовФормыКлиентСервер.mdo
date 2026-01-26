@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ae90204-d4f2-4b33-a927-b96c7e09c8c3">
+  <name>ДЗ_13_2_ДобавлениеЭлементовФормыКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление элементов формы клиент сервер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
