@@ -39,7 +39,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>UseWithWarnings</modalityUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.27</compatibilityMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
   <languages uuid="88f37154-ded7-4bfd-87d2-34f4461294ad">
     <name>Русский</name>
     <synonym>
