@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71a5e012-b25d-421c-93a5-b5527a9d4fee">
+  <producedTypes>
+    <objectType typeId="d6bf4525-4eb2-41d4-a868-4e0631fe94a2" valueTypeId="99cb9e4b-7512-4ea8-b71c-21e742450727"/>
+    <refType typeId="90a8092f-e8cc-419e-bc2f-93887e826f2e" valueTypeId="dba24dd0-6ec1-44b6-a68f-c408e0e7f27d"/>
+    <selectionType typeId="b8189d10-5051-4ac7-b60c-84b87ad5c2c1" valueTypeId="1cc4363c-e1a6-4d13-8286-3acb9d6b3e8a"/>
+    <listType typeId="fd8369e0-ab45-4e63-aa66-6e5e650e59ad" valueTypeId="3c70d122-6ba4-47dd-a5e5-e7036d96bc67"/>
+    <managerType typeId="f9dddded-4e91-4eb0-9aa7-0624d36e30db" valueTypeId="e2194ce3-f47e-45da-b303-8089f7bd3a14"/>
+  </producedTypes>
+  <name>Проверочный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверочный</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Проверочный.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Проверочный.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Проверочный</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
