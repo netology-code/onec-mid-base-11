@@ -1216,7 +1216,6 @@
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ДЗ_13_2_Должности</catalogs>
   <catalogs>Catalog.ДЗ_13_2_КонтактныеЛица</catalogs>
-  <catalogs>Catalog.Проверочный</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
