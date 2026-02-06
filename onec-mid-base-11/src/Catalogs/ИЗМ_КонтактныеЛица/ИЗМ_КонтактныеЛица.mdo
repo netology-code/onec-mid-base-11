@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b99bf9e-7e51-407f-8d7d-a46c7a2b02d7">
+  <producedTypes>
+    <objectType typeId="31962b97-db10-4c57-a547-d94c02639fbb" valueTypeId="5110953d-1ff3-4e70-91e5-d31f2fb645db"/>
+    <refType typeId="44f62367-fd9b-45bc-9b1f-3ebebf37f1af" valueTypeId="69d02c22-2cb7-4684-86b7-1eaf884eee15"/>
+    <selectionType typeId="02d1bb91-3c31-4342-b789-3ad809694126" valueTypeId="73bff592-2a09-4a7f-ae66-ebe57f92d509"/>
+    <listType typeId="a0e1916f-c9f9-4447-be83-32a72f56d021" valueTypeId="da1d9bc6-1b1c-45e6-b2e2-07c49f1fb394"/>
+    <managerType typeId="e92d5e1b-7d2a-4b30-be06-9f8beaca7513" valueTypeId="23807433-d9bd-49df-96f5-641f68ae75e5"/>
+  </producedTypes>
+  <name>ИЗМ_КонтактныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИЗМ_КонтактныеЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ИЗМ_КонтактныеЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6f243408-836e-4f99-a420-67057c81f9ba">
+    <name>КонтактныйТелефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактный телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b64c57c7-64c5-42d5-89ce-ad0ec7585936">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
