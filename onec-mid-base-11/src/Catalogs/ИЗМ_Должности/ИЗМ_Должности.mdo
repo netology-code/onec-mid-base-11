@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e6066ab-5cb0-4769-ae43-a7390dab5e18">
+  <producedTypes>
+    <objectType typeId="ae9c853b-a55b-4a43-80ac-c577651ca1ea" valueTypeId="59055472-9a82-4857-a797-211de818b65b"/>
+    <refType typeId="ed237aa6-bcbd-402c-a80a-cea71abdff90" valueTypeId="4966cea4-5253-4f93-9377-8400cbe2bd0c"/>
+    <selectionType typeId="c68cb092-e2b1-47c7-a500-5b77a0505baf" valueTypeId="b44af8b1-61cc-4516-957b-a8ab5a9e5a57"/>
+    <listType typeId="2cb1df73-4fff-47f8-be95-d1e68cb732a2" valueTypeId="f987aa6e-5bb6-4286-8399-f1cdbb370f06"/>
+    <managerType typeId="ef9491f7-3416-47ae-922b-350f41493608" valueTypeId="99b3bb5f-8dd3-499a-a90a-73fa1f541287"/>
+  </producedTypes>
+  <name>ИЗМ_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИЗМ_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ИЗМ_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
