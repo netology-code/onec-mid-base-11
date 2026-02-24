@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05072f07-2b1d-4f42-8fad-a0ed5bc376a1">
+  <producedTypes>
+    <objectType typeId="842940e4-dbe9-4e64-b351-53838b4bc29d" valueTypeId="7652f155-5d6b-4b34-8563-fc015d4463a7"/>
+    <refType typeId="9ddb465b-f383-40f2-b024-01b1a13b8dab" valueTypeId="a763a693-c246-47a9-a73f-9f1d3e43b633"/>
+    <selectionType typeId="b13eaf62-351f-4252-a5d6-0fd60f4acf98" valueTypeId="6002ec5d-c7f0-4741-9fd0-d4db3d5ee38c"/>
+    <listType typeId="718e3e87-ac4f-4437-be23-e88ac25f0e92" valueTypeId="c9708df1-91cc-4242-81c3-2ce9644a4c57"/>
+    <managerType typeId="efa10888-86a6-496c-bd26-15723a2b1a53" valueTypeId="9c54cb8d-0dfb-483f-9f26-7e8625a50cff"/>
+  </producedTypes>
+  <name>ИЗМ_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИЗМ должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИЗМ_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ИЗМ_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
