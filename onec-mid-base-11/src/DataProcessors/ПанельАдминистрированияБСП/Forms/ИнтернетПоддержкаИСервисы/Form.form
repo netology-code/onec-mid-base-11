@@ -886,6 +886,7 @@
           <name>ЦентрМониторингаНастройки</name>
           <id>1840</id>
           <visible>true</visible>
+          <enabled>false</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>

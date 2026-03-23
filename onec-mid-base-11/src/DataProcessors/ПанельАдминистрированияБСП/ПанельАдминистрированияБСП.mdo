@@ -144,7 +144,6 @@
       <value>Обслуживание</value>
     </synonym>
     <group>NavigationPanelImportant</group>
-    <commandParameterType/>
     <representation>Auto</representation>
     <toolTip>
       <key>ru</key>
@@ -158,7 +157,6 @@
       <value>Общие настройки</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
     <representation>Auto</representation>
     <toolTip>
       <key>ru</key>
@@ -172,7 +170,6 @@
       <value>Настройки пользователей и прав</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
     <representation>Auto</representation>
     <toolTip>
       <key>ru</key>
@@ -186,7 +183,6 @@
       <value>Органайзер</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
     <representation>Auto</representation>
     <toolTip>
       <key>ru</key>
@@ -200,7 +196,6 @@
       <value>Синхронизация данных</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
     <representation>Auto</representation>
     <toolTip>
       <key>ru</key>
@@ -215,7 +210,6 @@
       <value>Настройки работы с файлами</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
     <representation>Auto</representation>
     <toolTip>
       <key>ru</key>
@@ -229,7 +223,6 @@
       <value>Печатные формы, отчеты и обработки</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
     <representation>Auto</representation>
     <toolTip>
       <key>ru</key>
@@ -243,7 +236,6 @@
       <value>Интернет-поддержка и сервисы</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
     <representation>Auto</representation>
     <toolTip>
       <key>ru</key>
