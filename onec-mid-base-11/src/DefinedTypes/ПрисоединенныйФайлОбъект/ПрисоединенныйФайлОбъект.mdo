@@ -14,6 +14,7 @@
     <types>CatalogObject.ПоступлениеТоваровУслугПрисоединенныеФайлы</types>
     <types>CatalogObject.ОрганизацииПрисоединенныеФайлы</types>
     <types>CatalogObject.ЗаказПокупателяПрисоединенныеФайлы</types>
+    <types>CatalogObject.ДЗ12_ДоставкаПрисоединенныеФайлы</types>
     <types>CatalogObject.КонтрагентыПрисоединенныеФайлы</types>
     <types>CatalogObject.Файлы</types>
     <types>CatalogObject.РеализацияТоваровУслугПрисоединенныеФайлы</types>

@@ -10,6 +10,7 @@
   </synonym>
   <type>
     <types>CatalogRef.Контрагенты</types>
+    <types>DocumentRef.ДЗ12_Доставка</types>
     <types>CatalogRef.ПапкиФайлов</types>
     <types>DocumentRef.ЗаказПокупателя</types>
     <types>CatalogRef.Организации</types>
