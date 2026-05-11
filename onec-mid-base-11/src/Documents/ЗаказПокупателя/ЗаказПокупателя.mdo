@@ -185,11 +185,47 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="da7c9441-ea29-4af1-83f2-177bd19cf54b">
+    <name>СогласованнаяСкидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласованная скидка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="89728da8-2e3c-4166-9bd1-4383f99e2f63">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КИ_КонтактныеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -281,29 +317,6 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="8e6fe1fb-3f24-49ca-bda2-75d73150c48a">
-      <name>Скидка</name>
-      <synonym>
-        <key>ru</key>
-        <value>Скидка</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>5</precision>
-          <scale>2</scale>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:StringValue">
-        <value>0</value>
-      </minValue>
-      <maxValue xsi:type="core:StringValue">
-        <value>100</value>
-      </maxValue>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
