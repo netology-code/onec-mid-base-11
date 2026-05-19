@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89de2cf3-ebe9-49f7-8cb4-13c50013f007">
+  <producedTypes>
+    <objectType typeId="85d756c6-726b-4363-a6c3-791cc6ed8de6" valueTypeId="3fd9b787-5897-41bb-80d9-23041c538f06"/>
+    <refType typeId="3f8c990b-331e-4a03-9c2b-5c2e6690d4c6" valueTypeId="0470a04e-66ed-4e8b-a3fd-5f367ac340e9"/>
+    <selectionType typeId="90127010-1cde-49c8-80f6-d1d29a146d86" valueTypeId="47f05983-6537-4314-a608-ab7d437109a6"/>
+    <listType typeId="d274f5e0-d5e3-4a8a-820a-9af365a73af3" valueTypeId="4738f84f-3443-4543-a4a5-cbcd3fa542b0"/>
+    <managerType typeId="0cc99c04-e4a8-4081-b816-4a3c49ed3ab0" valueTypeId="3bf6ac82-da0d-49e6-ba6b-a595f1d100ae"/>
+  </producedTypes>
+  <name>НЕТО_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НЕТО_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НЕТО_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
