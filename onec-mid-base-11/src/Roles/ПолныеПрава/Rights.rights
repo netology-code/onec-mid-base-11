@@ -1260,6 +1260,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.Net_КонтактныеЛица</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ПутьКТомуБезУчетаРегиональныхНастроек</name>
 		<right>
 			<name>Update</name>
