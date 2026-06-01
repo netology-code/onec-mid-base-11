@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e56d555-85c7-4e07-a6a9-332c5f1078f9">
+  <producedTypes>
+    <objectType typeId="e2d38f71-2410-400a-9e2c-79fd4d6656c2" valueTypeId="c471c3b7-07a9-449e-8de1-a595355bdc0a"/>
+    <refType typeId="dce6a054-a3cd-407a-9ad2-7fc4dacf31d0" valueTypeId="5019a845-1326-4c38-8176-2777bdc1b21e"/>
+    <selectionType typeId="21fe1eab-546e-402d-b95d-adec6a1d0ecb" valueTypeId="cd1bd3c3-cf01-4861-8dc8-78fd37dd3443"/>
+    <listType typeId="c3b8fb61-4485-4dd5-bbcb-3483b87035b1" valueTypeId="6e86c919-895d-42c6-a269-b4d75a02771e"/>
+    <managerType typeId="bf3c64ae-24da-49c6-8727-d1d2eba6bed8" valueTypeId="88c85a3b-7b00-4948-8e75-f16b96a32b57"/>
+  </producedTypes>
+  <name>Net_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Net_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Net_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Net_Должности.Form.ФормаСписка</defaultListForm>
+  <forms uuid="4c48403b-2ba2-4253-b212-92421df04131">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
