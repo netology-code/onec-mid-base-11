@@ -850,6 +850,7 @@
   <commonModules>CommonModule.УправлениеДоступомТП</commonModules>
   <commonModules>CommonModule.УправлениеИтогамиИАгрегатамиСлужебный</commonModules>
   <commonModules>CommonModule.УправлениеКолонтитулами</commonModules>
+  <commonModules>CommonModule.УправлениеКолонтитулами</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформацией</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейКлиент</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейКлиентСервер</commonModules>
@@ -880,7 +881,7 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
-  <commonModules>CommonModule.Net_РаботаСФормами_Сервер</commonModules>
+  <commonModules>CommonModule.Net_РаботаСФормами</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
