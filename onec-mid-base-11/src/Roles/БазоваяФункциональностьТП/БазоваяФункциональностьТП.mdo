@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcb791ec-a342-4467-939e-2e4ca8d968b7">
+  <name>БазоваяФункциональностьТП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая функциональность ТП</value>
+  </synonym>
+</mdclass:Role>
