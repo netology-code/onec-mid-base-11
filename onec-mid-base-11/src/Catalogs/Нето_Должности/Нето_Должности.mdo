@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cb8ef28-401a-4f1e-a0c8-495dc144f948">
+  <producedTypes>
+    <objectType typeId="2002ecdd-6686-4330-b389-206a732f4aac" valueTypeId="f704806f-dbde-4618-bade-8da4a0413442"/>
+    <refType typeId="8d283a01-a571-493b-a7e0-1549451d51fe" valueTypeId="47d64df8-13fb-417b-af43-532942c26589"/>
+    <selectionType typeId="f73c8c72-f116-471b-89a6-342b712ef7dd" valueTypeId="ba1b657e-4dc8-409b-9d4b-410feea77c81"/>
+    <listType typeId="4a38c005-6708-4e7b-ac04-07d8b1322bdd" valueTypeId="b8a1436a-58bf-4b3b-96ee-3d41f3afe43e"/>
+    <managerType typeId="066e503d-5e4f-4cca-9df3-bc7d66db5ad4" valueTypeId="6ce09edb-112d-4a1c-b7c7-302e8684e364"/>
+  </producedTypes>
+  <name>Нето_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Нето_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Нето_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
