@@ -81,6 +81,34 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
+    <name>ДР_КонтактноеЛицо</name>
+    <id>66</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ДР_КонтактноеЛицоРасширеннаяПодсказка</name>
+      <id>68</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ДР_КонтактноеЛицоКонтекстноеМеню</name>
+      <id>67</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+  </items>
+  <items xsi:type="form:FormField">
     <name>ИНН</name>
     <id>37</id>
     <visible>true</visible>
