@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="135aff7a-eed8-4294-9b18-f0e22f629107">
+  <producedTypes>
+    <objectType typeId="6febb982-ff0d-4713-ae70-9e779bf8007c" valueTypeId="5f9d7ba2-99be-4775-8fd9-7e3680eeb932"/>
+    <refType typeId="ef8625c9-259b-45e2-ae6f-027c95f45eed" valueTypeId="d027fa64-f510-4eea-99dc-f050a896bd53"/>
+    <selectionType typeId="b33a90e4-3098-44bc-9c17-e91f1511067b" valueTypeId="e4bc1167-b7f0-4f96-90e0-6afd693187b2"/>
+    <listType typeId="b851e36d-6f27-436f-a0e8-438b21f78d1b" valueTypeId="0be43ce0-e79d-46cf-a1bc-fc99984e82ac"/>
+    <managerType typeId="518695c0-2e3e-4c33-bfc4-b86a0f327eae" valueTypeId="c0757cca-35af-4f83-8c98-7fd0eda3d704"/>
+  </producedTypes>
+  <name>ТП1_Должность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должность</value>
+  </synonym>
+  <comment>Добавлен:23.06.26 Выполнил:Егорова М.С.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТП1_Должность.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТП1_Должность.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список должностей</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
