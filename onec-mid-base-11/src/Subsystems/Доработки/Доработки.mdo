@@ -10,4 +10,5 @@
   <content>Catalog.РС_КонтактныеЛица</content>
   <content>Catalog.РС_Должности</content>
   <content>Document.РС_Доставка</content>
+  <content>Document.ЗаказПокупателя</content>
 </mdclass:Subsystem>
