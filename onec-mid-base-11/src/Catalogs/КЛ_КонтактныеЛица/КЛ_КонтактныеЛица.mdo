@@ -79,6 +79,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
@@ -118,25 +122,6 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.КЛ_КонтактныеЛица.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.КЛ_КонтактныеЛица.Form.ФормаСписка</defaultListForm>
-  <attributes uuid="ea96ea44-21b8-461c-b9f5-d0e01906736d">
-    <name>ФИО</name>
-    <synonym>
-      <key>ru</key>
-      <value>ФИО</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:StringValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="b6e6ffa4-8221-41d0-97bc-7ba780ce5ffe">
     <name>КонтактныйТелефон</name>
     <synonym>
