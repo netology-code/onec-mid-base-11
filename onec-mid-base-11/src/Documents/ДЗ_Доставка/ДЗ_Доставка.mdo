@@ -15,6 +15,7 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ДЗ_Доставка.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.РеализацияТоваровУслуг</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -27,6 +28,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ДЗ_Доставка.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ДЗ_Доставка.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="229afd39-5907-4937-8d7d-02026aa9133d">
@@ -99,7 +102,7 @@
       <value>Основание</value>
     </synonym>
     <type>
-      <types>DocumentRef.ЗаказПокупателя</types>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -141,6 +144,42 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="67cb09d7-3049-4a23-9665-7c181fc71442">
+    <name>ЕстьФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть файлы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="70b010d7-d257-4699-b0d7-84f87c6934d2">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d01bb05e-8988-4b96-9f5f-02bed05d236d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="39ab16bd-a397-411a-ae43-c3a1aaf549bf">
     <producedTypes>
       <objectType typeId="b8cec1fa-0538-4c78-b45f-b24b8675ad84" valueTypeId="fc925d9c-f20d-4551-941c-20bcd8ca3818"/>

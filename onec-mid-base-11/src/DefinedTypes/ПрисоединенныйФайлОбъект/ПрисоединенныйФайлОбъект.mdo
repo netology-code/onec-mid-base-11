@@ -13,6 +13,7 @@
     <types>CatalogObject.ВерсииФайлов</types>
     <types>CatalogObject.ПоступлениеТоваровУслугПрисоединенныеФайлы</types>
     <types>CatalogObject.ОрганизацииПрисоединенныеФайлы</types>
+    <types>CatalogObject.ДЗ_ДоставкаПрисоединенныеФайлы</types>
     <types>CatalogObject.ЗаказПокупателяПрисоединенныеФайлы</types>
     <types>CatalogObject.КонтрагентыПрисоединенныеФайлы</types>
     <types>CatalogObject.Файлы</types>
