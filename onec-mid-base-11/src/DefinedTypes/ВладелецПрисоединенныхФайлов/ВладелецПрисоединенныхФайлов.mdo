@@ -16,6 +16,7 @@
     <types>DocumentRef.ПоступлениеТоваровУслуг</types>
     <types>CatalogRef.ДоговорыКонтрагентов</types>
     <types>DocumentRef.РеализацияТоваровУслуг</types>
+    <types>DocumentRef.ДЗ_Доставка</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
   </type>
 </mdclass:DefinedType>
