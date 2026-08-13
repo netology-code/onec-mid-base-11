@@ -8,4 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <content>Catalog.ДЗ_Должности</content>
   <content>Catalog.ДЗ_КонтактныеЛица</content>
+  <content>Role.ДЗ_ДобавлениеИзменениеДоставки</content>
+  <content>Role.ЧтениеДоставки</content>
 </mdclass:Subsystem>
