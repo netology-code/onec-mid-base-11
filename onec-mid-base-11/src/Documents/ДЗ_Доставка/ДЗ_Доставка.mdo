@@ -236,4 +236,18 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="0f1e5d90-6e45-4972-aa1e-d59bd228514c">
+    <name>ПФ_MXL_АнкетыКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анкеты клиента</value>
+    </synonym>
+  </templates>
+  <templates uuid="f5a59fe1-e011-46a3-bff6-ee625bbc338e">
+    <name>ПФ_MXL_ТраспортнойНакладной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Траспортной накладной</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
