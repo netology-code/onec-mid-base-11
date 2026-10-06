@@ -59,5 +59,7 @@
   <content>CommonModule.УправлениеКонтактнойИнформациейЛокализация</content>
   <content>CommonModule.РаботаСАдресамиПовтИсп</content>
   <content>CommonPicture.КонтактнаяИнформацияОтправитьЭлектронноеПисьмо</content>
+  <content>Catalog.СИБ_Должности</content>
+  <content>Catalog.СИБ_КонтактныеЛица</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
