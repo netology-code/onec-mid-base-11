@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="271c0d55-3685-4c8b-ba1f-0fc8197c11c7">
+  <producedTypes>
+    <objectType typeId="83e67109-e2c5-4270-911d-972585074894" valueTypeId="420a81f7-7a77-4260-a563-580952567517"/>
+    <refType typeId="08b8dd0a-a6d3-48d3-bcdf-1085bc1b0cc9" valueTypeId="71870d98-f1b8-44b5-bda0-dc833d913d0e"/>
+    <selectionType typeId="083790d1-6900-4fc1-bdbd-b1dc01a87e03" valueTypeId="13b46e1b-925a-4f23-8ae0-c26b0d6e0a3a"/>
+    <listType typeId="8eddc6ff-627b-4f39-82be-2d756a83b46b" valueTypeId="6360334a-f1ba-4729-9c78-479ef4569869"/>
+    <managerType typeId="33182f29-b214-49c5-b3e6-ba319341142f" valueTypeId="266222da-21be-494f-ba71-d94ad322942b"/>
+  </producedTypes>
+  <name>СИБ_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>СИБ должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СИБ_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СИБ_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d41f2e3c-f33c-43b0-95fc-4d95a347bfba">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
