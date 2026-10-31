@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d41b27ee-8ae3-47b2-a34c-3095752a43d0">
+  <producedTypes>
+    <objectType typeId="e7b201d4-beb0-4f4e-a3be-63383dd0b59b" valueTypeId="9962675f-90b5-4044-8336-a0cc4928e961"/>
+    <refType typeId="19a25d57-6407-484c-beae-7c9e3a6ac3ec" valueTypeId="e217eb66-4758-4b11-afa0-3da986fdf69c"/>
+    <selectionType typeId="c1410c8f-b0b2-4dbb-8034-214da43019c4" valueTypeId="c8ac9c8e-3830-4fff-a8c4-9a1eb8c8d138"/>
+    <listType typeId="7a4cd9a2-f3bc-4844-a7ce-352379cf002a" valueTypeId="5fdefeeb-ff92-48c1-8dfe-917fe8f2cd41"/>
+    <managerType typeId="061effcd-fc32-48d0-ba2e-cbc0fb967c20" valueTypeId="27d4fa1f-cc3a-4cf0-9af0-40e93ff5bb19"/>
+  </producedTypes>
+  <name>Смол_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Смол_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Смол_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
