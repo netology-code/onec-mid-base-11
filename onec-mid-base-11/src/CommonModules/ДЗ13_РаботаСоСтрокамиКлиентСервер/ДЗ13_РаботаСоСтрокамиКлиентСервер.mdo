@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bb16c5d-aecc-46e7-b46a-1606f10e5491">
+  <name>ДЗ13_РаботаСоСтрокамиКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа со строками (ДЗ 13)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
